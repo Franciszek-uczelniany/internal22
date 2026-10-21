@@ -1,0 +1,20 @@
+--- 4_msm8952-ion.dtsi	2026-10-21 20:01:18.408386184 +0200
++++ 4_msm8953-ion.dtsi	2026-10-21 20:01:18.413386213 +0200
+@@ -1,4 +1,4 @@
+-/* Copyright (c) 2014-2016, The Linux Foundation. All rights reserved.
++/* Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+  *
+  * This program is free software; you can redistribute it and/or modify
+  * it under the terms of the GNU General Public License version 2 and
+@@ -14,11 +14,6 @@
+ 		compatible = "qcom,msm-ion";
+ 		#address-cells = <1>;
+ 		#size-cells = <0>;
+-		qcom,ion-heap@22 {
+-			reg = <22>;
+-			memory-region = <&adsp_mem>;
+-			qcom,ion-heap-type = "DMA";
+-		};
+ 		qcom,ion-heap@25 {
+ 			reg = <25>;
+ 			qcom,ion-heap-type = "SYSTEM";

@@ -1,0 +1,41 @@
+--- 4_msm8952-iommu-domains.dtsi	2026-10-21 20:01:18.164384759 +0200
++++ 4_msm8953-iommu-domains.dtsi	2026-10-21 20:01:18.169384789 +0200
+@@ -1,4 +1,4 @@
+-/* Copyright (c) 2015, The Linux Foundation. All rights reserved.
++/* Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+  *
+  * This program is free software; you can redistribute it and/or modify
+  * it under the terms of the GNU General Public License version 2 and
+@@ -25,20 +25,11 @@
+ 		/*
+ 		 * secure non-pixel addr pool from 16 MB to 616 MB
+ 		 */
+-		/*
+-		 * non-secure addr pool from 2048MB to 4096MB
+-		 */
+-		lpass_q6_smmu: qcom,iommu-domain1 {
+-			label = "adsp_io";
+-			qcom,iommu-contexts = <&adsp_io>;
+-			qcom,virtual-addr-pool = <0x10000000 0x0FFFFFFF>;
+-			#iommu-cells = <1>;
+-		};
+ 		venus_domain_ns: qcom,iommu-domain2 {
+ 			label = "venus_ns";
+ 			qcom,iommu-contexts = <&venus_ns>;
+ 			qcom,virtual-addr-pool = <0x5dc00000 0x7f000000
+-						  0xdcc00000 0x1000000>;
++						0xdcc00000 0x1000000>;
+ 		};
+ 		venus_domain_sec_bitstream: qcom,iommu-domain3 {
+ 			label = "venus_sec_bitstream";
+@@ -58,10 +49,5 @@
+ 			qcom,virtual-addr-pool = <0x1000000 0x24800000>;
+ 			qcom,secure-domain;
+ 		};
+-		adsp_shared_domain: qcom,iommu-domain6 {
+-			label = "adsp_shared";
+-			qcom,iommu-contexts = <&adsp_shared>;
+-			qcom,virtual-addr-pool = <0x80000000 0x7FFFFFFF>;
+-		};
+ 	};
+ };
