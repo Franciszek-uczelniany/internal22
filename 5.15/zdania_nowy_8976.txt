@@ -1,0 +1,145 @@
+/chosen
+/firmware  #label=firmware
+/firmware/android
+/firmware/android/fstab
+/firmware/android/fstab/vendor
+/aliases
+/soc  #label=soc
+/soc/aliases
+/soc/clocks
+/soc/clocks/xo_board  #label=xo_board
+/soc/clocks/sleep_clk  #label=sleep_clk
+/soc/reserved-memory
+/soc/reserved-memory/other_ext_region@0  #label=other_ext_mem
+/soc/reserved-memory/modem_region@0  #label=modem_mem
+/soc/reserved-memory/adsp_fw_region@0  #label=adsp_fw_mem
+/soc/reserved-memory/wcnss_fw_region@0  #label=wcnss_fw_mem
+/soc/reserved-memory/venus_region@0  #label=venus_mem
+/soc/reserved-memory/secure_region@0  #label=secure_mem
+/soc/reserved-memory/qseecom_region@0  #label=qseecom_mem
+/soc/reserved-memory/qseecom_ta_region  #label=qseecom_ta_mem
+/soc/reserved-memory/adsp_region@0  #label=adsp_mem
+/soc/reserved-memory/dfps_data_mem@90000000  #label=dfps_data_mem
+/soc/gpu_region@0  #label=gpu_mem
+/soc/mem_dump_region  #label=dump_mem
+/arm64-cpu-erp
+/wake-gic@601d4  #label=wakegic
+/wake-gpio  #label=wakegpio
+/qcom,msm-gladiator@b1c0000
+/interrupt-controller@b000000  #label=intc
+/mailbox@b011000  #label=apcs
+/qcom,msm-imem@8600000
+/qcom,msm-imem@8600000/mem_dump_table@10
+/qcom,msm-imem@8600000/restart_reason@65c
+/qcom,msm-imem@8600000/boot_stats@6b0
+/qcom,msm-imem@8600000/pil@94c
+/qcom,rpmcc  #label=clock_rpmcc
+/qcom,gcc@1800000  #label=clock_gcc
+/qcom,cc-debug@1874000  #label=clock_debug
+/gfx@1800000  #label=clock_gfx
+/qcom,gcc-mdss@1800000  #label=clock_mdss
+/qcom,cpu-clock-8976@b016000  #label=clock_cpu
+/qcom,cpu-clock-8976@b016000/qcom,spm@0
+/qcom,mpm2-sleep-counter@4a3000
+/qcom,cpubw  #label=cpubw
+/qcom,mincpubw  #label=mincpubw
+/qcom,cpu-bwmon@408000
+/devfreq-cpufreq
+/devfreq-cpufreq/cpubw-cpufreq
+/devfreq-cpufreq/mincpubw-cpufreq
+/qcom,msm-cpufreq
+/timer
+/restart@4ab000
+/timer@b120000
+/timer@b120000/frame@b121000
+/timer@b120000/frame@b123000
+/timer@b120000/frame@b124000
+/timer@b120000/frame@b125000
+/timer@b120000/frame@b126000
+/timer@b120000/frame@b127000
+/timer@b120000/frame@b128000
+/qcom,sps
+/tsens@4a8000  #label=tsens0
+/tsens@4a8000/thermal-zones  #label=thermal_zones
+/tsens@4a8000/thermal-zones/qcom,memshare
+/tsens@4a8000/thermal-zones/qcom,memshare/qcom,client_1
+/tsens@4a8000/thermal-zones/qcom,memshare/qcom,client_2
+/tsens@4a8000/thermal-zones/qcom,memshare/qcom,client_3  #label=mem_client_3_size
+/tsens@4a8000/thermal-zones/qcom,rpm-smd  #label=rpm_bus
+/tsens@4a8000/thermal-zones/qcom,rmtfs_sharedmem@0
+/tsens@4a8000/thermal-zones/sdcc1ice@7803000  #label=sdcc1_ice
+/tsens@4a8000/thermal-zones/sdhci@7824900  #label=sdhc_1
+/tsens@4a8000/thermal-zones/sdhci@7864900  #label=sdhc_2
+/tsens@4a8000/thermal-zones/sdhci@7a24900  #label=sdhc_3
+/tsens@4a8000/thermal-zones/serial@78b0000  #label=blsp1_uart2
+/tsens@4a8000/thermal-zones/uart@78af000  #label=blsp1_uart0
+/tsens@4a8000/thermal-zones/qcom,sps-dma@7884000  #label=dma_blsp1
+/tsens@4a8000/thermal-zones/qcom,sps-dma@7ac4000  #label=dma_blsp2
+/tsens@4a8000/thermal-zones/i2c@78b5000  #label=i2c_1
+/tsens@4a8000/thermal-zones/i2c@78b6000  #label=i2c_2
+/tsens@4a8000/thermal-zones/i2c@78b7000  #label=i2c_3
+/tsens@4a8000/thermal-zones/i2c@7af5000  #label=i2c_5
+/tsens@4a8000/thermal-zones/usb@78db000  #label=usb_otg
+/tsens@4a8000/thermal-zones/android_usb@086000c8  #label=android_usb
+/tsens@4a8000/thermal-zones/slim@c140000  #label=slim_msm
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe0
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe1
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe2
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe3
+/tsens@4a8000/thermal-zones/qcom,ipa@07900000  #label=ipa_hw
+/tsens@4a8000/thermal-zones/qcom,rmnet-ipa
+/tsens@4a8000/thermal-zones/qcom,ipc-spinlock@1905000
+/tsens@4a8000/thermal-zones/qcom,smem@86300000
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-modem
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smsm-modem
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-wcnss
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smsm-wcnss
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-adsp
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smsm-adsp
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-rpm
+/tsens@4a8000/thermal-zones/qcom,wdt@b017000
+/tsens@4a8000/thermal-zones/qcom,chd_silver
+/tsens@4a8000/thermal-zones/qcom,chd_gold
+/tsens@4a8000/thermal-zones/qcom,msm-rtb
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000/mem_dump_table@10
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000/restart_reason@65c
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000/boot_stats@6b0
+/tsens@4a8000/thermal-zones/qrng@22000  #label=qcom_rng
+/tsens@4a8000/thermal-zones/tz-log@08600720  #label=qcom_tzlog
+/tsens@4a8000/thermal-zones/qcrypto@720000  #label=qcom_crypto
+/tsens@4a8000/thermal-zones/qcedev@720000  #label=qcom_cedev
+/tsens@4a8000/thermal-zones/qseecom@8dd00000  #label=qcom_seecom
+/tsens@4a8000/thermal-zones/qcom,ipc_router
+/tsens@4a8000/thermal-zones/qcom,ipc_router_modem_xprt
+/tsens@4a8000/thermal-zones/qcom,ipc_router_q6_xprt
+/tsens@4a8000/thermal-zones/qcom,ipc_router_wcnss_xprt
+/tsens@4a8000/thermal-zones/qcom,smdtty
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-apps-fm  #label=smdtty_apps_fm
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-apps-riva-bt-acl  #label=smdtty_apps_riva_bt_acl
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-apps-riva-bt-cmd  #label=smdtty_apps_riva_bt_cmd
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-mbalbridge  #label=smdtty_mbalbridge
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-apps-riva-ant-cmd  #label=smdtty_apps_riva_ant_cmd
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-apps-riva-ant-data  #label=smdtty_apps_riva_ant_data
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data1  #label=smdtty_data1
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data4  #label=smdtty_data4
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data11  #label=smdtty_data11
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data21  #label=smdtty_data21
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-loopback  #label=smdtty_loopback
+/tsens@4a8000/thermal-zones/qcom,smdpkt
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-data5-cntl
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-data22
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-data40-cntl
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-apr-apps2
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-loopback
+/tsens@4a8000/thermal-zones/qcom,iris-fm
+/tsens@4a8000/thermal-zones/qcom,wcnss-wlan@0a000000
+/tsens@4a8000/thermal-zones/qcom,venus@1de0000
+/tsens@4a8000/thermal-zones/qcom,lpass@c200000
+/tsens@4a8000/thermal-zones/qcom,spmi@200f000  #label=spmi_bus
+/tsens@4a8000/thermal-zones/spi@78b7000  #label=spi_3
+/tsens@4a8000/thermal-zones/qcom,msm-ssc-sensors
+/tsens@4a8000/thermal-zones/qcom,pronto@a21b000
+/tsens@4a8000/thermal-zones/dcc@b3000  #label=dcc
+/tsens@4a8000/thermal-zones/qcom,mss@4080000

@@ -1,0 +1,363 @@
+/8952_wcd_codec@f000  #label=pm8950_cajon_dig
+/8952_wcd_codec@f100  #label=pm8950_cajon_analog
+/aliases
+/android_usb@086000c8  #label=android_usb
+/arm64-cpu-erp
+/audio_ext_clk  #label=clock_audio
+/chosen
+/cpu-pmu
+/dcc@b3000  #label=dcc
+/devfreq-cpufreq
+/devfreq-cpufreq/cci-cpufreq
+/devfreq-cpufreq/cpubw-cpufreq
+/devfreq-cpufreq/mincpubw-cpufreq
+/firmware  #label=firmware
+/firmware/android
+/firmware/android/fstab
+/firmware/android/fstab/system
+/firmware/android/fstab/vendor
+/gfx@1800000  #label=clock_gfx
+/gpio@c000
+/gpio@c400
+/gpio@c600
+/i2c@78b6000  #label=i2c_2
+/i2c@78b8000  #label=i2c_4
+/i2c@7af6000  #label=i2c_6
+/i2c@7af8000  #label=i2c_8
+/interrupt-controller@b000000  #label=intc
+/mailbox@b011000  #label=apcs
+/mcd
+/msm_dai_slim
+/qcedev@720000  #label=qcom_cedev
+/qcom,adsprpc-mem
+/qcom,avtimer@c0a300c
+/qcom,bcl
+/qcom,bcl/qcom,ibat-monitor
+/qcom,cc-debug@1874000  #label=clock_debug
+/qcom,cci  #label=cci_cache
+/qcom,cnss_sdio  #label=cnss_sdio
+/qcom,cpu-bwmon@408000
+/qcom,cpu-clock-8976@b016000  #label=clock_cpu
+/qcom,cpu-clock-8976@b016000/qcom,spm@0
+/qcom,cpubw  #label=cpubw
+/qcom,ehci-host@79c0000  #label=fsusb
+/qcom,gcc@1800000  #label=clock_gcc
+/qcom,gcc-gfx@1800000  #label=clock_gcc_gfx
+/qcom,gcc-mdss@1800000  #label=clock_gcc_mdss
+/qcom,ipa@07900000  #label=ipa_hw
+/qcom,ipc-spinlock@1905000
+/qcom,ipc_router
+/qcom,ipc_router_modem_xprt
+/qcom,ipc_router_q6_xprt
+/qcom,ipc_router_wcnss_xprt
+/qcom,iris-fm
+/qcom,limit_info-0  #label=mitigation_profile0
+/qcom,limit_info-1  #label=mitigation_profile1
+/qcom,limit_info-2  #label=mitigation_profile2
+/qcom,limit_info-3  #label=mitigation_profile3
+/qcom,limit_info-4  #label=mitigation_profile4
+/qcom,lmh@b1db000
+/qcom,lpass@c200000
+/qcom,memshare
+/qcom,memshare/qcom,client_1
+/qcom,memshare/qcom,client_2
+/qcom,memshare/qcom,client_3  #label=mem_client_3_size
+/qcom,mincpubw  #label=mincpubw
+/qcom,mpm2-sleep-counter@4a3000
+/qcom,msm-adsp-loader
+/qcom,msm-audio-ion
+/qcom,msm-compress-dsp  #label=compress
+/qcom,msm-core@a0000
+/qcom,msm-core@a0000/qcom,core-mapping
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu0-chars
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu1-chars
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu2-chars
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu3-chars
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu4-chars
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu5-chars
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu6-chars
+/qcom,msm-core@a0000/qcom,core-mapping/qcom,cpu7-chars
+/qcom,msm-cpe-lsm  #label=cpe
+/qcom,msm-cpufreq
+/qcom,msm-dai-fe
+/qcom,msm-dai-mi2s
+/qcom,msm-dai-mi2s/qcom,msm-dai-q6-mi2s-prim  #label=dai_mi2s0
+/qcom,msm-dai-mi2s/qcom,msm-dai-q6-mi2s-quat  #label=dai_mi2s3
+/qcom,msm-dai-mi2s/qcom,msm-dai-q6-mi2s-quin  #label=dai_mi2s5
+/qcom,msm-dai-mi2s/qcom,msm-dai-q6-mi2s-sec  #label=dai_mi2s1
+/qcom,msm-dai-mi2s/qcom,msm-dai-q6-mi2s-senary  #label=dai_mi2s6
+/qcom,msm-dai-mi2s/qcom,msm-dai-q6-mi2s-tert  #label=dai_mi2s2
+/qcom,msm-dai-q6
+/qcom,msm-dai-q6/qcom,msm-dai-q6-afe-proxy-rx  #label=afe_proxy_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-afe-proxy-tx  #label=afe_proxy_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-be-afe-pcm-rx  #label=afe_pcm_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-be-afe-pcm-tx  #label=afe_pcm_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-bt-sco-rx  #label=bt_sco_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-bt-sco-tx  #label=bt_sco_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-incall-music-2-rx  #label=incall_music_2_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-incall-music-rx  #label=incall_music_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-incall-record-rx  #label=incall_record_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-incall-record-tx  #label=incall_record_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-int-fm-rx  #label=int_fm_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-int-fm-tx  #label=int_fm_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-0-rx  #label=sb_0_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-0-tx  #label=sb_0_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-1-rx  #label=sb_1_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-1-tx  #label=sb_1_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-2-rx  #label=sb_2_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-2-tx  #label=sb_2_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-3-rx  #label=sb_3_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-3-tx  #label=sb_3_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-4-rx  #label=sb_4_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-4-tx  #label=sb_4_tx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-5-rx  #label=sb_5_rx
+/qcom,msm-dai-q6/qcom,msm-dai-q6-sb-5-tx  #label=sb_5_tx
+/qcom,msm-dai-q6-hdmi  #label=dai_hdmi
+/qcom,msm-dai-q6-mi2s-hdmi  #label=dai_mi2s_hdmi
+/qcom,msm-gladiator@b1c0000
+/qcom,msm-imem@8600000
+/qcom,msm-imem@8600000/boot_stats@6b0
+/qcom,msm-imem@8600000/mem_dump_table@10
+/qcom,msm-imem@8600000/pil@94c
+/qcom,msm-imem@8600000/restart_reason@65c
+/qcom,msm-lsm-client  #label=lsm
+/qcom,msm-pacman
+/qcom,msm-pcm  #label=pcm0
+/qcom,msm-pcm-afe  #label=afe
+/qcom,msm-pcm-hostless  #label=hostless
+/qcom,msm-pcm-loopback  #label=loopback
+/qcom,msm-pcm-low-latency  #label=pcm1
+/qcom,msm-pcm-lpa  #label=lpa
+/qcom,msm-pcm-routing  #label=routing
+/qcom,msm-pcm-voice  #label=voice
+/qcom,msm-pri-auxpcm  #label=dai_pri_auxpcm
+/qcom,msm-rtb
+/qcom,msm-ssc-sensors
+/qcom,msm-stub-codec  #label=stub_codec
+/qcom,msm-thermal
+/qcom,msm-thermal/qcom,vdd-apps-rstr  #label=msm_thermal_freq
+/qcom,msm-thermal/qcom,vdd-dig-rstr
+/qcom,msm-thermal/qcom,vdd-gfx-rstr
+/qcom,msm-ultra-low-latency  #label=pcm2
+/qcom,msm-voice-svc  #label=voice_svc
+/qcom,msm-voip-dsp  #label=voip
+/qcom,msmapr-audio
+/qcom,msmcci-ccimon
+/qcom,mss@4080000
+/qcom,pronto@a21b000
+/qcom,rmnet-ipa
+/qcom,rmtfs_sharedmem@0
+/qcom,rpm-smd  #label=rpm_bus
+/qcom,rpmcc  #label=clock_rpmcc
+/qcom,sensor-information
+/qcom,sensor-information/qcom,sensor-information-0  #label=sensor_information0
+/qcom,sensor-information/qcom,sensor-information-1  #label=sensor_information1
+/qcom,sensor-information/qcom,sensor-information-10  #label=sensor_information10
+/qcom,sensor-information/qcom,sensor-information-11  #label=sensor_information11
+/qcom,sensor-information/qcom,sensor-information-12  #label=sensor_information12
+/qcom,sensor-information/qcom,sensor-information-13  #label=sensor_information13
+/qcom,sensor-information/qcom,sensor-information-14  #label=sensor_information14
+/qcom,sensor-information/qcom,sensor-information-15  #label=sensor_information15
+/qcom,sensor-information/qcom,sensor-information-16  #label=sensor_information16
+/qcom,sensor-information/qcom,sensor-information-17  #label=sensor_information17
+/qcom,sensor-information/qcom,sensor-information-18  #label=sensor_information18
+/qcom,sensor-information/qcom,sensor-information-2  #label=sensor_information2
+/qcom,sensor-information/qcom,sensor-information-3  #label=sensor_information3
+/qcom,sensor-information/qcom,sensor-information-4  #label=sensor_information4
+/qcom,sensor-information/qcom,sensor-information-5  #label=sensor_information5
+/qcom,sensor-information/qcom,sensor-information-6  #label=sensor_information6
+/qcom,sensor-information/qcom,sensor-information-7  #label=sensor_information7
+/qcom,sensor-information/qcom,sensor-information-8  #label=sensor_information8
+/qcom,sensor-information/qcom,sensor-information-9  #label=sensor_information9
+/qcom,smdpkt
+/qcom,smdpkt/qcom,smdpkt-apr-apps2
+/qcom,smdpkt/qcom,smdpkt-data22
+/qcom,smdpkt/qcom,smdpkt-data40-cntl
+/qcom,smdpkt/qcom,smdpkt-data5-cntl
+/qcom,smdpkt/qcom,smdpkt-loopback
+/qcom,smdtty
+/qcom,smdtty/qcom,smdtty-apps-fm  #label=smdtty_apps_fm
+/qcom,smdtty/qcom,smdtty-apps-riva-bt-cmd  #label=smdtty_apps_riva_bt_cmd
+/qcom,smdtty/qcom,smdtty-data1  #label=smdtty_data1
+/qcom,smdtty/qcom,smdtty-data11  #label=smdtty_data11
+/qcom,smdtty/qcom,smdtty-data21  #label=smdtty_data21
+/qcom,smdtty/qcom,smdtty-data4  #label=smdtty_data4
+/qcom,smdtty/qcom,smdtty-mbalbridge  #label=smdtty_mbalbridge
+/qcom,smdtty/smdtty-apps-riva-ant-cmd  #label=smdtty_apps_riva_ant_cmd
+/qcom,smdtty/smdtty-apps-riva-ant-data  #label=smdtty_apps_riva_ant_data
+/qcom,smdtty/smdtty-apps-riva-bt-acl  #label=smdtty_apps_riva_bt_acl
+/qcom,smdtty/smdtty-loopback  #label=smdtty_loopback
+/qcom,smem@86300000
+/qcom,smem@86300000/qcom,smd-adsp
+/qcom,smem@86300000/qcom,smd-modem
+/qcom,smem@86300000/qcom,smd-rpm
+/qcom,smem@86300000/qcom,smd-wcnss
+/qcom,smem@86300000/qcom,smsm-adsp
+/qcom,smem@86300000/qcom,smsm-modem
+/qcom,smem@86300000/qcom,smsm-wcnss
+/qcom,spmi@200f000  #label=spmi_bus
+/qcom,sps
+/qcom,sps-dma@7884000  #label=dma_blsp1
+/qcom,sps-dma@7ac4000  #label=dma_blsp2
+/qcom,usbbam@78c4000
+/qcom,usbbam@78c4000/qcom,pipe0
+/qcom,usbbam@78c4000/qcom,pipe1
+/qcom,usbbam@78c4000/qcom,pipe2
+/qcom,usbbam@78c4000/qcom,pipe3
+/qcom,venus@1de0000
+/qcom,vidc@1d00000
+/qcom,vidc@1d00000/qcom,msm-bus-clients
+/qcom,vidc@1d00000/qcom,msm-bus-clients/qcom,msm-bus-client@0
+/qcom,vidc@1d00000/qcom,msm-bus-clients/qcom,msm-bus-client@1
+/qcom,vidc@1d00000/qcom,msm-bus-clients/qcom,msm-bus-client@2
+/qcom,vidc@1d00000/qcom,msm-bus-clients/qcom,msm-bus-client@3
+/qcom,vidc@1d00000/qcom,vidc-iommu-domains
+/qcom,vidc@1d00000/qcom,vidc-iommu-domains/qcom,domain-ns
+/qcom,vidc@1d00000/qcom,vidc-iommu-domains/qcom,domain-sec-bs
+/qcom,vidc@1d00000/qcom,vidc-iommu-domains/qcom,domain-sec-np
+/qcom,vidc@1d00000/qcom,vidc-iommu-domains/qcom,domain-sec-px
+/qcom,wcnss-wlan@0a000000
+/qcom,wdt@b017000
+/qcrypto@720000  #label=qcom_crypto
+/qrng@22000  #label=qcom_rng
+/qseecom@85b00000  #label=qcom_seecom
+/restart@4ab000
+/sdcc1ice@7803000  #label=sdcc1_ice
+/sdhci@7824900  #label=sdhc_1
+/sdhci@7864900  #label=sdhc_2
+/sdhci@7a24900  #label=sdhc_3
+/serial@78b0000  #label=blsp1_uart2
+/slim@c140000  #label=slim_msm
+/soc  #label=soc
+/soc/aliases
+/soc/clocks
+/soc/clocks/sleep_clk  #label=sleep_clk
+/soc/clocks/xo_board  #label=xo_board
+/soc/gpu_region@0  #label=gpu_mem
+/soc/mem_dump_region  #label=dump_mem
+/soc/memory
+/soc/memory/adsp_region@0  #label=adsp_mem
+/soc/memory/audio_region@0  #label=audio_mem
+/soc/memory/modem_region@0  #label=modem_mem
+/soc/memory/other_ext_region@0  #label=other_ext_mem
+/soc/memory/qseecom_region@0  #label=qseecom_mem
+/soc/memory/ramoops@40400000
+/soc/memory/reloc_region@0  #label=reloc_mem
+/soc/memory/secure_region@0  #label=secure_mem
+/soc/memory/splash_region@83000000  #label=cont_splash_mem
+/soc/memory/ss_plog@40000000
+/soc/memory/venus_region@0  #label=venus_mem
+/soc/reserved-memory
+/soc/reserved-memory/adsp_fw_region@0  #label=adsp_fw_mem
+/soc/reserved-memory/adsp_region@0  #label=adsp_mem
+/soc/reserved-memory/dfps_data_mem@90000000  #label=dfps_data_mem
+/soc/reserved-memory/modem_region@0  #label=modem_mem
+/soc/reserved-memory/other_ext_region@0  #label=other_ext_mem
+/soc/reserved-memory/qseecom_region@0  #label=qseecom_mem
+/soc/reserved-memory/qseecom_ta_region  #label=qseecom_ta_mem
+/soc/reserved-memory/secure_region@0  #label=secure_mem
+/soc/reserved-memory/venus_region@0  #label=venus_mem
+/soc/reserved-memory/wcnss_fw_region@0  #label=wcnss_fw_mem
+/sound-9335  #label=ext_codec
+/tasha_codec
+/test  #label=test_pacman
+/timer
+/timer@b120000
+/timer@b120000/frame@b121000
+/timer@b120000/frame@b123000
+/timer@b120000/frame@b124000
+/timer@b120000/frame@b125000
+/timer@b120000/frame@b126000
+/timer@b120000/frame@b127000
+/timer@b120000/frame@b128000
+/tsens@4a8000  #label=tsens
+/tsens@4a8000/thermal-zones  #label=thermal_zones
+/tsens@4a8000/thermal-zones/android_usb@086000c8  #label=android_usb
+/tsens@4a8000/thermal-zones/dcc@b3000  #label=dcc
+/tsens@4a8000/thermal-zones/i2c@78b5000  #label=i2c_1
+/tsens@4a8000/thermal-zones/i2c@78b6000  #label=i2c_2
+/tsens@4a8000/thermal-zones/i2c@78b7000  #label=i2c_3
+/tsens@4a8000/thermal-zones/i2c@7af5000  #label=i2c_5
+/tsens@4a8000/thermal-zones/qcedev@720000  #label=qcom_cedev
+/tsens@4a8000/thermal-zones/qcom,chd_gold
+/tsens@4a8000/thermal-zones/qcom,chd_silver
+/tsens@4a8000/thermal-zones/qcom,ipa@07900000  #label=ipa_hw
+/tsens@4a8000/thermal-zones/qcom,ipc-spinlock@1905000
+/tsens@4a8000/thermal-zones/qcom,ipc_router
+/tsens@4a8000/thermal-zones/qcom,ipc_router_modem_xprt
+/tsens@4a8000/thermal-zones/qcom,ipc_router_q6_xprt
+/tsens@4a8000/thermal-zones/qcom,ipc_router_wcnss_xprt
+/tsens@4a8000/thermal-zones/qcom,iris-fm
+/tsens@4a8000/thermal-zones/qcom,lpass@c200000
+/tsens@4a8000/thermal-zones/qcom,memshare
+/tsens@4a8000/thermal-zones/qcom,memshare/qcom,client_1
+/tsens@4a8000/thermal-zones/qcom,memshare/qcom,client_2
+/tsens@4a8000/thermal-zones/qcom,memshare/qcom,client_3  #label=mem_client_3_size
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000/boot_stats@6b0
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000/mem_dump_table@10
+/tsens@4a8000/thermal-zones/qcom,msm-imem@8600000/restart_reason@65c
+/tsens@4a8000/thermal-zones/qcom,msm-rtb
+/tsens@4a8000/thermal-zones/qcom,msm-ssc-sensors
+/tsens@4a8000/thermal-zones/qcom,mss@4080000
+/tsens@4a8000/thermal-zones/qcom,pronto@a21b000
+/tsens@4a8000/thermal-zones/qcom,rmnet-ipa
+/tsens@4a8000/thermal-zones/qcom,rmtfs_sharedmem@0
+/tsens@4a8000/thermal-zones/qcom,rpm-smd  #label=rpm_bus
+/tsens@4a8000/thermal-zones/qcom,smdpkt
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-apr-apps2
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-data22
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-data40-cntl
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-data5-cntl
+/tsens@4a8000/thermal-zones/qcom,smdpkt/qcom,smdpkt-loopback
+/tsens@4a8000/thermal-zones/qcom,smdtty
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-apps-fm  #label=smdtty_apps_fm
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-apps-riva-bt-cmd  #label=smdtty_apps_riva_bt_cmd
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data1  #label=smdtty_data1
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data11  #label=smdtty_data11
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data21  #label=smdtty_data21
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-data4  #label=smdtty_data4
+/tsens@4a8000/thermal-zones/qcom,smdtty/qcom,smdtty-mbalbridge  #label=smdtty_mbalbridge
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-apps-riva-ant-cmd  #label=smdtty_apps_riva_ant_cmd
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-apps-riva-ant-data  #label=smdtty_apps_riva_ant_data
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-apps-riva-bt-acl  #label=smdtty_apps_riva_bt_acl
+/tsens@4a8000/thermal-zones/qcom,smdtty/smdtty-loopback  #label=smdtty_loopback
+/tsens@4a8000/thermal-zones/qcom,smem@86300000
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-adsp
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-modem
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-rpm
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smd-wcnss
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smsm-adsp
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smsm-modem
+/tsens@4a8000/thermal-zones/qcom,smem@86300000/qcom,smsm-wcnss
+/tsens@4a8000/thermal-zones/qcom,spmi@200f000  #label=spmi_bus
+/tsens@4a8000/thermal-zones/qcom,sps-dma@7884000  #label=dma_blsp1
+/tsens@4a8000/thermal-zones/qcom,sps-dma@7ac4000  #label=dma_blsp2
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe0
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe1
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe2
+/tsens@4a8000/thermal-zones/qcom,usbbam@78c4000/qcom,pipe3
+/tsens@4a8000/thermal-zones/qcom,venus@1de0000
+/tsens@4a8000/thermal-zones/qcom,wcnss-wlan@0a000000
+/tsens@4a8000/thermal-zones/qcom,wdt@b017000
+/tsens@4a8000/thermal-zones/qcrypto@720000  #label=qcom_crypto
+/tsens@4a8000/thermal-zones/qrng@22000  #label=qcom_rng
+/tsens@4a8000/thermal-zones/qseecom@8dd00000  #label=qcom_seecom
+/tsens@4a8000/thermal-zones/sdcc1ice@7803000  #label=sdcc1_ice
+/tsens@4a8000/thermal-zones/sdhci@7824900  #label=sdhc_1
+/tsens@4a8000/thermal-zones/sdhci@7864900  #label=sdhc_2
+/tsens@4a8000/thermal-zones/sdhci@7a24900  #label=sdhc_3
+/tsens@4a8000/thermal-zones/serial@78b0000  #label=blsp1_uart2
+/tsens@4a8000/thermal-zones/slim@c140000  #label=slim_msm
+/tsens@4a8000/thermal-zones/spi@78b7000  #label=spi_3
+/tsens@4a8000/thermal-zones/tz-log@08600720  #label=qcom_tzlog
+/tsens@4a8000/thermal-zones/uart@78af000  #label=blsp1_uart0
+/tsens@4a8000/thermal-zones/usb@78db000  #label=usb_otg
+/tz-log@08600720  #label=qcom_tzlog
+/uart@78af000  #label=blsp1_uart0
+/usb@78db000  #label=usb_otg
+/wake-gic@601d4  #label=wakegic
+/wake-gpio  #label=wakegpio
+/wcd9xxx-irq  #label=wcd9xxx_intc
+/wcd_gpio_ctrl  #label=wcd_rst_gpio
