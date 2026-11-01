@@ -1,0 +1,4270 @@
+33c33
+< 				coresight-child-list = <0x4e>;
+---
+> 				coresight-child-list = <0x50>;
+35,36c35,36
+< 				linux,phandle = <0x51>;
+< 				phandle = <0x51>;
+---
+> 				linux,phandle = <0x53>;
+> 				phandle = <0x53>;
+52c52
+< 				coresight-child-list = <0x4e>;
+---
+> 				coresight-child-list = <0x50>;
+54,55c54,55
+< 				linux,phandle = <0x53>;
+< 				phandle = <0x53>;
+---
+> 				linux,phandle = <0x55>;
+> 				phandle = <0x55>;
+71c71
+< 				coresight-child-list = <0x4e>;
+---
+> 				coresight-child-list = <0x50>;
+73,74c73,74
+< 				linux,phandle = <0x6e>;
+< 				phandle = <0x6e>;
+---
+> 				linux,phandle = <0x70>;
+> 				phandle = <0x70>;
+87,88c87,88
+< 				linux,phandle = <0x78>;
+< 				phandle = <0x78>;
+---
+> 				linux,phandle = <0x7a>;
+> 				phandle = <0x7a>;
+98c98
+< 				qcom,connections = <0x4f 0x50>;
+---
+> 				qcom,connections = <0x51 0x52>;
+102c102
+< 				qcom,bus-dev = <0x51>;
+---
+> 				qcom,bus-dev = <0x53>;
+110,111c110,111
+< 				qcom,connections = <0x74>;
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,connections = <0x76>;
+> 				qcom,bus-dev = <0x70>;
+113,115c113,115
+< 				qcom,blacklist = <0x75>;
+< 				linux,phandle = <0x83>;
+< 				phandle = <0x83>;
+---
+> 				qcom,blacklist = <0x77>;
+> 				linux,phandle = <0x85>;
+> 				phandle = <0x85>;
+122,123c122,123
+< 				qcom,connections = <0x68>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6a>;
+> 				qcom,bus-dev = <0x55>;
+125c125
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+132,133c132,133
+< 				qcom,connections = <0x68>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6a>;
+> 				qcom,bus-dev = <0x55>;
+135c135
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+145,146c145,146
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+148c148
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+158c158
+< 				qcom,connections = <0x69>;
+---
+> 				qcom,connections = <0x6b>;
+161c161
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+163c163
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+170,171c170,171
+< 				qcom,connections = <0x52>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x54>;
+> 				qcom,bus-dev = <0x55>;
+173c173
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+183c183
+< 				qcom,connections = <0x74>;
+---
+> 				qcom,connections = <0x76>;
+186c186
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+188c188
+< 				qcom,blacklist = <0x6f 0x70 0x71 0x73>;
+---
+> 				qcom,blacklist = <0x71 0x72 0x73 0x75>;
+198,199c198,199
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+201c201
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+210,211c210,211
+< 				qcom,connections = <0x6b>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6d>;
+> 				qcom,bus-dev = <0x55>;
+213c213
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+222,223c222,223
+< 				qcom,connections = <0x7a 0x7b 0x75>;
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,connections = <0x7c 0x7d 0x77>;
+> 				qcom,bus-dev = <0x70>;
+225c225
+< 				qcom,blacklist = <0x6f 0x70 0x71 0x73>;
+---
+> 				qcom,blacklist = <0x71 0x72 0x73 0x75>;
+236,237c236,237
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+239c239
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+250,251c250,251
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+253c253
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+264,265c264,265
+< 				qcom,connections = <0x77 0x76>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x79 0x78>;
+> 				qcom,bus-dev = <0x7a>;
+267c267
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+276,277c276,277
+< 				qcom,connections = <0x74>;
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,connections = <0x76>;
+> 				qcom,bus-dev = <0x70>;
+279,281c279,281
+< 				qcom,blacklist = <0x6f 0x73>;
+< 				linux,phandle = <0x84>;
+< 				phandle = <0x84>;
+---
+> 				qcom,blacklist = <0x71 0x75>;
+> 				linux,phandle = <0x86>;
+> 				phandle = <0x86>;
+291c291
+< 				qcom,connections = <0x6d>;
+---
+> 				qcom,connections = <0x6f>;
+294c294
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+296c296
+< 				qcom,blacklist = <0x6f 0x70 0x71 0x72 0x73>;
+---
+> 				qcom,blacklist = <0x71 0x72 0x73 0x74 0x75>;
+306c306
+< 				qcom,connections = <0x6d>;
+---
+> 				qcom,connections = <0x6f>;
+309c309
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+311c311
+< 				qcom,blacklist = <0x6f 0x73 0x70 0x71 0x79>;
+---
+> 				qcom,blacklist = <0x71 0x75 0x72 0x73 0x7b>;
+320,321c320,321
+< 				qcom,connections = <0x69>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6b>;
+> 				qcom,bus-dev = <0x55>;
+323c323
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+332,333c332,333
+< 				qcom,connections = <0x69>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6b>;
+> 				qcom,bus-dev = <0x55>;
+335c335
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+344,345c344,345
+< 				qcom,connections = <0x69>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6b>;
+> 				qcom,bus-dev = <0x55>;
+347c347
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+357,358c357,358
+< 				qcom,connections = <0x4f>;
+< 				qcom,bus-dev = <0x51>;
+---
+> 				qcom,connections = <0x51>;
+> 				qcom,bus-dev = <0x53>;
+360,361c360,361
+< 				linux,phandle = <0x85>;
+< 				phandle = <0x85>;
+---
+> 				linux,phandle = <0x87>;
+> 				phandle = <0x87>;
+371,372c371,372
+< 				qcom,connections = <0x4f>;
+< 				qcom,bus-dev = <0x51>;
+---
+> 				qcom,connections = <0x51>;
+> 				qcom,bus-dev = <0x53>;
+374,375c374,375
+< 				linux,phandle = <0x86>;
+< 				phandle = <0x86>;
+---
+> 				linux,phandle = <0x88>;
+> 				phandle = <0x88>;
+384,385c384,385
+< 				qcom,connections = <0x6a>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6c>;
+> 				qcom,bus-dev = <0x55>;
+387,388c387,388
+< 				linux,phandle = <0x87>;
+< 				phandle = <0x87>;
+---
+> 				linux,phandle = <0x89>;
+> 				phandle = <0x89>;
+395,396c395,396
+< 				qcom,connections = <0x52>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x54>;
+> 				qcom,bus-dev = <0x55>;
+398c398
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+408c408
+< 				qcom,connections = <0x4f 0x50>;
+---
+> 				qcom,connections = <0x51 0x52>;
+412c412
+< 				qcom,bus-dev = <0x51>;
+---
+> 				qcom,bus-dev = <0x53>;
+420,421c420,421
+< 				qcom,connections = <0x68>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6a>;
+> 				qcom,bus-dev = <0x55>;
+423c423
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+430,431c430,431
+< 				qcom,connections = <0x52>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x54>;
+> 				qcom,bus-dev = <0x55>;
+433c433
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+443,444c443,444
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+446c446
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+456,457c456,457
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+459c459
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+469,470c469,470
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+472c472
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+482,483c482,483
+< 				qcom,connections = <0x76 0x77>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x78 0x79>;
+> 				qcom,bus-dev = <0x7a>;
+485c485
+< 				qcom,blacklist = <0x70 0x73 0x6f 0x71 0x79 0x72>;
+---
+> 				qcom,blacklist = <0x72 0x75 0x71 0x73 0x7b 0x74>;
+492,493c492,493
+< 				qcom,connections = <0x6c>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6e>;
+> 				qcom,bus-dev = <0x55>;
+495c495
+< 				qcom,blacklist = <0x54 0x55 0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67>;
+---
+> 				qcom,blacklist = <0x56 0x57 0x58 0x59 0x5a 0x5b 0x5c 0x5d 0x5e 0x5f 0x60 0x61 0x62 0x63 0x64 0x65 0x66 0x67 0x68 0x69>;
+504,505c504,505
+< 				qcom,connections = <0x7a>;
+< 				qcom,bus-dev = <0x78>;
+---
+> 				qcom,connections = <0x7c>;
+> 				qcom,bus-dev = <0x7a>;
+508,509c508,509
+< 				linux,phandle = <0x76>;
+< 				phandle = <0x76>;
+---
+> 				linux,phandle = <0x78>;
+> 				phandle = <0x78>;
+516,517c516,517
+< 				qcom,connections = <0x6b 0x6a>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6d 0x6c>;
+> 				qcom,bus-dev = <0x55>;
+520,521c520,521
+< 				linux,phandle = <0x6c>;
+< 				phandle = <0x6c>;
+---
+> 				linux,phandle = <0x6e>;
+> 				phandle = <0x6e>;
+528,529c528,529
+< 				qcom,connections = <0x6b 0x6a>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6d 0x6c>;
+> 				qcom,bus-dev = <0x55>;
+532,533c532,533
+< 				linux,phandle = <0x69>;
+< 				phandle = <0x69>;
+---
+> 				linux,phandle = <0x6b>;
+> 				phandle = <0x6b>;
+540,541c540,541
+< 				qcom,connections = <0x7c 0x7d 0x7e 0x7f 0x80 0x81>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x7e 0x7f 0x80 0x81 0x82 0x83>;
+> 				qcom,bus-dev = <0x55>;
+544,545c544,545
+< 				linux,phandle = <0x6a>;
+< 				phandle = <0x6a>;
+---
+> 				linux,phandle = <0x6c>;
+> 				phandle = <0x6c>;
+554,555c554,555
+< 				qcom,connections = <0x6b>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6d>;
+> 				qcom,bus-dev = <0x55>;
+558,559c558,559
+< 				linux,phandle = <0x52>;
+< 				phandle = <0x52>;
+---
+> 				linux,phandle = <0x54>;
+> 				phandle = <0x54>;
+568,569c568,569
+< 				qcom,connections = <0x6b>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x6d>;
+> 				qcom,bus-dev = <0x55>;
+572,573c572,573
+< 				linux,phandle = <0x68>;
+< 				phandle = <0x68>;
+---
+> 				linux,phandle = <0x6a>;
+> 				phandle = <0x6a>;
+580,581c580,581
+< 				qcom,connections = <0x55 0x67 0x5b 0x57>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x57 0x69 0x5d 0x59>;
+> 				qcom,bus-dev = <0x55>;
+584,585c584,585
+< 				linux,phandle = <0x7c>;
+< 				phandle = <0x7c>;
+---
+> 				linux,phandle = <0x7e>;
+> 				phandle = <0x7e>;
+592,593c592,593
+< 				qcom,connections = <0x62>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x64>;
+> 				qcom,bus-dev = <0x55>;
+596,597c596,597
+< 				linux,phandle = <0x7d>;
+< 				phandle = <0x7d>;
+---
+> 				linux,phandle = <0x7f>;
+> 				phandle = <0x7f>;
+604,605c604,605
+< 				qcom,connections = <0x5f 0x66>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x61 0x68>;
+> 				qcom,bus-dev = <0x55>;
+608,609c608,609
+< 				linux,phandle = <0x81>;
+< 				phandle = <0x81>;
+---
+> 				linux,phandle = <0x83>;
+> 				phandle = <0x83>;
+617,618c617,618
+< 				qcom,connections = <0x59 0x5c 0x58>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x5b 0x5e 0x5a>;
+> 				qcom,bus-dev = <0x55>;
+621,622c621,622
+< 				linux,phandle = <0x7e>;
+< 				phandle = <0x7e>;
+---
+> 				linux,phandle = <0x80>;
+> 				phandle = <0x80>;
+629,630c629,630
+< 				qcom,connections = <0x5e 0x5d 0x60 0x63>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x60 0x5f 0x62 0x65>;
+> 				qcom,bus-dev = <0x55>;
+633,634c633,634
+< 				linux,phandle = <0x7f>;
+< 				phandle = <0x7f>;
+---
+> 				linux,phandle = <0x81>;
+> 				phandle = <0x81>;
+641,642c641,642
+< 				qcom,connections = <0x65 0x5a 0x56 0x54>;
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,connections = <0x67 0x5c 0x58 0x56>;
+> 				qcom,bus-dev = <0x55>;
+645,646c645,646
+< 				linux,phandle = <0x80>;
+< 				phandle = <0x80>;
+---
+> 				linux,phandle = <0x82>;
+> 				phandle = <0x82>;
+654,655c654,655
+< 				qcom,connections = <0x74>;
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,connections = <0x76>;
+> 				qcom,bus-dev = <0x70>;
+658,659c658,659
+< 				linux,phandle = <0x6d>;
+< 				phandle = <0x6d>;
+---
+> 				linux,phandle = <0x6f>;
+> 				phandle = <0x6f>;
+666,667c666,667
+< 				qcom,bus-dev = <0x51>;
+< 				qcom,connections = <0x83>;
+---
+> 				qcom,bus-dev = <0x53>;
+> 				qcom,connections = <0x85>;
+669,670c669,670
+< 				linux,phandle = <0x50>;
+< 				phandle = <0x50>;
+---
+> 				linux,phandle = <0x52>;
+> 				phandle = <0x52>;
+677c677
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+679,680c679,680
+< 				linux,phandle = <0x60>;
+< 				phandle = <0x60>;
+---
+> 				linux,phandle = <0x62>;
+> 				phandle = <0x62>;
+687c687
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+689,690c689,690
+< 				linux,phandle = <0x54>;
+< 				phandle = <0x54>;
+---
+> 				linux,phandle = <0x56>;
+> 				phandle = <0x56>;
+698c698
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+700,701c700,701
+< 				linux,phandle = <0x59>;
+< 				phandle = <0x59>;
+---
+> 				linux,phandle = <0x5b>;
+> 				phandle = <0x5b>;
+709c709
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+711,712c711,712
+< 				linux,phandle = <0x6f>;
+< 				phandle = <0x6f>;
+---
+> 				linux,phandle = <0x71>;
+> 				phandle = <0x71>;
+720c720
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+722,723c722,723
+< 				linux,phandle = <0x73>;
+< 				phandle = <0x73>;
+---
+> 				linux,phandle = <0x75>;
+> 				phandle = <0x75>;
+731c731
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+733,734c733,734
+< 				linux,phandle = <0x55>;
+< 				phandle = <0x55>;
+---
+> 				linux,phandle = <0x57>;
+> 				phandle = <0x57>;
+742c742
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+744,745c744,745
+< 				linux,phandle = <0x66>;
+< 				phandle = <0x66>;
+---
+> 				linux,phandle = <0x68>;
+> 				phandle = <0x68>;
+753c753
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+755,756c755,756
+< 				linux,phandle = <0x5c>;
+< 				phandle = <0x5c>;
+---
+> 				linux,phandle = <0x5e>;
+> 				phandle = <0x5e>;
+763c763
+< 				qcom,bus-dev = <0x51>;
+---
+> 				qcom,bus-dev = <0x53>;
+765,766c765,766
+< 				linux,phandle = <0x4f>;
+< 				phandle = <0x4f>;
+---
+> 				linux,phandle = <0x51>;
+> 				phandle = <0x51>;
+774c774
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+776,777c776,777
+< 				linux,phandle = <0x65>;
+< 				phandle = <0x65>;
+---
+> 				linux,phandle = <0x67>;
+> 				phandle = <0x67>;
+784c784
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+786,787c786,787
+< 				linux,phandle = <0x79>;
+< 				phandle = <0x79>;
+---
+> 				linux,phandle = <0x7b>;
+> 				phandle = <0x7b>;
+795c795
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+797,798c797,798
+< 				linux,phandle = <0x71>;
+< 				phandle = <0x71>;
+---
+> 				linux,phandle = <0x73>;
+> 				phandle = <0x73>;
+806c806
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+808,809c808,809
+< 				linux,phandle = <0x70>;
+< 				phandle = <0x70>;
+---
+> 				linux,phandle = <0x72>;
+> 				phandle = <0x72>;
+816c816
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+818,819c818,819
+< 				linux,phandle = <0x57>;
+< 				phandle = <0x57>;
+---
+> 				linux,phandle = <0x59>;
+> 				phandle = <0x59>;
+826,827c826,827
+< 				qcom,bus-dev = <0x53>;
+< 				qcom,connections = <0x84>;
+---
+> 				qcom,bus-dev = <0x55>;
+> 				qcom,connections = <0x86>;
+829,830c829,830
+< 				linux,phandle = <0x6b>;
+< 				phandle = <0x6b>;
+---
+> 				linux,phandle = <0x6d>;
+> 				phandle = <0x6d>;
+837c837
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+839,840c839,840
+< 				linux,phandle = <0x5b>;
+< 				phandle = <0x5b>;
+---
+> 				linux,phandle = <0x5d>;
+> 				phandle = <0x5d>;
+847c847
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+849,850c849,850
+< 				linux,phandle = <0x62>;
+< 				phandle = <0x62>;
+---
+> 				linux,phandle = <0x64>;
+> 				phandle = <0x64>;
+858c858
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+860,861c860,861
+< 				linux,phandle = <0x67>;
+< 				phandle = <0x67>;
+---
+> 				linux,phandle = <0x69>;
+> 				phandle = <0x69>;
+868c868
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,bus-dev = <0x70>;
+870,871c870,871
+< 				linux,phandle = <0x72>;
+< 				phandle = <0x72>;
+---
+> 				linux,phandle = <0x74>;
+> 				phandle = <0x74>;
+878c878
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+880,881c880,881
+< 				linux,phandle = <0x63>;
+< 				phandle = <0x63>;
+---
+> 				linux,phandle = <0x65>;
+> 				phandle = <0x65>;
+888c888
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+890,891c890,891
+< 				linux,phandle = <0x56>;
+< 				phandle = <0x56>;
+---
+> 				linux,phandle = <0x58>;
+> 				phandle = <0x58>;
+898c898
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+900,901c900,901
+< 				linux,phandle = <0x5d>;
+< 				phandle = <0x5d>;
+---
+> 				linux,phandle = <0x5f>;
+> 				phandle = <0x5f>;
+910,911c910,911
+< 				qcom,bus-dev = <0x78>;
+< 				qcom,connections = <0x85>;
+---
+> 				qcom,bus-dev = <0x7a>;
+> 				qcom,connections = <0x87>;
+913,914c913,914
+< 				linux,phandle = <0x77>;
+< 				phandle = <0x77>;
+---
+> 				linux,phandle = <0x79>;
+> 				phandle = <0x79>;
+922,923c922,923
+< 				qcom,bus-dev = <0x6e>;
+< 				qcom,connections = <0x86>;
+---
+> 				qcom,bus-dev = <0x70>;
+> 				qcom,connections = <0x88>;
+925,926c925,926
+< 				linux,phandle = <0x75>;
+< 				phandle = <0x75>;
+---
+> 				linux,phandle = <0x77>;
+> 				phandle = <0x77>;
+933c933
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+935,936c935,936
+< 				linux,phandle = <0x5f>;
+< 				phandle = <0x5f>;
+---
+> 				linux,phandle = <0x61>;
+> 				phandle = <0x61>;
+943,944c943,944
+< 				qcom,bus-dev = <0x6e>;
+< 				qcom,connections = <0x87>;
+---
+> 				qcom,bus-dev = <0x70>;
+> 				qcom,connections = <0x89>;
+946,947c946,947
+< 				linux,phandle = <0x82>;
+< 				phandle = <0x82>;
+---
+> 				linux,phandle = <0x84>;
+> 				phandle = <0x84>;
+954c954
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+956,957c956,957
+< 				linux,phandle = <0x64>;
+< 				phandle = <0x64>;
+---
+> 				linux,phandle = <0x66>;
+> 				phandle = <0x66>;
+964c964
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+966,967c966,967
+< 				linux,phandle = <0x61>;
+< 				phandle = <0x61>;
+---
+> 				linux,phandle = <0x63>;
+> 				phandle = <0x63>;
+974c974
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+976,977c976,977
+< 				linux,phandle = <0x5e>;
+< 				phandle = <0x5e>;
+---
+> 				linux,phandle = <0x60>;
+> 				phandle = <0x60>;
+984c984
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+986,987c986,987
+< 				linux,phandle = <0x5a>;
+< 				phandle = <0x5a>;
+---
+> 				linux,phandle = <0x5c>;
+> 				phandle = <0x5c>;
+995c995
+< 				qcom,bus-dev = <0x53>;
+---
+> 				qcom,bus-dev = <0x55>;
+997,998c997,998
+< 				linux,phandle = <0x58>;
+< 				phandle = <0x58>;
+---
+> 				linux,phandle = <0x5a>;
+> 				phandle = <0x5a>;
+1005,1006c1005,1006
+< 				qcom,connections = <0x72 0x79 0x82>;
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,connections = <0x74 0x7b 0x84>;
+> 				qcom,bus-dev = <0x70>;
+1009,1010c1009,1010
+< 				linux,phandle = <0x7a>;
+< 				phandle = <0x7a>;
+---
+> 				linux,phandle = <0x7c>;
+> 				phandle = <0x7c>;
+1018,1019c1018,1019
+< 				qcom,connections = <0x70 0x6f 0x73 0x71>;
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,connections = <0x72 0x71 0x75 0x73>;
+> 				qcom,bus-dev = <0x70>;
+1022,1023c1022,1023
+< 				linux,phandle = <0x7b>;
+< 				phandle = <0x7b>;
+---
+> 				linux,phandle = <0x7d>;
+> 				phandle = <0x7d>;
+1030,1031c1030,1031
+< 				qcom,connections = <0x7a 0x7b 0x75>;
+< 				qcom,bus-dev = <0x6e>;
+---
+> 				qcom,connections = <0x7c 0x7d 0x77>;
+> 				qcom,bus-dev = <0x70>;
+1034,1035c1034,1035
+< 				linux,phandle = <0x74>;
+< 				phandle = <0x74>;
+---
+> 				linux,phandle = <0x76>;
+> 				phandle = <0x76>;
+1043c1043
+< 			gpio = <0x127 0x04 0x00>;
+---
+> 			gpio = <0x126 0x04 0x00>;
+1087c1087
+< 			coresight-child-list = <0xb2>;
+---
+> 			coresight-child-list = <0xb4>;
+1093c1093
+< 			qcom,audio-ref-clk-gpio = <0x11b 0x01 0x00>;
+---
+> 			qcom,audio-ref-clk-gpio = <0x11a 0x01 0x00>;
+1109,1110c1109,1110
+< 		battery,temp_table_adc = <0x69c8 0x6ad4 0x6c2e 0x6dae 0x6f1f 0x7157 0x7384 0x75bc 0x7844 0x7b0f 0x7e10 0x8146 0x8492 0x87ef 0x8b8d 0x8ef1 0x9236 0x9558 0x984a 0x9b2f 0x9d91 0x9f92>;
+< 		battery,temp_table_data = <0x352 0x320 0x2ee 0x2bc 0x28a 0x258 0x226 0x1f4 0x1c2 0x190 0x15e 0x12c 0xfa 0xc8 0x96 0x64 0x32 0x00 0xffffffce 0xffffff9c 0xffffff6a 0xffffff38>;
+---
+> 		battery,temp_table_adc = <0x6aa8 0x6ae7 0x6b25 0x6b63 0x6ba2 0x6be0 0x6c37 0x6c8e 0x6ce5 0x6d3c 0x6d93 0x6dea 0x6e41 0x6e98 0x6eef 0x6f46 0x6fa8 0x7009 0x706b 0x70cd 0x712e 0x7191 0x71f5 0x7258 0x72bb 0x731e 0x739a 0x7416 0x7492 0x750d 0x7589 0x760b 0x768d 0x770f 0x7791 0x7813 0x7860 0x78ad 0x78fa 0x7947 0x7993 0x7a62 0x7b30 0x7bff 0x7ccd 0x7d9b 0x7e37 0x7ed2 0x7f6d 0x8009 0x80a4 0x8146 0x81e9 0x828b 0x832d 0x83cf 0x8495 0x855b 0x8621 0x86e7 0x87ad 0x885b 0x8909 0x89b7 0x8a65 0x8b13 0x8bc4 0x8c74 0x8d25 0x8dd5 0x8e86 0x8f2b 0x8fd0 0x9075 0x911a 0x91bf 0x9267 0x930f 0x93b7 0x945f 0x9507 0x9597 0x9627 0x96b7 0x9747 0x97d7 0x9865 0x98f4 0x9982 0x9a11 0x9a9f 0x9b21 0x9ba2 0x9c24 0x9ca5 0x9d26 0x9d8c 0x9df1 0x9e57 0x9ebc 0x9f22>;
+> 		battery,temp_table_data = <0x320 0x316 0x30c 0x302 0x2f8 0x2ee 0x2e4 0x2da 0x2d0 0x2c6 0x2bc 0x2b2 0x2a8 0x29e 0x294 0x28a 0x280 0x276 0x26c 0x262 0x258 0x24e 0x244 0x23a 0x230 0x226 0x21c 0x212 0x208 0x1fe 0x1f4 0x1ea 0x1e0 0x1d6 0x1cc 0x1c2 0x1b8 0x1ae 0x1a4 0x19a 0x190 0x186 0x17c 0x172 0x168 0x15e 0x154 0x14a 0x140 0x136 0x12c 0x122 0x118 0x10e 0x104 0xfa 0xf0 0xe6 0xdc 0xd2 0xc8 0xbe 0xb4 0xaa 0xa0 0x96 0x8c 0x82 0x78 0x6e 0x64 0x5a 0x50 0x46 0x3c 0x32 0x28 0x1e 0x14 0x0a 0x00 0xfffffff6 0xffffffec 0xffffffe2 0xffffffd8 0xffffffce 0xffffffc4 0xffffffba 0xffffffb0 0xffffffa6 0xffffff9c 0xffffff92 0xffffff88 0xffffff7e 0xffffff74 0xffffff6a 0xffffff60 0xffffff56 0xffffff4c 0xffffff42 0xffffff38>;
+1127c1127
+< 		battery,temp_high_threshold_event = <0x230>;
+---
+> 		battery,temp_high_threshold_event = <0x226>;
+1129,1130c1129,1130
+< 		battery,temp_low_threshold_event = <0xffffffd8>;
+< 		battery,temp_low_recovery_event = <0x14>;
+---
+> 		battery,temp_low_threshold_event = <0xffffffd3>;
+> 		battery,temp_low_recovery_event = <0x00>;
+1133c1133
+< 		battery,temp_high_threshold_normal = <0x230>;
+---
+> 		battery,temp_high_threshold_normal = <0x226>;
+1135,1136c1135,1136
+< 		battery,temp_low_threshold_normal = <0xffffffd8>;
+< 		battery,temp_low_recovery_normal = <0x14>;
+---
+> 		battery,temp_low_threshold_normal = <0xffffffd3>;
+> 		battery,temp_low_recovery_normal = <0x00>;
+1139c1139
+< 		battery,temp_high_threshold_lpm = <0x230>;
+---
+> 		battery,temp_high_threshold_lpm = <0x226>;
+1141,1142c1141,1142
+< 		battery,temp_low_threshold_lpm = <0xffffffd8>;
+< 		battery,temp_low_recovery_lpm = <0x14>;
+---
+> 		battery,temp_low_threshold_lpm = <0xffffffd3>;
+> 		battery,temp_low_recovery_lpm = <0x00>;
+1145c1145
+< 		battery,full_check_count = <0x01>;
+---
+> 		battery,full_check_count = <0x03>;
+1154,1155c1154,1155
+< 		battery,recharge_condition_vcell = <0x10b8>;
+< 		battery,charging_total_time = <0x5460>;
+---
+> 		battery,recharge_condition_vcell = <0x10cc>;
+> 		battery,charging_total_time = <0x8ca0>;
+1163,1164c1163,1164
+< 		battery,swelling_low_chg_current = <0x79e>;
+< 		battery,swelling_full_check_current_2nd = <0xc8>;
+---
+> 		battery,swelling_low_chg_current = <0x834>;
+> 		battery,swelling_full_check_current_2nd = <0x12c>;
+1172,1173c1172,1173
+< 		qcom,sec-battery-vadc = <0x113>;
+< 		battery,age_data = <0x00 0x10fe 0x10b8 0x109a 0x5d 0xc8 0x10ea 0x10a4 0x1086 0x5c 0xfa 0x10d6 0x1090 0x1072 0x5b 0x12c 0x10c2 0x107c 0x105e 0x5a 0x3e8 0x1090 0x104a 0x102c 0x59>;
+---
+> 		qcom,sec-battery-vadc = <0x114>;
+> 		battery,age_data = <0x00 0x10fe 0x10cc 0x109a 0x5d 0xc8 0x10ea 0x10b8 0x1086 0x5c 0xfa 0x10d6 0x10a4 0x1072 0x5b 0x12c 0x10c2 0x1090 0x105e 0x5a 0x3e8 0x1090 0x105e 0x102c 0x59>;
+1182,1185c1182,1185
+< 			battery,input_current_limit = <0x6d6 0x1cc 0x1f4 0x6d6 0x1cc 0x384 0x3e8 0x1cc 0x1cc 0x3e8 0x334 0x6a4 0x6a4 0x1cc 0x514 0x12c 0x2bc 0x514 0x5dc 0x12c 0x50 0x384 0x5dc 0x3e8 0x3e8 0x672 0x672 0x672 0x578 0x384 0x334 0x334 0x384 0x3e8 0x3e8>;
+< 			battery,fast_charging_current = <0x834 0x00 0x1cc 0x834 0x1cc 0x4b0 0x3e8 0x1cc 0x00 0x4b0 0x3e8 0x834 0x834 0x00 0x514 0x12c 0x2bc 0x514 0x5dc 0x12c 0x50 0x4b0 0x5dc 0x3e8 0x3e8 0xabe 0x3e8 0xabe 0x578 0x4b0 0x3e8 0x3e8 0x4b0 0x00 0x3e8>;
+< 			battery,full_check_current_1st = <0xdc 0x00 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0x00 0xdc 0xdc 0xdc 0xdc 0x00 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0x00 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0xdc 0x00 0xdc>;
+< 			battery,full_check_current_2nd = <0x78 0x00 0x78 0x78 0x78 0x78 0x78 0x78 0x00 0x78 0x78 0x78 0x78 0x00 0x78 0x78 0x78 0x78 0x78 0x78 0x78 0x78 0x00 0x78 0x78 0x78 0x78 0x78 0x78 0x78 0x78 0x78 0x78 0x00 0x78>;
+---
+> 			battery,input_current_limit = <0x6d6 0x1f4 0x1f4 0x6d6 0x1cc 0x384 0x3e8 0x1cc 0x1cc 0x3e8 0x334 0x6a4 0x6a4 0x1cc 0x514 0x12c 0x2bc 0x514 0x5dc 0x12c 0x50 0x384 0x5dc 0x3e8 0x3e8 0x672 0x672 0x672 0x578 0x384 0x334 0x334 0x384 0x3e8 0x3e8>;
+> 			battery,fast_charging_current = <0x834 0x00 0x1f4 0x834 0x1cc 0x4b0 0x3e8 0x1cc 0x00 0x4b0 0x3e8 0x834 0x834 0x00 0x514 0x12c 0x2bc 0x514 0x5dc 0x12c 0x50 0x4b0 0x5dc 0x3e8 0x3e8 0xc4e 0x3e8 0xbb8 0x578 0x4b0 0x3e8 0x3e8 0x4b0 0x00 0x3e8>;
+> 			battery,full_check_current_1st = <0x12c 0x00 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x00 0x12c 0x12c 0x12c 0x12c 0x00 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x00 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x12c 0x00 0x12c>;
+> 			battery,full_check_current_2nd = <0xc8 0x00 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0x00 0xc8 0xc8 0xc8 0xc8 0x00 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0x00 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0xc8 0x00 0xc8>;
+1189c1189
+< 		battery,id = <0x00>;
+---
+> 		battery,id = <0xffffffff>;
+1191,1193c1191,1193
+< 		battery0,battery_table0 = <0x1400 0x1b24 0x1d1d 0x1d7f 0x1d8a 0x1de9 0x1e5a 0x1ebd 0x1f16 0x1fb4 0x1ff4 0x208f 0x20aa 0x2148 0x224c 0x2400>;
+< 		battery0,battery_table1 = <0x1400 0x1b24 0x1d1d 0x1d7f 0x1d8a 0x1de9 0x1e5a 0x1ebd 0x1f16 0x1fb4 0x1ff4 0x208f 0x20aa 0x2148 0x224c 0x2400>;
+< 		battery0,battery_table2 = <0x00 0x28 0x147 0x214 0x3ae 0x614 0xae1 0xee1 0x1147 0x13ae 0x1547 0x16e1 0x17ae 0x1a14 0x1d99 0x1da8>;
+---
+> 		battery0,battery_table0 = <0x1400 0x1b45 0x1cf6 0x1d75 0x1d8b 0x1def 0x1e48 0x1e9e 0x1f0d 0x1faa 0x1fdd 0x207e 0x20c5 0x2165 0x2268 0x2400>;
+> 		battery0,battery_table1 = <0x1400 0x1b45 0x1cf6 0x1d75 0x1d8b 0x1def 0x1e48 0x1e9e 0x1f0d 0x1faa 0x1fdd 0x207e 0x20c5 0x2165 0x2268 0x2400>;
+> 		battery0,battery_table2 = <0x00 0x48 0x1b0 0x2a1 0x5ae 0x934 0xf13 0x14f1 0x19a3 0x1d29 0x1f82 0x21db 0x2434 0x27ba 0x2ce4 0x2cfb>;
+1203,1205c1203,1205
+< 		battery0,tem_poff = <0xd48 0x32 0xd16 0x32>;
+< 		battery0,charge_offset_cal = <0x01>;
+< 		battery0,min_charge_curr = <0x12c>;
+---
+> 		battery0,tem_poff = <0xd7a 0x32 0xd16 0x32>;
+> 		battery0,charge_offset_cal = <0xfffffffe>;
+> 		battery0,min_charge_curr = <0x15e>;
+1207c1207
+< 		battery0,curr_cal = <0x7a85>;
+---
+> 		battery0,curr_cal = <0x7885>;
+1209,1211c1209,1211
+< 		battery0,v_alarm = <0xcb2>;
+< 		battery0,v_max_table = <0x224c 0x2225 0x21fe 0x21d7 0x2174>;
+< 		battery0,q_max_table = <0x1d99 0x1d13 0x1c8d 0x1c07 0x1ab8>;
+---
+> 		battery0,v_alarm = <0xc80>;
+> 		battery0,v_max_table = <0x2268 0x2241 0x221a 0x21f3 0x2191>;
+> 		battery0,q_max_table = <0x2ce4 0x2c20 0x2b5b 0x2a96 0x28aa>;
+1212a1213,1235
+> 		battery1,battery_type = <0x10fe>;
+> 		battery1,battery_table0 = <0x1400 0x1b45 0x1cf6 0x1d75 0x1d8b 0x1def 0x1e48 0x1e9e 0x1f0d 0x1faa 0x1fdd 0x207e 0x20c5 0x2165 0x2268 0x2400>;
+> 		battery1,battery_table1 = <0x1400 0x1b45 0x1cf6 0x1d75 0x1d8b 0x1def 0x1e48 0x1e9e 0x1f0d 0x1faa 0x1fdd 0x207e 0x20c5 0x2165 0x2268 0x2400>;
+> 		battery1,battery_table2 = <0x00 0x48 0x1b0 0x2a1 0x5ae 0x934 0xf13 0x14f1 0x19a3 0x1d29 0x1f82 0x21db 0x2434 0x27ba 0x2ce4 0x2cfb>;
+> 		battery1,temp_std = <0x19>;
+> 		battery1,temp_offset = <0x0a>;
+> 		battery1,temp_offset_cal = <0x01>;
+> 		battery1,rce_value = <0x749 0x580 0x371>;
+> 		battery1,dtcd_value = <0x01>;
+> 		battery1,rs_value = <0x1ae 0x47a 0x3800 0xa4>;
+> 		battery1,vit_period = <0x3506>;
+> 		battery1,mix_value = <0x503 0x04>;
+> 		battery1,topoff_soc = <0x00 0x05>;
+> 		battery1,tem_poff = <0xd48 0x32 0xd16 0x32>;
+> 		battery1,charge_offset_cal = <0x02>;
+> 		battery1,min_charge_curr = <0x15e>;
+> 		battery1,volt_cal = <0x809e>;
+> 		battery1,curr_cal = <0x7d85>;
+> 		battery1,ext_temp_cal = <0x00 0x0a 0x01 0x01 0x01 0x07 0x01 0x02>;
+> 		battery1,v_alarm = <0xc80>;
+> 		battery1,v_max_table = <0x2268 0x2241 0x221a 0x21f3 0x2191>;
+> 		battery1,q_max_table = <0x2ce4 0x2c20 0x2b5b 0x2a96 0x28aa>;
+> 		battery1,data_ver = <0x02>;
+1217,1219c1240,1242
+< 		qca,bt-vdd-pa-supply = <0x1b4>;
+< 		qca,bt-vdd-io-supply = <0xd7>;
+< 		qca,bt-vdd-ldo-supply = <0x122>;
+---
+> 		qca,bt-vdd-pa-supply = <0x1b3>;
+> 		qca,bt-vdd-io-supply = <0xd9>;
+> 		qca,bt-vdd-ldo-supply = <0x121>;
+1228,1229c1251,1252
+< 			linux,phandle = <0x1b4>;
+< 			phandle = <0x1b4>;
+---
+> 			linux,phandle = <0x1b3>;
+> 			phandle = <0x1b3>;
+1233,1234c1256,1257
+< 			linux,phandle = <0x16f>;
+< 			phandle = <0x16f>;
+---
+> 			linux,phandle = <0x16e>;
+> 			phandle = <0x16e>;
+1375,1376c1398,1399
+< 			linux,phandle = <0x89>;
+< 			phandle = <0x89>;
+---
+> 			linux,phandle = <0x8b>;
+> 			phandle = <0x8b>;
+1439c1462
+< 			pinctrl-0 = <0xb6>;
+---
+> 			pinctrl-0 = <0xb8>;
+1460,1461c1483,1484
+< 			linux,phandle = <0x8a>;
+< 			phandle = <0x8a>;
+---
+> 			linux,phandle = <0x8c>;
+> 			phandle = <0x8c>;
+1699c1722
+< 			coresight-child-list = <0xb3>;
+---
+> 			coresight-child-list = <0xb5>;
+1717,1718c1740,1741
+< 			linux,phandle = <0x16e>;
+< 			phandle = <0x16e>;
+---
+> 			linux,phandle = <0x16d>;
+> 			phandle = <0x16d>;
+1722c1745
+< 				target-dev = <0xcb>;
+---
+> 				target-dev = <0xcd>;
+1727c1750
+< 				target-dev = <0xca>;
+---
+> 				target-dev = <0xcc>;
+1732c1755
+< 				target-dev = <0xcc>;
+---
+> 				target-dev = <0xce>;
+1746c1769
+< 			clocks = <0x88 0x96854074>;
+---
+> 			clocks = <0x8a 0x96854074>;
+1773,1774c1796,1797
+< 			det-zones-list = <0x16e 0x00 0x2710 0x0a 0x02 0x16e 0x38f 0x2710 0x0a 0x02 0x16e 0x6a4 0x2710 0x0a 0x01 0x16e 0x270f 0x2710 0x0a 0x01>;
+< 			but-zones-list = <0x16f 0xe2 0x00 0xc5 0x16f 0x246 0xc6 0xf5 0x16f 0x73 0xf6 0x172 0x16f 0x72 0x173 0x30c>;
+---
+> 			det-zones-list = <0x16d 0x00 0x2710 0x0a 0x02 0x16d 0x378 0x2710 0x0a 0x02 0x16d 0x76c 0x2710 0x0a 0x01 0x16d 0x270f 0x2710 0x0a 0x01>;
+> 			but-zones-list = <0x16e 0xe2 0x00 0xc1 0x16e 0x246 0xc2 0xfa 0x16e 0x73 0xfb 0x179 0x16e 0x72 0x17a 0x2bc>;
+1776,1777c1799,1800
+< 			pinctrl-0 = <0x170 0x171>;
+< 			pinctrl-1 = <0x172 0x173>;
+---
+> 			pinctrl-0 = <0x16f 0x170>;
+> 			pinctrl-1 = <0x171 0x172>;
+1784c1807
+< 			gpio = <0x11b 0x00 0x00>;
+---
+> 			gpio = <0x11a 0x00 0x00>;
+1795c1818
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1809c1832
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1823c1846
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1837c1860
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1851c1874
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1865c1888
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1879c1902
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1893c1916
+< 			coresight-child-list = <0xb5>;
+---
+> 			coresight-child-list = <0xb7>;
+1899,1914d1921
+< 	firmware {
+< 		android {
+< 			compatible = "android,firmware";
+< 			fstab {
+< 				compatible = "android,fstab";
+< 				system {
+< 					compatible = "android,system";
+< 					dev = "/dev/block/platform/soc.0/7824900.sdhci/by-name/system";
+< 					type = "ext4";
+< 					mnt_flags = "ro,barrier=1,discard";
+< 					fsmgr_flags = "wait";
+< 					status = "ok";
+< 				};
+< 			};
+< 		};
+< 	};
+1923c1930
+< 			coresight-child-list = <0xb1>;
+---
+> 			coresight-child-list = <0xb3>;
+1927,1928c1934,1935
+< 			linux,phandle = <0xb2>;
+< 			phandle = <0xb2>;
+---
+> 			linux,phandle = <0xb4>;
+> 			phandle = <0xb4>;
+1938c1945
+< 			coresight-child-list = <0xb1>;
+---
+> 			coresight-child-list = <0xb3>;
+1942,1943c1949,1950
+< 			linux,phandle = <0xb3>;
+< 			phandle = <0xb3>;
+---
+> 			linux,phandle = <0xb5>;
+> 			phandle = <0xb5>;
+1953c1960
+< 			coresight-child-list = <0xb0>;
+---
+> 			coresight-child-list = <0xb2>;
+1957,1958c1964,1965
+< 			linux,phandle = <0xb1>;
+< 			phandle = <0xb1>;
+---
+> 			linux,phandle = <0xb3>;
+> 			phandle = <0xb3>;
+1968c1975
+< 			coresight-child-list = <0xb2>;
+---
+> 			coresight-child-list = <0xb4>;
+1972,1973c1979,1980
+< 			linux,phandle = <0x4e>;
+< 			phandle = <0x4e>;
+---
+> 			linux,phandle = <0x50>;
+> 			phandle = <0x50>;
+1983c1990
+< 			coresight-child-list = <0xb4>;
+---
+> 			coresight-child-list = <0xb6>;
+1987,1988c1994,1995
+< 			linux,phandle = <0xb5>;
+< 			phandle = <0xb5>;
+---
+> 			linux,phandle = <0xb7>;
+> 			phandle = <0xb7>;
+1998c2005
+< 			coresight-child-list = <0xb3>;
+---
+> 			coresight-child-list = <0xb5>;
+2002,2003c2009,2010
+< 			linux,phandle = <0xb4>;
+< 			phandle = <0xb4>;
+---
+> 			linux,phandle = <0xb6>;
+> 			phandle = <0xb6>;
+2017,2018c2024,2025
+< 			pinctrl-0 = <0x16c>;
+< 			pinctrl-1 = <0x16d>;
+---
+> 			pinctrl-0 = <0x16b>;
+> 			pinctrl-1 = <0x16c>;
+2064c2071
+< 				pinctrl-0 = <0x14f 0x150>;
+---
+> 				pinctrl-0 = <0x14e 0x14f>;
+2069c2076
+< 				fuelgauge,capacity_max_margin = <0x46>;
+---
+> 				fuelgauge,capacity_max_margin = <0x3c>;
+2072c2079
+< 				qcom,sm5703-fuelgauge-vadc = <0x113>;
+---
+> 				qcom,sm5703-fuelgauge-vadc = <0x114>;
+2088,2089c2095,2096
+< 				pinctrl-0 = <0x151 0x152 0x153>;
+< 				pinctrl-1 = <0x154 0x155 0x156>;
+---
+> 				pinctrl-0 = <0x150 0x151 0x152>;
+> 				pinctrl-1 = <0x153 0x154 0x155>;
+2092,2093c2099,2100
+< 				realtek,in3-differential = "true";
+< 				realtek,in4-differential = "true";
+---
+> 				realtek,in3-differential;
+> 				realtek,in4-differential;
+2095,2097c2102,2104
+< 				realtek,gpio_ldo = <0x11b 0x07 0x00>;
+< 				regulator-1v8-supply = <0xd7>;
+< 				regulator-3v3-supply = <0x102>;
+---
+> 				realtek,gpio_ldo = <0x11a 0x07 0x00>;
+> 				regulator-1v8-supply = <0xd9>;
+> 				regulator-3v3-supply = <0x103>;
+2100,2101c2107,2108
+< 				linux,phandle = <0x1a7>;
+< 				phandle = <0x1a7>;
+---
+> 				linux,phandle = <0x1a6>;
+> 				phandle = <0x1a6>;
+2122,2124c2129,2131
+< 				pinctrl-0 = <0x148 0x149 0x14a>;
+< 				pinctrl-1 = <0x14b 0x149 0x14a>;
+< 				pinctrl-2 = <0x14c 0x149 0x14a>;
+---
+> 				pinctrl-0 = <0x147 0x148 0x149>;
+> 				pinctrl-1 = <0x14a 0x148 0x149>;
+> 				pinctrl-2 = <0x14b 0x148 0x149>;
+2132c2139
+< 				pinctrl-0 = <0x14d>;
+---
+> 				pinctrl-0 = <0x14c>;
+2193,2206d2199
+< 		i2c@14 {
+< 			cell-index = <0x0e>;
+< 			compatible = "i2c-gpio";
+< 			gpios = <0x33 0x30 0x00 0x33 0x40 0x00>;
+< 			i2c-gpio,delay-us = <0x02>;
+< 			#address-cells = <0x01>;
+< 			#size-cells = <0x00>;
+< 			pinctrl-names = "default";
+< 			pinctrl-0 = <0x157>;
+< 			cm3323@10 {
+< 				compatible = "light_sensor,cm3323";
+< 				reg = <0x10>;
+< 			};
+< 		};
+2220,2221c2213,2214
+< 				pinctrl-0 = <0x1a8 0x1a9>;
+< 				pinctrl-1 = <0x1aa 0x1ab>;
+---
+> 				pinctrl-0 = <0x1a7 0x1a8>;
+> 				pinctrl-1 = <0x1a9 0x1aa>;
+2226c2219
+< 				coreriver,fw_name = "coreriver/tc350k_gts28.fw";
+---
+> 				coreriver,fw_name = "coreriver/tc350k_gts210_swap.fw";
+2246,2247c2239,2240
+< 			pinctrl-0 = <0xf6>;
+< 			pinctrl-1 = <0xf7>;
+---
+> 			pinctrl-0 = <0xf7>;
+> 			pinctrl-1 = <0xf8>;
+2251c2244
+< 			dmas = <0xf8 0x06 0x40 0x20000020 0x20 0xf8 0x07 0x20 0x20000020 0x20>;
+---
+> 			dmas = <0xf9 0x06 0x40 0x20000020 0x20 0xf9 0x07 0x20 0x20000020 0x20>;
+2267,2268c2260,2261
+< 			pinctrl-0 = <0x15a>;
+< 			pinctrl-1 = <0x15b>;
+---
+> 			pinctrl-0 = <0x159>;
+> 			pinctrl-1 = <0x15a>;
+2272c2265
+< 			dmas = <0xf8 0x08 0x40 0x20000020 0x20 0xf8 0x09 0x20 0x20000020 0x20>;
+---
+> 			dmas = <0xf9 0x08 0x40 0x20000020 0x20 0xf9 0x09 0x20 0x20000020 0x20>;
+2280,2281c2273,2274
+< 				linux,phandle = <0x131>;
+< 				phandle = <0x131>;
+---
+> 				linux,phandle = <0x130>;
+> 				phandle = <0x130>;
+2290c2283
+< 				cam_vio-supply = <0x134>;
+---
+> 				cam_vio-supply = <0x133>;
+2327,2328c2320,2321
+< 				linux,phandle = <0x132>;
+< 				phandle = <0x132>;
+---
+> 				linux,phandle = <0x131>;
+> 				phandle = <0x131>;
+2336,2337c2329,2330
+< 				pinctrl-0 = <0x15c 0x15d 0x15e>;
+< 				pinctrl-1 = <0x15f 0x160 0x161>;
+---
+> 				pinctrl-0 = <0x15b 0x15c 0x15d>;
+> 				pinctrl-1 = <0x15e 0x15f 0x160>;
+2342c2335
+< 				qcom,clk-gpio = <0x11b 0x05 0x00>;
+---
+> 				qcom,clk-gpio = <0x11a 0x05 0x00>;
+2361,2362c2354,2355
+< 			pinctrl-0 = <0x162>;
+< 			pinctrl-1 = <0x163>;
+---
+> 			pinctrl-0 = <0x161>;
+> 			pinctrl-1 = <0x162>;
+2366c2359
+< 			dmas = <0xfb 0x04 0x40 0x20000020 0x20 0xfb 0x05 0x20 0x20000020 0x20>;
+---
+> 			dmas = <0xfc 0x04 0x40 0x20000020 0x20 0xfc 0x05 0x20 0x20000020 0x20>;
+2376c2369
+< 				st,orientation = <0x01 0x02 0x01 0x02 0x01 0x01 0x01 0x01 0x00>;
+---
+> 				st,orientation = <0x01 0x00 0x01 0x00 0x01 0x01 0x01 0x01 0x00>;
+2381c2374
+< 				yas,orientation = <0x07>;
+---
+> 				yas,orientation = <0x02>;
+2399,2400c2392,2393
+< 			pinctrl-0 = <0xf9>;
+< 			pinctrl-1 = <0xfa>;
+---
+> 			pinctrl-0 = <0xfa>;
+> 			pinctrl-1 = <0xfb>;
+2404c2397
+< 			dmas = <0xfb 0x06 0x40 0x20000020 0x20 0xfb 0x07 0x20 0x20000020 0x20>;
+---
+> 			dmas = <0xfc 0x06 0x40 0x20000020 0x20 0xfc 0x07 0x20 0x20000020 0x20>;
+2421,2422c2414,2415
+< 			pinctrl-0 = <0x164>;
+< 			pinctrl-1 = <0x165>;
+---
+> 			pinctrl-0 = <0x163>;
+> 			pinctrl-1 = <0x164>;
+2426c2419
+< 			dmas = <0xfb 0x08 0x40 0x20000020 0x20 0xfb 0x09 0x20 0x20000020 0x20>;
+---
+> 			dmas = <0xfc 0x08 0x40 0x20000020 0x20 0xfc 0x09 0x20 0x20000020 0x20>;
+2432,2433c2425,2426
+< 				pinctrl-0 = <0x166 0x167 0x168>;
+< 				pinctrl-1 = <0x169 0x16a 0x16b>;
+---
+> 				pinctrl-0 = <0x165 0x166 0x167>;
+> 				pinctrl-1 = <0x168 0x169 0x16a>;
+2440,2442c2433,2434
+< 				synaptics,project_name = "GTS28", "T713";
+< 				synaptics,firmware_name = "tsp_synaptics/synaptics_5806_gts28.fw";
+< 				synaptics,factory_firmware_name = "tsp_synaptics/synaptics_factory_5806_gts28.fw";
+---
+> 				synaptics,project_name = "GTS210", "T813";
+> 				synaptics,firmware_name = "tsp_synaptics/synaptics_5807_gts210.fw";
+2458,2459c2450,2451
+< 			pinctrl-0 = <0xfc>;
+< 			pinctrl-1 = <0xfd>;
+---
+> 			pinctrl-0 = <0xfd>;
+> 			pinctrl-1 = <0xfe>;
+2463c2455
+< 			dmas = <0xfb 0x0a 0x40 0x20000020 0x20 0xfb 0x0b 0x20 0x20000020 0x20>;
+---
+> 			dmas = <0xfc 0x0a 0x40 0x20000020 0x20 0xfc 0x0b 0x20 0x20000020 0x20>;
+2465a2458,2471
+> 		i2c_14@14 {
+> 			cell-index = <0x0e>;
+> 			compatible = "i2c-gpio";
+> 			gpios = <0x33 0x8d 0x00 0x33 0x8b 0x00>;
+> 			i2c-gpio,delay-us = <0x02>;
+> 			#address-cells = <0x01>;
+> 			#size-cells = <0x00>;
+> 			pinctrl-names = "default";
+> 			pinctrl-0 = <0x156>;
+> 			cs5032@1c {
+> 				compatible = "cs5032";
+> 				reg = <0x1c>;
+> 			};
+> 		};
+2474c2480
+< 			pinctrl-0 = <0x158>;
+---
+> 			pinctrl-0 = <0x157>;
+2479c2485
+< 				pinctrl-0 = <0x159>;
+---
+> 				pinctrl-0 = <0x158>;
+2484,2486c2490,2493
+< 				sx9310,cable_norm_th = <0xe8>;
+< 				sx9310,ctrl3 = <0x02>;
+< 				sx9310,ctrl7 = <0x4b>;
+---
+> 				sx9310,cable_norm_th = <0xc0>;
+> 				sx9310,ctrl0 = <0x70>;
+> 				sx9310,ctrl3 = <0x03>;
+> 				sx9310,ctrl7 = <0x4a>;
+2698,2699c2705,2706
+< 			linux,phandle = <0x126>;
+< 			phandle = <0x126>;
+---
+> 			linux,phandle = <0x125>;
+> 			phandle = <0x125>;
+2711,2712c2718,2719
+< 			linux,phandle = <0x11c>;
+< 			phandle = <0x11c>;
+---
+> 			linux,phandle = <0x11b>;
+> 			phandle = <0x11b>;
+2726,2727c2733,2734
+< 			linux,phandle = <0x120>;
+< 			phandle = <0x120>;
+---
+> 			linux,phandle = <0x11f>;
+> 			phandle = <0x11f>;
+2760,2761c2767,2768
+< 			linux,phandle = <0x112>;
+< 			phandle = <0x112>;
+---
+> 			linux,phandle = <0x113>;
+> 			phandle = <0x113>;
+2792,2793c2799,2800
+< 			linux,phandle = <0x10f>;
+< 			phandle = <0x10f>;
+---
+> 			linux,phandle = <0x110>;
+> 			phandle = <0x110>;
+2802c2809
+< 			coresight-child-list = <0xb3>;
+---
+> 			coresight-child-list = <0xb5>;
+2812c2819
+< 			coresight-child-list = <0xb2>;
+---
+> 			coresight-child-list = <0xb4>;
+2818c2825
+< 		muic,support-list = "+OTG:GND", "-MHL:1K", "-VZW Accessory:28.7K", "-VZW Incompatible:34K", "-Smartdock:40.2K", "-HMT:49.9K", "-Audiodock:64.9K", "+USB LANHUB:80.07K", "-Charging Cable:102K", "+Universal Multimedia dock:121K", "+Jig USB Off:255K", "+Jig USB On:301K", "+Deskdock:365K", "+TYPE2 Charger:442K", "+Jig UART Off:523K", "+Jig UART On:619K", "+TA:OPEN", "+USB:OPEN", "+CDP:OPEN", "+Undefined Charging:XXX";
+---
+> 		muic,support-list = "+OTG:GND", "-MHL:1K", "-VZW Accessory:28.7K", "-VZW Incompatible:34K", "-Smartdock:40.2K", "-HMT:49.9K", "-Audiodock:64.9K", "+USB LANHUB:80.07K", "+Charging Cable:102K", "+Universal Multimedia dock:121K", "+Jig USB Off:255K", "+Jig USB On:301K", "+Deskdock:365K", "+TYPE2 Charger:442K", "+Jig UART Off:523K", "+Jig UART On:619K", "+TA:OPEN", "+USB:OPEN", "+CDP:OPEN", "+Undefined Charging:XXX";
+2822c2829
+< 		mux_sel,mux_sel_1_en = <0x01>;
+---
+> 		mux_sel,mux_sel_1_en;
+2828c2835
+< 		mux_sel,mux_sel_2_en = <0x01>;
+---
+> 		mux_sel,mux_sel_2_en;
+2858c2865
+< 			linux,contiguous-region = <0x11c>;
+---
+> 			linux,contiguous-region = <0x11b>;
+2910c2917
+< 				qcom,thermal-handle = <0xd4>;
+---
+> 				qcom,thermal-handle = <0xd6>;
+2917c2924
+< 				iommus = <0x12a 0x400 0x12a 0x3400>;
+---
+> 				iommus = <0x129 0x400 0x129 0x3400>;
+2927c2934
+< 				iommus = <0x12a 0x2000>;
+---
+> 				iommus = <0x129 0x2000>;
+2932c2939
+< 				iommus = <0x12a 0x1c00>;
+---
+> 				iommus = <0x129 0x1c00>;
+2938c2945
+< 			clocks = <0x88 0x61a2945f>;
+---
+> 			clocks = <0x8a 0x61a2945f>;
+2941,2942c2948,2949
+< 			linux,phandle = <0x106>;
+< 			phandle = <0x106>;
+---
+> 			linux,phandle = <0x107>;
+> 			phandle = <0x107>;
+2947c2954
+< 			clocks = <0x88 0x96854074>;
+---
+> 			clocks = <0x8a 0x96854074>;
+2950,2951c2957,2958
+< 			linux,phandle = <0xcb>;
+< 			phandle = <0xcb>;
+---
+> 			linux,phandle = <0xcd>;
+> 			phandle = <0xcd>;
+2966,2967c2973,2974
+< 			pinctrl-0 = <0x12d 0x12e>;
+< 			pinctrl-1 = <0x12f 0x130>;
+---
+> 			pinctrl-0 = <0x12c 0x12d>;
+> 			pinctrl-1 = <0x12e 0x12f>;
+2979,2980c2986,2987
+< 				qcom,actuator-src = <0x131>;
+< 				qcom,eeprom-src = <0x132>;
+---
+> 				qcom,actuator-src = <0x130>;
+> 				qcom,eeprom-src = <0x131>;
+2982,2983c2989,2990
+< 				cam_vdig-supply = <0x133>;
+< 				cam_vio-supply = <0x134>;
+---
+> 				cam_vdig-supply = <0x132>;
+> 				cam_vio-supply = <0x133>;
+2990,2991c2997,2998
+< 				pinctrl-0 = <0x135 0x136>;
+< 				pinctrl-1 = <0x137 0x138>;
+---
+> 				pinctrl-0 = <0x134 0x135>;
+> 				pinctrl-1 = <0x136 0x137>;
+3019c3026
+< 				cam_vio-supply = <0x134>;
+---
+> 				cam_vio-supply = <0x133>;
+3026,3027c3033,3034
+< 				pinctrl-0 = <0x139 0x13a 0x13b 0x13c>;
+< 				pinctrl-1 = <0x13d 0x13e 0x13f 0x140>;
+---
+> 				pinctrl-0 = <0x138 0x139 0x13a 0x13b>;
+> 				pinctrl-1 = <0x13c 0x13d 0x13e 0x13f>;
+3106,3107c3113,3114
+< 			vdd-wlan-supply = <0x121>;
+< 			vdd-wlan-io-supply = <0xd7>;
+---
+> 			vdd-wlan-supply = <0x120>;
+> 			vdd-wlan-io-supply = <0xd9>;
+3115c3122
+< 			vdd-wlan1p1-supply = <0x122>;
+---
+> 			vdd-wlan1p1-supply = <0x121>;
+3124c3131
+< 			vdd-supply = <0x12c>;
+---
+> 			vdd-supply = <0x12b>;
+3145c3152
+< 			qcom,target-dev = <0xca>;
+---
+> 			qcom,target-dev = <0xcc>;
+3160,3165c3167,3172
+< 			vdd_mx_hf-supply = <0xc6>;
+< 			vdd_hf_pll-supply = <0xc7>;
+< 			vdd_mx_sr-supply = <0xc6>;
+< 			vdd_a72-supply = <0xc8>;
+< 			vdd_a53-supply = <0xc9>;
+< 			vdd_cci-supply = <0xc9>;
+---
+> 			vdd_mx_hf-supply = <0xc8>;
+> 			vdd_hf_pll-supply = <0xc9>;
+> 			vdd_mx_sr-supply = <0xc8>;
+> 			vdd_a72-supply = <0xca>;
+> 			vdd_a53-supply = <0xcb>;
+> 			vdd_cci-supply = <0xcb>;
+3173,3174c3180,3181
+< 			linux,phandle = <0x88>;
+< 			phandle = <0x88>;
+---
+> 			linux,phandle = <0x8a>;
+> 			phandle = <0x8a>;
+3191,3192c3198,3199
+< 			linux,phandle = <0xca>;
+< 			phandle = <0xca>;
+---
+> 			linux,phandle = <0xcc>;
+> 			phandle = <0xcc>;
+3263c3270
+< 			vdd_dig-supply = <0xc1>;
+---
+> 			vdd_dig-supply = <0xc3>;
+3272,3273c3279,3280
+< 			vdd_gfx-supply = <0xc2>;
+< 			gpu_handle = <0xc3>;
+---
+> 			vdd_gfx-supply = <0xc4>;
+> 			gpu_handle = <0xc5>;
+3283c3290
+< 			clocks = <0xc4 0x5767c287 0xc4 0x44539836 0xc5 0xce233fcf 0xc5 0x73e88d02>;
+---
+> 			clocks = <0xc6 0x5767c287 0xc6 0x44539836 0xc7 0xce233fcf 0xc7 0x73e88d02>;
+3296,3297c3303,3304
+< 			linux,phandle = <0x109>;
+< 			phandle = <0x109>;
+---
+> 			linux,phandle = <0x10a>;
+> 			phandle = <0x10a>;
+3307,3308c3314,3315
+< 			linux,phandle = <0x10a>;
+< 			phandle = <0x10a>;
+---
+> 			linux,phandle = <0x10b>;
+> 			phandle = <0x10b>;
+3335,3336c3342,3343
+< 			linux,phandle = <0x12b>;
+< 			phandle = <0x12b>;
+---
+> 			linux,phandle = <0x12a>;
+> 			phandle = <0x12a>;
+3345,3346c3352,3353
+< 			linux,phandle = <0x128>;
+< 			phandle = <0x128>;
+---
+> 			linux,phandle = <0x127>;
+> 			phandle = <0x127>;
+3355,3356c3362,3363
+< 			linux,phandle = <0x129>;
+< 			phandle = <0x129>;
+---
+> 			linux,phandle = <0x128>;
+> 			phandle = <0x128>;
+3365,3366c3372,3373
+< 			linux,phandle = <0x12c>;
+< 			phandle = <0x12c>;
+---
+> 			linux,phandle = <0x12b>;
+> 			phandle = <0x12b>;
+3377,3379c3384,3386
+< 			parent-supply = <0xc2>;
+< 			linux,phandle = <0xbb>;
+< 			phandle = <0xbb>;
+---
+> 			parent-supply = <0xc4>;
+> 			linux,phandle = <0xbd>;
+> 			phandle = <0xbd>;
+3388,3389c3395,3396
+< 			linux,phandle = <0xba>;
+< 			phandle = <0xba>;
+---
+> 			linux,phandle = <0xbc>;
+> 			phandle = <0xbc>;
+3397,3398c3404,3405
+< 			linux,phandle = <0xb9>;
+< 			phandle = <0xb9>;
+---
+> 			linux,phandle = <0xbb>;
+> 			phandle = <0xbb>;
+3470,3471c3477,3478
+< 			vfe0-vdd-supply = <0x128>;
+< 			vfe1-vdd-supply = <0x129>;
+---
+> 			vfe0-vdd-supply = <0x127>;
+> 			vfe1-vdd-supply = <0x128>;
+3483c3490
+< 			vdd-supply = <0x12b>;
+---
+> 			vdd-supply = <0x12a>;
+3508c3515
+< 			qcom,gpubw-dev = <0xb9>;
+---
+> 			qcom,gpubw-dev = <0xbb>;
+3515,3517c3522,3524
+< 			vddcx-supply = <0xba>;
+< 			vdd-supply = <0xbb>;
+< 			iommu = <0xbc>;
+---
+> 			vddcx-supply = <0xbc>;
+> 			vdd-supply = <0xbd>;
+> 			iommu = <0xbe>;
+3522c3529
+< 			coresight-child-list = <0xb2>;
+---
+> 			coresight-child-list = <0xb4>;
+3528,3529c3535,3536
+< 			linux,phandle = <0xc3>;
+< 			phandle = <0xc3>;
+---
+> 			linux,phandle = <0xc5>;
+> 			phandle = <0xc5>;
+3658c3665
+< 			qcom,temperature-sensor = <0xcd>;
+---
+> 			qcom,temperature-sensor = <0xcf>;
+3666c3673
+< 			qcom,temperature-sensor = <0xce>;
+---
+> 			qcom,temperature-sensor = <0xd0>;
+3674c3681
+< 			qcom,temperature-sensor = <0xcf>;
+---
+> 			qcom,temperature-sensor = <0xd1>;
+3682c3689
+< 			qcom,temperature-sensor = <0xd0>;
+---
+> 			qcom,temperature-sensor = <0xd2>;
+3690c3697
+< 			qcom,temperature-sensor = <0xd1>;
+---
+> 			qcom,temperature-sensor = <0xd3>;
+3707c3714
+< 			vdd_cx-supply = <0xc1>;
+---
+> 			vdd_cx-supply = <0xc3>;
+3720,3725c3727,3732
+< 			qcom,gpio-err-fatal = <0x110 0x00 0x00>;
+< 			qcom,gpio-proxy-unvote = <0x110 0x02 0x00>;
+< 			qcom,gpio-err-ready = <0x110 0x01 0x00>;
+< 			qcom,gpio-stop-ack = <0x110 0x03 0x00>;
+< 			qcom,gpio-force-stop = <0x111 0x00 0x00>;
+< 			linux,contiguous-region = <0x112>;
+---
+> 			qcom,gpio-err-fatal = <0x111 0x00 0x00>;
+> 			qcom,gpio-proxy-unvote = <0x111 0x02 0x00>;
+> 			qcom,gpio-err-ready = <0x111 0x01 0x00>;
+> 			qcom,gpio-stop-ack = <0x111 0x03 0x00>;
+> 			qcom,gpio-force-stop = <0x112 0x00 0x00>;
+> 			linux,contiguous-region = <0x113>;
+3934,3935c3941,3942
+< 			linux,phandle = <0xc4>;
+< 			phandle = <0xc4>;
+---
+> 			linux,phandle = <0xc6>;
+> 			phandle = <0xc6>;
+3964,3965c3971,3972
+< 			linux,phandle = <0xc5>;
+< 			phandle = <0xc5>;
+---
+> 			linux,phandle = <0xc7>;
+> 			phandle = <0xc7>;
+4008,4009c4015,4016
+< 			linux,phandle = <0xcc>;
+< 			phandle = <0xcc>;
+---
+> 			linux,phandle = <0xce>;
+> 			phandle = <0xce>;
+4045,4046c4052,4053
+< 			linux,phandle = <0x182>;
+< 			phandle = <0x182>;
+---
+> 			linux,phandle = <0x181>;
+> 			phandle = <0x181>;
+4056c4063
+< 					qcom,sensor = <0xcd>;
+---
+> 					qcom,sensor = <0xcf>;
+4060c4067
+< 					qcom,sensor = <0xcd>;
+---
+> 					qcom,sensor = <0xcf>;
+4064c4071
+< 					qcom,sensor = <0xcd>;
+---
+> 					qcom,sensor = <0xcf>;
+4068c4075
+< 					qcom,sensor = <0xcd>;
+---
+> 					qcom,sensor = <0xcf>;
+4072c4079
+< 					qcom,sensor = <0xce>;
+---
+> 					qcom,sensor = <0xd0>;
+4076c4083
+< 					qcom,sensor = <0xcf>;
+---
+> 					qcom,sensor = <0xd1>;
+4080c4087
+< 					qcom,sensor = <0xd0>;
+---
+> 					qcom,sensor = <0xd2>;
+4084c4091
+< 					qcom,sensor = <0xd1>;
+---
+> 					qcom,sensor = <0xd3>;
+4095c4102
+< 			clocks = <0x88 0x96854074 0x88 0x5c9f8836 0x88 0x5c9f8836 0x88 0x5c9f8836 0x88 0x5c9f8836 0x88 0x57f8e534 0x88 0x57f8e534 0x88 0x57f8e534 0x88 0x57f8e534>;
+---
+> 			clocks = <0x8a 0x96854074 0x8a 0x5c9f8836 0x8a 0x5c9f8836 0x8a 0x5c9f8836 0x8a 0x5c9f8836 0x8a 0x57f8e534 0x8a 0x57f8e534 0x8a 0x57f8e534 0x8a 0x57f8e534>;
+4115,4116c4122,4123
+< 				linux,phandle = <0x18c>;
+< 				phandle = <0x18c>;
+---
+> 				linux,phandle = <0x18b>;
+> 				phandle = <0x18b>;
+4123,4124c4130,4131
+< 				linux,phandle = <0x18f>;
+< 				phandle = <0x18f>;
+---
+> 				linux,phandle = <0x18e>;
+> 				phandle = <0x18e>;
+4131,4132c4138,4139
+< 				linux,phandle = <0x190>;
+< 				phandle = <0x190>;
+---
+> 				linux,phandle = <0x18f>;
+> 				phandle = <0x18f>;
+4139,4140c4146,4147
+< 				linux,phandle = <0x18d>;
+< 				phandle = <0x18d>;
+---
+> 				linux,phandle = <0x18c>;
+> 				phandle = <0x18c>;
+4147,4148c4154,4155
+< 				linux,phandle = <0x191>;
+< 				phandle = <0x191>;
+---
+> 				linux,phandle = <0x190>;
+> 				phandle = <0x190>;
+4155,4156c4162,4163
+< 				linux,phandle = <0x18e>;
+< 				phandle = <0x18e>;
+---
+> 				linux,phandle = <0x18d>;
+> 				phandle = <0x18d>;
+4164,4165c4171,4172
+< 				linux,phandle = <0x1a0>;
+< 				phandle = <0x1a0>;
+---
+> 				linux,phandle = <0x19f>;
+> 				phandle = <0x19f>;
+4170,4171c4177,4178
+< 				linux,phandle = <0x1a1>;
+< 				phandle = <0x1a1>;
+---
+> 				linux,phandle = <0x1a0>;
+> 				phandle = <0x1a0>;
+4176,4177c4183,4184
+< 				linux,phandle = <0x19e>;
+< 				phandle = <0x19e>;
+---
+> 				linux,phandle = <0x19d>;
+> 				phandle = <0x19d>;
+4182,4183c4189,4190
+< 				linux,phandle = <0x19f>;
+< 				phandle = <0x19f>;
+---
+> 				linux,phandle = <0x19e>;
+> 				phandle = <0x19e>;
+4188,4189c4195,4196
+< 				linux,phandle = <0x19a>;
+< 				phandle = <0x19a>;
+---
+> 				linux,phandle = <0x199>;
+> 				phandle = <0x199>;
+4194,4195c4201,4202
+< 				linux,phandle = <0x19b>;
+< 				phandle = <0x19b>;
+---
+> 				linux,phandle = <0x19a>;
+> 				phandle = <0x19a>;
+4200,4201c4207,4208
+< 				linux,phandle = <0x1a5>;
+< 				phandle = <0x1a5>;
+---
+> 				linux,phandle = <0x1a4>;
+> 				phandle = <0x1a4>;
+4206,4207c4213,4214
+< 				linux,phandle = <0x1a4>;
+< 				phandle = <0x1a4>;
+---
+> 				linux,phandle = <0x1a3>;
+> 				phandle = <0x1a3>;
+4212,4213c4219,4220
+< 				linux,phandle = <0x1a2>;
+< 				phandle = <0x1a2>;
+---
+> 				linux,phandle = <0x1a1>;
+> 				phandle = <0x1a1>;
+4218,4219c4225,4226
+< 				linux,phandle = <0x1a3>;
+< 				phandle = <0x1a3>;
+---
+> 				linux,phandle = <0x1a2>;
+> 				phandle = <0x1a2>;
+4224,4225c4231,4232
+< 				linux,phandle = <0x19c>;
+< 				phandle = <0x19c>;
+---
+> 				linux,phandle = <0x19b>;
+> 				phandle = <0x19b>;
+4230,4231c4237,4238
+< 				linux,phandle = <0x19d>;
+< 				phandle = <0x19d>;
+---
+> 				linux,phandle = <0x19c>;
+> 				phandle = <0x19c>;
+4236,4237c4243,4244
+< 				linux,phandle = <0x192>;
+< 				phandle = <0x192>;
+---
+> 				linux,phandle = <0x191>;
+> 				phandle = <0x191>;
+4242,4243c4249,4250
+< 				linux,phandle = <0x193>;
+< 				phandle = <0x193>;
+---
+> 				linux,phandle = <0x192>;
+> 				phandle = <0x192>;
+4248,4249c4255,4256
+< 				linux,phandle = <0x194>;
+< 				phandle = <0x194>;
+---
+> 				linux,phandle = <0x193>;
+> 				phandle = <0x193>;
+4254,4255c4261,4262
+< 				linux,phandle = <0x195>;
+< 				phandle = <0x195>;
+---
+> 				linux,phandle = <0x194>;
+> 				phandle = <0x194>;
+4268,4269c4275,4276
+< 				linux,phandle = <0x196>;
+< 				phandle = <0x196>;
+---
+> 				linux,phandle = <0x195>;
+> 				phandle = <0x195>;
+4274,4275c4281,4282
+< 				linux,phandle = <0x197>;
+< 				phandle = <0x197>;
+---
+> 				linux,phandle = <0x196>;
+> 				phandle = <0x196>;
+4280,4281c4287,4288
+< 				linux,phandle = <0x198>;
+< 				phandle = <0x198>;
+---
+> 				linux,phandle = <0x197>;
+> 				phandle = <0x197>;
+4286,4287c4293,4294
+< 				linux,phandle = <0x199>;
+< 				phandle = <0x199>;
+---
+> 				linux,phandle = <0x198>;
+> 				phandle = <0x198>;
+4301,4302c4308,4309
+< 			linux,phandle = <0x18b>;
+< 			phandle = <0x18b>;
+---
+> 			linux,phandle = <0x18a>;
+> 			phandle = <0x18a>;
+4343,4344c4350,4351
+< 			linux,phandle = <0x185>;
+< 			phandle = <0x185>;
+---
+> 			linux,phandle = <0x184>;
+> 			phandle = <0x184>;
+4352,4353c4359,4360
+< 			linux,phandle = <0x17c>;
+< 			phandle = <0x17c>;
+---
+> 			linux,phandle = <0x17b>;
+> 			phandle = <0x17b>;
+4357,4358c4364,4365
+< 			linux,phandle = <0x184>;
+< 			phandle = <0x184>;
+---
+> 			linux,phandle = <0x183>;
+> 			phandle = <0x183>;
+4362,4363c4369,4370
+< 			linux,phandle = <0x183>;
+< 			phandle = <0x183>;
+---
+> 			linux,phandle = <0x182>;
+> 			phandle = <0x182>;
+4367,4368c4374,4375
+< 			linux,phandle = <0x181>;
+< 			phandle = <0x181>;
+---
+> 			linux,phandle = <0x180>;
+> 			phandle = <0x180>;
+4375,4376c4382,4383
+< 			linux,phandle = <0x17d>;
+< 			phandle = <0x17d>;
+---
+> 			linux,phandle = <0x17c>;
+> 			phandle = <0x17c>;
+4380,4381c4387,4388
+< 			linux,phandle = <0x187>;
+< 			phandle = <0x187>;
+---
+> 			linux,phandle = <0x186>;
+> 			phandle = <0x186>;
+4385,4386c4392,4393
+< 			linux,phandle = <0x186>;
+< 			phandle = <0x186>;
+---
+> 			linux,phandle = <0x185>;
+> 			phandle = <0x185>;
+4392,4393c4399,4400
+< 			linux,phandle = <0x180>;
+< 			phandle = <0x180>;
+---
+> 			linux,phandle = <0x17f>;
+> 			phandle = <0x17f>;
+4406,4407c4413,4414
+< 			linux,phandle = <0x189>;
+< 			phandle = <0x189>;
+---
+> 			linux,phandle = <0x188>;
+> 			phandle = <0x188>;
+4424,4425c4431,4432
+< 			linux,phandle = <0x18a>;
+< 			phandle = <0x18a>;
+---
+> 			linux,phandle = <0x189>;
+> 			phandle = <0x189>;
+4432,4433c4439,4440
+< 			linux,phandle = <0x1a6>;
+< 			phandle = <0x1a6>;
+---
+> 			linux,phandle = <0x1a5>;
+> 			phandle = <0x1a5>;
+4461c4468
+< 			vdd-mx-supply = <0xd2>;
+---
+> 			vdd-mx-supply = <0xd4>;
+4464,4466c4471,4473
+< 			vdd-dig-supply = <0xd3>;
+< 			vdd-gfx-supply = <0xc2>;
+< 			vdd-mx-st-supply = <0xd2>;
+---
+> 			vdd-dig-supply = <0xd5>;
+> 			vdd-gfx-supply = <0xc4>;
+> 			vdd-mx-st-supply = <0xd4>;
+4472,4473c4479,4480
+< 				linux,phandle = <0xd4>;
+< 				phandle = <0xd4>;
+---
+> 				linux,phandle = <0xd6>;
+> 				phandle = <0xd6>;
+4496,4497c4503,4504
+< 			linux,phandle = <0x17e>;
+< 			phandle = <0x17e>;
+---
+> 			linux,phandle = <0x17d>;
+> 			phandle = <0x17d>;
+4501,4502c4508,4509
+< 			linux,phandle = <0x188>;
+< 			phandle = <0x188>;
+---
+> 			linux,phandle = <0x187>;
+> 			phandle = <0x187>;
+4506,4507c4513,4514
+< 			linux,phandle = <0x17f>;
+< 			phandle = <0x17f>;
+---
+> 			linux,phandle = <0x17e>;
+> 			phandle = <0x17e>;
+4518c4525
+< 			qcom,target-dev = <0xcb>;
+---
+> 			qcom,target-dev = <0xcd>;
+4526,4527c4533,4534
+< 			vdd_mss-supply = <0x11d>;
+< 			vdd_cx-supply = <0xc1>;
+---
+> 			vdd_mss-supply = <0x11c>;
+> 			vdd_cx-supply = <0xc3>;
+4529c4536
+< 			vdd_mx-supply = <0xfe>;
+---
+> 			vdd_mx-supply = <0xff>;
+4531c4538
+< 			vdd_pll-supply = <0xff>;
+---
+> 			vdd_pll-supply = <0x100>;
+4544,4550c4551,4557
+< 			qcom,gpio-err-fatal = <0x11e 0x00 0x00>;
+< 			qcom,gpio-err-ready = <0x11e 0x01 0x00>;
+< 			qcom,gpio-proxy-unvote = <0x11e 0x02 0x00>;
+< 			qcom,gpio-stop-ack = <0x11e 0x03 0x00>;
+< 			qcom,gpio-shutdown-ack = <0x11e 0x07 0x00>;
+< 			qcom,gpio-force-stop = <0x11f 0x00 0x00>;
+< 			linux,contiguous-region = <0x120>;
+---
+> 			qcom,gpio-err-fatal = <0x11d 0x00 0x00>;
+> 			qcom,gpio-err-ready = <0x11d 0x01 0x00>;
+> 			qcom,gpio-proxy-unvote = <0x11d 0x02 0x00>;
+> 			qcom,gpio-stop-ack = <0x11d 0x03 0x00>;
+> 			qcom,gpio-shutdown-ack = <0x11d 0x07 0x00>;
+> 			qcom,gpio-force-stop = <0x11e 0x00 0x00>;
+> 			linux,contiguous-region = <0x11f>;
+4557c4564
+< 			vdd_pronto_pll-supply = <0xff>;
+---
+> 			vdd_pronto_pll-supply = <0x100>;
+4570,4575c4577,4582
+< 			qcom,gpio-err-fatal = <0x117 0x00 0x00>;
+< 			qcom,gpio-err-ready = <0x117 0x01 0x00>;
+< 			qcom,gpio-proxy-unvote = <0x117 0x02 0x00>;
+< 			qcom,gpio-stop-ack = <0x117 0x03 0x00>;
+< 			qcom,gpio-force-stop = <0x118 0x00 0x00>;
+< 			linux,contiguous-region = <0x112>;
+---
+> 			qcom,gpio-err-fatal = <0x118 0x00 0x00>;
+> 			qcom,gpio-err-ready = <0x118 0x01 0x00>;
+> 			qcom,gpio-proxy-unvote = <0x118 0x02 0x00>;
+> 			qcom,gpio-stop-ack = <0x118 0x03 0x00>;
+> 			qcom,gpio-force-stop = <0x119 0x00 0x00>;
+> 			linux,contiguous-region = <0x113>;
+4675,4676c4682,4683
+< 					linux,phandle = <0x8b>;
+< 					phandle = <0x8b>;
+---
+> 					linux,phandle = <0x8d>;
+> 					phandle = <0x8d>;
+4694,4695c4701,4702
+< 					linux,phandle = <0x8c>;
+< 					phandle = <0x8c>;
+---
+> 					linux,phandle = <0x8e>;
+> 					phandle = <0x8e>;
+4713,4714c4720,4721
+< 					linux,phandle = <0x100>;
+< 					phandle = <0x100>;
+---
+> 					linux,phandle = <0x101>;
+> 					phandle = <0x101>;
+4802,4803c4809,4810
+< 					linux,phandle = <0x101>;
+< 					phandle = <0x101>;
+---
+> 					linux,phandle = <0x102>;
+> 					phandle = <0x102>;
+4855,4856c4862,4863
+< 					linux,phandle = <0x134>;
+< 					phandle = <0x134>;
+---
+> 					linux,phandle = <0x133>;
+> 					phandle = <0x133>;
+4874,4875c4881,4882
+< 					linux,phandle = <0x133>;
+< 					phandle = <0x133>;
+---
+> 					linux,phandle = <0x132>;
+> 					phandle = <0x132>;
+4911,4912c4918,4919
+< 					linux,phandle = <0xd7>;
+< 					phandle = <0xd7>;
+---
+> 					linux,phandle = <0xd9>;
+> 					phandle = <0xd9>;
+4950,4951c4957,4958
+< 					linux,phandle = <0xff>;
+< 					phandle = <0xff>;
+---
+> 					linux,phandle = <0x100>;
+> 					phandle = <0x100>;
+4960,4961c4967,4968
+< 					linux,phandle = <0xc7>;
+< 					phandle = <0xc7>;
+---
+> 					linux,phandle = <0xc9>;
+> 					phandle = <0xc9>;
+4979,4980c4986,4987
+< 					linux,phandle = <0xd6>;
+< 					phandle = <0xd6>;
+---
+> 					linux,phandle = <0xd8>;
+> 					phandle = <0xd8>;
+4999,5000c5006,5007
+< 					linux,phandle = <0x102>;
+< 					phandle = <0x102>;
+---
+> 					linux,phandle = <0x103>;
+> 					phandle = <0x103>;
+5018,5019c5025,5026
+< 					linux,phandle = <0x11d>;
+< 					phandle = <0x11d>;
+---
+> 					linux,phandle = <0x11c>;
+> 					phandle = <0x11c>;
+5043,5044c5050,5051
+< 					linux,phandle = <0xd3>;
+< 					phandle = <0xd3>;
+---
+> 					linux,phandle = <0xd5>;
+> 					phandle = <0xd5>;
+5054,5055c5061,5062
+< 					linux,phandle = <0xc1>;
+< 					phandle = <0xc1>;
+---
+> 					linux,phandle = <0xc3>;
+> 					phandle = <0xc3>;
+5064,5065c5071,5072
+< 					linux,phandle = <0x108>;
+< 					phandle = <0x108>;
+---
+> 					linux,phandle = <0x109>;
+> 					phandle = <0x109>;
+5100,5101c5107,5108
+< 					linux,phandle = <0x116>;
+< 					phandle = <0x116>;
+---
+> 					linux,phandle = <0x117>;
+> 					phandle = <0x117>;
+5125,5126c5132,5133
+< 					linux,phandle = <0xd2>;
+< 					phandle = <0xd2>;
+---
+> 					linux,phandle = <0xd4>;
+> 					phandle = <0xd4>;
+5137,5138c5144,5145
+< 					linux,phandle = <0xfe>;
+< 					phandle = <0xfe>;
+---
+> 					linux,phandle = <0xff>;
+> 					phandle = <0xff>;
+5148,5149c5155,5156
+< 					linux,phandle = <0xc6>;
+< 					phandle = <0xc6>;
+---
+> 					linux,phandle = <0xc8>;
+> 					phandle = <0xc8>;
+5229,5230c5236,5237
+< 				linux,phandle = <0xce>;
+< 				phandle = <0xce>;
+---
+> 				linux,phandle = <0xd0>;
+> 				phandle = <0xd0>;
+5235,5236c5242,5243
+< 				linux,phandle = <0xcf>;
+< 				phandle = <0xcf>;
+---
+> 				linux,phandle = <0xd1>;
+> 				phandle = <0xd1>;
+5241,5242c5248,5249
+< 				linux,phandle = <0xd0>;
+< 				phandle = <0xd0>;
+---
+> 				linux,phandle = <0xd2>;
+> 				phandle = <0xd2>;
+5247,5248c5254,5255
+< 				linux,phandle = <0xd1>;
+< 				phandle = <0xd1>;
+---
+> 				linux,phandle = <0xd3>;
+> 				phandle = <0xd3>;
+5258,5259c5265,5266
+< 				linux,phandle = <0xcd>;
+< 				phandle = <0xcd>;
+---
+> 				linux,phandle = <0xcf>;
+> 				phandle = <0xcf>;
+5413,5414c5420,5421
+< 			linux,phandle = <0xbf>;
+< 			phandle = <0xbf>;
+---
+> 			linux,phandle = <0xc1>;
+> 			phandle = <0xc1>;
+5424,5425c5431,5432
+< 			linux,phandle = <0xc0>;
+< 			phandle = <0xc0>;
+---
+> 			linux,phandle = <0xc2>;
+> 			phandle = <0xc2>;
+5436,5437c5443,5444
+< 			linux,phandle = <0xbd>;
+< 			phandle = <0xbd>;
+---
+> 			linux,phandle = <0xbf>;
+> 			phandle = <0xbf>;
+5447,5448c5454,5455
+< 			linux,phandle = <0xbe>;
+< 			phandle = <0xbe>;
+---
+> 			linux,phandle = <0xc0>;
+> 			phandle = <0xc0>;
+5459,5460c5466,5467
+< 			linux,phandle = <0x48>;
+< 			phandle = <0x48>;
+---
+> 			linux,phandle = <0x4a>;
+> 			phandle = <0x4a>;
+5470,5471c5477,5478
+< 			linux,phandle = <0x49>;
+< 			phandle = <0x49>;
+---
+> 			linux,phandle = <0x4b>;
+> 			phandle = <0x4b>;
+5482,5483c5489,5490
+< 			linux,phandle = <0x46>;
+< 			phandle = <0x46>;
+---
+> 			linux,phandle = <0x48>;
+> 			phandle = <0x48>;
+5493,5494c5500,5501
+< 			linux,phandle = <0x47>;
+< 			phandle = <0x47>;
+---
+> 			linux,phandle = <0x49>;
+> 			phandle = <0x49>;
+5505,5506c5512,5513
+< 			linux,phandle = <0x4c>;
+< 			phandle = <0x4c>;
+---
+> 			linux,phandle = <0x4e>;
+> 			phandle = <0x4e>;
+5516,5517c5523,5524
+< 			linux,phandle = <0x4d>;
+< 			phandle = <0x4d>;
+---
+> 			linux,phandle = <0x4f>;
+> 			phandle = <0x4f>;
+5528,5529c5535,5536
+< 			linux,phandle = <0x4a>;
+< 			phandle = <0x4a>;
+---
+> 			linux,phandle = <0x4c>;
+> 			phandle = <0x4c>;
+5539,5540c5546,5547
+< 			linux,phandle = <0x4b>;
+< 			phandle = <0x4b>;
+---
+> 			linux,phandle = <0x4d>;
+> 			phandle = <0x4d>;
+5551,5552c5558,5559
+< 			linux,phandle = <0x11e>;
+< 			phandle = <0x11e>;
+---
+> 			linux,phandle = <0x11d>;
+> 			phandle = <0x11d>;
+5562,5563c5569,5570
+< 			linux,phandle = <0x11f>;
+< 			phandle = <0x11f>;
+---
+> 			linux,phandle = <0x11e>;
+> 			phandle = <0x11e>;
+5574,5575c5581,5582
+< 			linux,phandle = <0x110>;
+< 			phandle = <0x110>;
+---
+> 			linux,phandle = <0x111>;
+> 			phandle = <0x111>;
+5585,5586c5592,5593
+< 			linux,phandle = <0x111>;
+< 			phandle = <0x111>;
+---
+> 			linux,phandle = <0x112>;
+> 			phandle = <0x112>;
+5597,5598c5604,5605
+< 			linux,phandle = <0x117>;
+< 			phandle = <0x117>;
+---
+> 			linux,phandle = <0x118>;
+> 			phandle = <0x118>;
+5608,5609c5615,5616
+< 			linux,phandle = <0x118>;
+< 			phandle = <0x118>;
+---
+> 			linux,phandle = <0x119>;
+> 			phandle = <0x119>;
+5613c5620
+< 			gpios = <0xbf 0x00 0x00>;
+---
+> 			gpios = <0xc1 0x00 0x00>;
+5617c5624
+< 			gpios = <0xc0 0x00 0x00>;
+---
+> 			gpios = <0xc2 0x00 0x00>;
+5621c5628
+< 			gpios = <0xbd 0x00 0x00>;
+---
+> 			gpios = <0xbf 0x00 0x00>;
+5625c5632
+< 			gpios = <0xbe 0x00 0x00>;
+---
+> 			gpios = <0xc0 0x00 0x00>;
+5629c5636
+< 			gpios = <0x46 0x00 0x00>;
+---
+> 			gpios = <0x48 0x00 0x00>;
+5633c5640
+< 			gpios = <0x47 0x00 0x00>;
+---
+> 			gpios = <0x49 0x00 0x00>;
+5637c5644
+< 			gpios = <0x48 0x00 0x00>;
+---
+> 			gpios = <0x4a 0x00 0x00>;
+5641c5648
+< 			gpios = <0x49 0x00 0x00>;
+---
+> 			gpios = <0x4b 0x00 0x00>;
+5645c5652
+< 			gpios = <0x4c 0x00 0x00>;
+---
+> 			gpios = <0x4e 0x00 0x00>;
+5649c5656
+< 			gpios = <0x4d 0x00 0x00>;
+---
+> 			gpios = <0x4f 0x00 0x00>;
+5653c5660
+< 			gpios = <0x4a 0x00 0x00>;
+---
+> 			gpios = <0x4c 0x00 0x00>;
+5657c5664
+< 			gpios = <0x4b 0x00 0x00>;
+---
+> 			gpios = <0x4d 0x00 0x00>;
+5709,5710c5716,5717
+< 			linux,phandle = <0x115>;
+< 			phandle = <0x115>;
+---
+> 			linux,phandle = <0x116>;
+> 			phandle = <0x116>;
+5724,5725c5731,5732
+< 					linux,phandle = <0x127>;
+< 					phandle = <0x127>;
+---
+> 					linux,phandle = <0x126>;
+> 					phandle = <0x126>;
+5787,5788c5794,5795
+< 					linux,phandle = <0x125>;
+< 					phandle = <0x125>;
+---
+> 					linux,phandle = <0x124>;
+> 					phandle = <0x124>;
+5797,5798c5804,5805
+< 					linux,phandle = <0x124>;
+< 					phandle = <0x124>;
+---
+> 					linux,phandle = <0x123>;
+> 					phandle = <0x123>;
+5814,5815c5821,5822
+< 					linux,phandle = <0x11b>;
+< 					phandle = <0x11b>;
+---
+> 					linux,phandle = <0x11a>;
+> 					phandle = <0x11a>;
+5980,5981c5987,5988
+< 					linux,phandle = <0x114>;
+< 					phandle = <0x114>;
+---
+> 					linux,phandle = <0x115>;
+> 					phandle = <0x115>;
+5990c5997
+< 					qcom,temp_alarm-vadc = <0x113>;
+---
+> 					qcom,temp_alarm-vadc = <0x114>;
+6002,6004c6009,6011
+< 					qcom,pmic-revid = <0x114>;
+< 					linux,phandle = <0x113>;
+< 					phandle = <0x113>;
+---
+> 					qcom,pmic-revid = <0x115>;
+> 					linux,phandle = <0x114>;
+> 					phandle = <0x114>;
+6129,6132c6136,6139
+< 					qcom,adc_tm-vadc = <0x113>;
+< 					qcom,pmic-revid = <0x114>;
+< 					linux,phandle = <0x107>;
+< 					phandle = <0x107>;
+---
+> 					qcom,adc_tm-vadc = <0x114>;
+> 					qcom,pmic-revid = <0x115>;
+> 					linux,phandle = <0x108>;
+> 					phandle = <0x108>;
+6166c6173
+< 					interrupt-parent = <0x115>;
+---
+> 					interrupt-parent = <0x116>;
+6169c6176
+< 					cdc-vdda-cp-supply = <0x116>;
+---
+> 					cdc-vdda-cp-supply = <0x117>;
+6172c6179
+< 					cdc-vdda-rx-h-supply = <0xd7>;
+---
+> 					cdc-vdda-rx-h-supply = <0xd9>;
+6175c6182
+< 					cdc-vdda-tx-h-supply = <0xd7>;
+---
+> 					cdc-vdda-tx-h-supply = <0xd9>;
+6178c6185
+< 					cdc-vdd-px-supply = <0xd7>;
+---
+> 					cdc-vdd-px-supply = <0xd9>;
+6181c6188
+< 					cdc-vdd-pa-supply = <0x116>;
+---
+> 					cdc-vdd-pa-supply = <0x117>;
+6184c6191
+< 					cdc-vdd-mic-bias-supply = <0x100>;
+---
+> 					cdc-vdd-mic-bias-supply = <0x101>;
+6195c6202
+< 					interrupt-parent = <0x115>;
+---
+> 					interrupt-parent = <0x116>;
+6216,6217c6223,6224
+< 					linux,phandle = <0x123>;
+< 					phandle = <0x123>;
+---
+> 					linux,phandle = <0x122>;
+> 					phandle = <0x122>;
+6231,6232c6238,6239
+< 			linux,phandle = <0xf8>;
+< 			phandle = <0xf8>;
+---
+> 			linux,phandle = <0xf9>;
+> 			phandle = <0xf9>;
+6240,6241c6247,6248
+< 			linux,phandle = <0xfb>;
+< 			phandle = <0xfb>;
+---
+> 			linux,phandle = <0xfc>;
+> 			phandle = <0xfc>;
+6315c6322
+< 			vdd-supply = <0x109>;
+---
+> 			vdd-supply = <0x10a>;
+6328c6335
+< 			linux,contiguous-region = <0x10f>;
+---
+> 			linux,contiguous-region = <0x110>;
+6342c6349
+< 				vdd-supply = <0x128>;
+---
+> 				vdd-supply = <0x127>;
+6365c6372
+< 				vdd-supply = <0x129>;
+---
+> 				vdd-supply = <0x128>;
+6387,6389c6394,6396
+< 			vdd-cx-supply = <0x108>;
+< 			venus-supply = <0x109>;
+< 			venus-core0-supply = <0x10a>;
+---
+> 			vdd-cx-supply = <0x109>;
+> 			venus-supply = <0x10a>;
+> 			venus-core0-supply = <0x10b>;
+6438c6445
+< 					qcom,vidc-domain-phandle = <0x10b>;
+---
+> 					qcom,vidc-domain-phandle = <0x10c>;
+6442c6449
+< 					qcom,vidc-domain-phandle = <0x10c>;
+---
+> 					qcom,vidc-domain-phandle = <0x10d>;
+6446c6453
+< 					qcom,vidc-domain-phandle = <0x10e>;
+---
+> 					qcom,vidc-domain-phandle = <0x10f>;
+6450c6457
+< 					qcom,vidc-domain-phandle = <0x10d>;
+---
+> 					qcom,vidc-domain-phandle = <0x10e>;
+6461,6467c6468,6474
+< 			qcom,pronto-vddmx-supply = <0xc6>;
+< 			qcom,pronto-vddcx-supply = <0xc1>;
+< 			qcom,pronto-vddpx-supply = <0xd7>;
+< 			qcom,iris-vddxo-supply = <0xff>;
+< 			qcom,iris-vddrfa-supply = <0x101>;
+< 			qcom,iris-vddpa-supply = <0x102>;
+< 			qcom,iris-vdddig-supply = <0xd7>;
+---
+> 			qcom,pronto-vddmx-supply = <0xc8>;
+> 			qcom,pronto-vddcx-supply = <0xc3>;
+> 			qcom,pronto-vddpx-supply = <0xd9>;
+> 			qcom,iris-vddxo-supply = <0x100>;
+> 			qcom,iris-vddrfa-supply = <0x102>;
+> 			qcom,iris-vddpa-supply = <0x103>;
+> 			qcom,iris-vdddig-supply = <0xd9>;
+6483,6485c6490,6492
+< 			pinctrl-0 = <0x103>;
+< 			pinctrl-1 = <0x104>;
+< 			pinctrl-2 = <0x105>;
+---
+> 			pinctrl-0 = <0x104>;
+> 			pinctrl-1 = <0x105>;
+> 			pinctrl-2 = <0x106>;
+6487c6494
+< 			clocks = <0x2d 0x116b76f 0x2d 0x24a30992 0x106 0x8121ac15 0x2d 0x709f430b>;
+---
+> 			clocks = <0x2d 0x116b76f 0x2d 0x24a30992 0x107 0x8121ac15 0x2d 0x709f430b>;
+6494c6501
+< 			qcom,wcnss-adc_tm = <0x107>;
+---
+> 			qcom,wcnss-adc_tm = <0x108>;
+6535c6542
+< 			vdd-supply = <0x8b>;
+---
+> 			vdd-supply = <0x8d>;
+6538c6545
+< 			vdd-io-supply = <0x8c>;
+---
+> 			vdd-io-supply = <0x8e>;
+6586,6587c6593,6594
+< 			vdd-gfx-supply = <0x125>;
+< 			vdd-mx-supply = <0xc6>;
+---
+> 			vdd-gfx-supply = <0x124>;
+> 			vdd-mx-supply = <0xc8>;
+6590c6597
+< 			mem-acc-supply = <0x126>;
+---
+> 			mem-acc-supply = <0x125>;
+6614,6615c6621,6622
+< 			linux,phandle = <0xc2>;
+< 			phandle = <0xc2>;
+---
+> 			linux,phandle = <0xc4>;
+> 			phandle = <0xc4>;
+6628,6629c6635,6636
+< 			vdd-apc-supply = <0x123>;
+< 			vdd-mx-supply = <0xc6>;
+---
+> 			vdd-apc-supply = <0x122>;
+> 			vdd-mx-supply = <0xc8>;
+6666,6667c6673,6674
+< 			linux,phandle = <0xc9>;
+< 			phandle = <0xc9>;
+---
+> 			linux,phandle = <0xcb>;
+> 			phandle = <0xcb>;
+6680,6681c6687,6688
+< 			vdd-apc-supply = <0x124>;
+< 			vdd-mx-supply = <0xc6>;
+---
+> 			vdd-apc-supply = <0x123>;
+> 			vdd-mx-supply = <0xc8>;
+6719,6720c6726,6727
+< 			linux,phandle = <0xc8>;
+< 			phandle = <0xc8>;
+---
+> 			linux,phandle = <0xca>;
+> 			phandle = <0xca>;
+6730c6737
+< 			coresight-child-list = <0xad 0xae>;
+---
+> 			coresight-child-list = <0xaf 0xb0>;
+6734,6735c6741,6742
+< 			linux,phandle = <0xaf>;
+< 			phandle = <0xaf>;
+---
+> 			linux,phandle = <0xb1>;
+> 			phandle = <0xb1>;
+6801,6802c6808,6809
+< 			linux,phandle = <0x121>;
+< 			phandle = <0x121>;
+---
+> 			linux,phandle = <0x120>;
+> 			phandle = <0x120>;
+6811,6812c6818,6819
+< 			linux,phandle = <0x122>;
+< 			phandle = <0x122>;
+---
+> 			linux,phandle = <0x121>;
+> 			phandle = <0x121>;
+6820c6827
+< 			coresight-child-list = <0xb2>;
+---
+> 			coresight-child-list = <0xb4>;
+6827,6828c6834,6835
+< 			pinctrl-0 = <0x1ac 0x1ad>;
+< 			pinctrl-1 = <0x1ae 0x1af>;
+---
+> 			pinctrl-0 = <0x1ab 0x1ac>;
+> 			pinctrl-1 = <0x1ad 0x1ae>;
+6853,6854c6860,6861
+< 			linux,phandle = <0xd5>;
+< 			phandle = <0xd5>;
+---
+> 			linux,phandle = <0xd7>;
+> 			phandle = <0xd7>;
+6862c6869
+< 			sdhc-msm-crypto = <0xd5>;
+---
+> 			sdhc-msm-crypto = <0xd7>;
+6879c6886
+< 			vdd-supply = <0xd6>;
+---
+> 			vdd-supply = <0xd8>;
+6884c6891
+< 			vdd-io-supply = <0xd7>;
+---
+> 			vdd-io-supply = <0xd9>;
+6890,6891c6897,6898
+< 			pinctrl-0 = <0xd8 0xd9 0xda 0xdb>;
+< 			pinctrl-1 = <0xdc 0xdd 0xde 0xdf>;
+---
+> 			pinctrl-0 = <0xda 0xdb 0xdc 0xdd>;
+> 			pinctrl-1 = <0xde 0xdf 0xe0 0xe1>;
+6911c6918
+< 			vdd-supply = <0x8b>;
+---
+> 			vdd-supply = <0x8d>;
+6914c6921
+< 			vdd-io-supply = <0x8c>;
+---
+> 			vdd-io-supply = <0x8e>;
+6918,6919c6925,6926
+< 			pinctrl-0 = <0xe0 0xe1 0xe2 0xe3>;
+< 			pinctrl-1 = <0xe4 0xe5 0xe6 0xe7>;
+---
+> 			pinctrl-0 = <0xe2 0xe3 0xe4 0xe5>;
+> 			pinctrl-1 = <0xe6 0xe7 0xe8 0xe9>;
+6921c6928
+< 			interrupt-parent = <0xe8>;
+---
+> 			interrupt-parent = <0xea>;
+6926,6927c6933,6934
+< 			linux,phandle = <0xe8>;
+< 			phandle = <0xe8>;
+---
+> 			linux,phandle = <0xea>;
+> 			phandle = <0xea>;
+6950c6957
+< 			interrupt-parent = <0xe9>;
+---
+> 			interrupt-parent = <0xeb>;
+6958c6965
+< 			vdd-supply = <0xd7>;
+---
+> 			vdd-supply = <0xd9>;
+6961c6968
+< 			vdd-io-supply = <0xd7>;
+---
+> 			vdd-io-supply = <0xd9>;
+6967,6970c6974,6977
+< 			pinctrl-0 = <0xea 0xeb 0xec 0xed>;
+< 			pinctrl-1 = <0xee 0xef 0xf0 0xf1>;
+< 			linux,phandle = <0xe9>;
+< 			phandle = <0xe9>;
+---
+> 			pinctrl-0 = <0xec 0xed 0xee 0xef>;
+> 			pinctrl-1 = <0xf0 0xf1 0xf2>;
+> 			linux,phandle = <0xeb>;
+> 			phandle = <0xeb>;
+6976c6983
+< 			pinctrl-0 = <0x14e>;
+---
+> 			pinctrl-0 = <0x14d>;
+6984c6991
+< 			qcom,therm-vadc = <0x113>;
+---
+> 			qcom,therm-vadc = <0x114>;
+6987,6988c6994,6995
+< 			adc_array = <0x643b 0x6642 0x68d8 0x6a57 0x6c5f 0x6e54 0x70a6 0x723c 0x72d9 0x736f 0x767b 0x7dc6 0x81ba 0x85ff 0x8a5b 0x8e52 0x9409 0x9586 0x98db 0x9bb6 0x9de8 0x9f51>;
+< 			temp_array = <0x384 0x320 0x2bc 0x28a 0x258 0x226 0x1f4 0x1d6 0x1cc 0x1c2 0x190 0x12c 0xfa 0xc8 0x96 0x64 0x14 0x00 0xffffffce 0xffffff9c 0xffffff6a 0xffffff38>;
+---
+> 			adc_array = <0x6689 0x66c0 0x66f8 0x672f 0x6767 0x679e 0x6800 0x6862 0x68c4 0x6926 0x6988 0x6a21 0x6aba 0x6b54 0x6bed 0x6c86 0x6ca5 0x6cc5 0x6ce4 0x6d04 0x6d23 0x6d8e 0x6df9 0x6e64 0x6ed0 0x6f3b 0x6fbe 0x7041 0x70c4 0x7147 0x71ca 0x725d 0x72f0 0x7383 0x7416 0x74a9 0x754e 0x75f4 0x7699 0x773f 0x77e4 0x7898 0x794b 0x79ff 0x7ab2 0x7b65 0x7c2a 0x7cee 0x7db3 0x7e77 0x7f3c 0x800b 0x80db 0x81ab 0x827b 0x834b 0x841d 0x84f0 0x85c3 0x8696 0x8769 0x884c 0x892f 0x8a12 0x8af5 0x8bd9 0x8ca6 0x8d72 0x8e3f 0x8f0c 0x8fd9 0x909f 0x9165 0x922c 0x92f2 0x93b8 0x9469 0x951a 0x95cb 0x967c 0x972d 0x97b2 0x9837 0x98bb 0x9940 0x99c4 0x9a67 0x9b0a 0x9bac 0x9c4f 0x9cf1 0x9d68 0x9dde 0x9e55 0x9ecb 0x9f41 0x9f98 0x9fee 0xa044 0xa09a 0xa0f1>;
+> 			temp_array = <0x320 0x316 0x30c 0x302 0x2f8 0x2ee 0x2e4 0x2da 0x2d0 0x2c6 0x2bc 0x2b2 0x2a8 0x29e 0x294 0x28a 0x280 0x276 0x26c 0x262 0x258 0x24e 0x244 0x23a 0x230 0x226 0x21c 0x212 0x208 0x1fe 0x1f4 0x1ea 0x1e0 0x1d6 0x1cc 0x1c2 0x1b8 0x1ae 0x1a4 0x19a 0x190 0x186 0x17c 0x172 0x168 0x15e 0x154 0x14a 0x140 0x136 0x12c 0x122 0x118 0x10e 0x104 0xfa 0xf0 0xe6 0xdc 0xd2 0xc8 0xbe 0xb4 0xaa 0xa0 0x96 0x8c 0x82 0x78 0x6e 0x64 0x5a 0x50 0x46 0x3c 0x32 0x28 0x1e 0x14 0x0a 0x00 0xfffffff6 0xffffffec 0xffffffe2 0xffffffd8 0xffffffce 0xffffffc4 0xffffffba 0xffffffb0 0xffffffa6 0xffffff9c 0xffffff92 0xffffff88 0xffffff7e 0xffffff74 0xffffff6a 0xffffff60 0xffffff56 0xffffff4c 0xffffff42 0xffffff38>;
+6998c7005
+< 			pinctrl-0 = <0xf2>;
+---
+> 			pinctrl-0 = <0xf3>;
+7022c7029
+< 			qcom,earjack-read-vadc = <0x113>;
+---
+> 			qcom,earjack-read-vadc = <0x114>;
+7027c7034
+< 			qcom,audio-routing = "HP", "HPOL", "HP", "HPOR", "RCV", "MONOOUT", "SPK", "SPOL", "SPK", "SPOR", "IN1P", "Headset Mic", "IN1N", "Headset Mic", "IN3P", "MICBIAS3", "IN3P", "Sub Mic", "IN3N", "Sub Mic", "IN4P", "MICBIAS2", "IN4P", "Main Mic", "IN4N", "Main Mic";
+---
+> 			qcom,audio-routing = "HP", "HPOL", "HP", "HPOR", "RCV", "MONOOUT", "SPK", "SPOL", "SPK", "SPOR", "IN1P", "Headset Mic", "IN1N", "Headset Mic", "IN2P", "MICBIAS3", "IN2P", "Sub Mic", "IN2N", "Sub Mic", "IN3P", "MICBIAS2", "IN3P", "Main Mic", "IN3N", "Main Mic";
+7031,7035c7038,7042
+< 			pinctrl-0 = <0x174 0x175 0x176 0x177>;
+< 			pinctrl-1 = <0x174 0x175 0x176 0x178>;
+< 			pinctrl-2 = <0x179 0x17a 0x17b 0x177>;
+< 			pinctrl-3 = <0x179 0x17a 0x17b 0x178>;
+< 			asoc-platform = <0x17c 0x17d 0x17e 0x17f 0x180 0x181 0x182 0x183 0x184 0x185 0x186 0x187 0x188>;
+---
+> 			pinctrl-0 = <0x173 0x174 0x175 0x176>;
+> 			pinctrl-1 = <0x173 0x174 0x175 0x177>;
+> 			pinctrl-2 = <0x178 0x179 0x17a 0x176>;
+> 			pinctrl-3 = <0x178 0x179 0x17a 0x177>;
+> 			asoc-platform = <0x17b 0x17c 0x17d 0x17e 0x17f 0x180 0x181 0x182 0x183 0x184 0x185 0x186 0x187>;
+7037c7044
+< 			asoc-cpu = <0x189 0x18a 0x18b 0x18c 0x18d 0x18e 0x18f 0x190 0x191 0x192 0x193 0x194 0x195 0x196 0x197 0x198 0x199 0x19a 0x19b 0x19c 0x19d 0x19e 0x19f 0x1a0 0x1a1 0x1a2 0x1a3 0x1a4 0x1a5>;
+---
+> 			asoc-cpu = <0x188 0x189 0x18a 0x18b 0x18c 0x18d 0x18e 0x18f 0x190 0x191 0x192 0x193 0x194 0x195 0x196 0x197 0x198 0x199 0x19a 0x19b 0x19c 0x19d 0x19e 0x19f 0x1a0 0x1a1 0x1a2 0x1a3 0x1a4>;
+7039c7046
+< 			asoc-codec = <0x1a6 0x1a7>;
+---
+> 			asoc-codec = <0x1a5 0x1a6>;
+7061,7062c7068,7069
+< 			pinctrl-0 = <0x1b0 0x1b1>;
+< 			pinctrl-1 = <0x1b2 0x1b3>;
+---
+> 			pinctrl-0 = <0x1af 0x1b0>;
+> 			pinctrl-1 = <0x1b1 0x1b2>;
+7094,7095c7101,7102
+< 			pinctrl-0 = <0x141>;
+< 			pinctrl-1 = <0x142>;
+---
+> 			pinctrl-0 = <0x140>;
+> 			pinctrl-1 = <0x141>;
+7109,7111c7116,7118
+< 				pinctrl-0 = <0x143 0x144 0x145 0x146>;
+< 				pinctrl-1 = <0x147>;
+< 				pinctrl-2 = <0x143>;
+---
+> 				pinctrl-0 = <0x142 0x143 0x144 0x145>;
+> 				pinctrl-1 = <0x146>;
+> 				pinctrl-2 = <0x142>;
+7122c7129
+< 			coresight-child-list = <0xb2>;
+---
+> 			coresight-child-list = <0xb4>;
+7192c7199
+< 			coresight-child-list = <0xaf>;
+---
+> 			coresight-child-list = <0xb1>;
+7194c7201
+< 			coresight-ctis = <0x89 0x8a>;
+---
+> 			coresight-ctis = <0x8b 0x8c>;
+7198,7199c7205,7206
+< 			linux,phandle = <0xb0>;
+< 			phandle = <0xb0>;
+---
+> 			linux,phandle = <0xb2>;
+> 			phandle = <0xb2>;
+7214c7221
+< 			coresight-ctis = <0x89 0x8a>;
+---
+> 			coresight-ctis = <0x8b 0x8c>;
+7217,7218c7224,7225
+< 			linux,phandle = <0xad>;
+< 			phandle = <0xad>;
+---
+> 			linux,phandle = <0xaf>;
+> 			phandle = <0xaf>;
+7228c7235
+< 			coresight-child-list = <0xb2>;
+---
+> 			coresight-child-list = <0xb4>;
+7234,7235c7241,7242
+< 			linux,phandle = <0xb7>;
+< 			phandle = <0xb7>;
+---
+> 			linux,phandle = <0xb9>;
+> 			phandle = <0xb9>;
+7245c7252
+< 			coresight-child-list = <0xb4>;
+---
+> 			coresight-child-list = <0xb6>;
+7251,7252c7258,7259
+< 			linux,phandle = <0xb8>;
+< 			phandle = <0xb8>;
+---
+> 			linux,phandle = <0xba>;
+> 			phandle = <0xba>;
+7262c7269
+< 			coresight-child-list = <0xb7>;
+---
+> 			coresight-child-list = <0xb9>;
+7275c7282
+< 			coresight-child-list = <0xb7>;
+---
+> 			coresight-child-list = <0xb9>;
+7288c7295
+< 			coresight-child-list = <0xb8>;
+---
+> 			coresight-child-list = <0xba>;
+7309c7316
+< 			vdd-supply = <0x8b>;
+---
+> 			vdd-supply = <0x8d>;
+7312c7319
+< 			vdd-io-supply = <0x8c>;
+---
+> 			vdd-io-supply = <0x8e>;
+7318,7325c7325,7332
+< 			pinctrl-0 = <0x8d 0x8e 0x8f 0x90 0x91 0x92>;
+< 			pinctrl-1 = <0x93 0x94 0x95 0x96 0x97 0x98>;
+< 			pinctrl-2 = <0x99 0x9a 0x9b 0x9c 0x9d>;
+< 			pinctrl-3 = <0x9e 0x9f 0xa0 0xa1 0xa2 0xa3>;
+< 			pinctrl-4 = <0xa4 0xa5 0xa6 0xa7 0xa8>;
+< 			pinctrl-5 = <0xa9 0xaa 0xab 0xac>;
+< 			linux,phandle = <0xae>;
+< 			phandle = <0xae>;
+---
+> 			pinctrl-0 = <0x8f 0x90 0x91 0x92 0x93 0x94>;
+> 			pinctrl-1 = <0x95 0x96 0x97 0x98 0x99 0x9a>;
+> 			pinctrl-2 = <0x9b 0x9c 0x9d 0x9e 0x9f>;
+> 			pinctrl-3 = <0xa0 0xa1 0xa2 0xa3 0xa4 0xa5>;
+> 			pinctrl-4 = <0xa6 0xa7 0xa8 0xa9 0xaa>;
+> 			pinctrl-5 = <0xab 0xac 0xad 0xae>;
+> 			linux,phandle = <0xb0>;
+> 			phandle = <0xb0>;
+7355c7362
+< 			interrupt-parent = <0xf3>;
+---
+> 			interrupt-parent = <0xf4>;
+7368,7369c7375,7376
+< 			pinctrl-0 = <0xf4>;
+< 			pinctrl-1 = <0xf5>;
+---
+> 			pinctrl-0 = <0xf5>;
+> 			pinctrl-1 = <0xf6>;
+7377,7378c7384,7385
+< 			linux,phandle = <0xf3>;
+< 			phandle = <0xf3>;
+---
+> 			linux,phandle = <0xf4>;
+> 			phandle = <0xf4>;
+7386,7388c7393,7395
+< 			hsusb_vdd_dig-supply = <0xfe>;
+< 			HSUSB_1p8-supply = <0xff>;
+< 			HSUSB_3p3-supply = <0x100>;
+---
+> 			hsusb_vdd_dig-supply = <0xff>;
+> 			HSUSB_1p8-supply = <0x100>;
+> 			HSUSB_3p3-supply = <0x101>;
+7419,7425d7425
+< 		wcd_gpio_ctrl {
+< 			compatible = "qcom,wcd-gpio-ctrl";
+< 			qcom,cdc-rst-n-gpio = <0x33 0x85 0x00>;
+< 			pinctrl-names = "aud_active", "aud_sleep";
+< 			pinctrl-0 = <0x119>;
+< 			pinctrl-1 = <0x11a>;
+< 		};
+7432c7432
+< 			coresight-child-list = <0xb3>;
+---
+> 			coresight-child-list = <0xb5>;
+7439c7439
+< 	model = "Samsung GTS28VEWIFI EUR OPEN PROJECT Rev05";
+---
+> 	model = "Samsung GTS210VEWIFI EUR OPEN PROJECT Rev04";
+7443c7443
+< 	qcom,board-id = <0x08 0x05>;
+---
+> 	qcom,board-id = <0x08 0x04>;
+7666,7667c7666,7667
+< 					linux,phandle = <0xf5>;
+< 					phandle = <0xf5>;
+---
+> 					linux,phandle = <0xf6>;
+> 					phandle = <0xf6>;
+7678,7679c7678,7679
+< 					linux,phandle = <0xf4>;
+< 					phandle = <0xf4>;
+---
+> 					linux,phandle = <0xf5>;
+> 					phandle = <0xf5>;
+7689,7690c7689,7690
+< 					linux,phandle = <0x13a>;
+< 					phandle = <0x13a>;
+---
+> 					linux,phandle = <0x139>;
+> 					phandle = <0x139>;
+7695,7696c7695,7696
+< 					linux,phandle = <0x13e>;
+< 					phandle = <0x13e>;
+---
+> 					linux,phandle = <0x13d>;
+> 					phandle = <0x13d>;
+7707,7708c7707,7708
+< 					linux,phandle = <0x13b>;
+< 					phandle = <0x13b>;
+---
+> 					linux,phandle = <0x13a>;
+> 					phandle = <0x13a>;
+7714,7715c7714,7715
+< 					linux,phandle = <0x13f>;
+< 					phandle = <0x13f>;
+---
+> 					linux,phandle = <0x13e>;
+> 					phandle = <0x13e>;
+7727,7728c7727,7728
+< 					linux,phandle = <0x13c>;
+< 					phandle = <0x13c>;
+---
+> 					linux,phandle = <0x13b>;
+> 					phandle = <0x13b>;
+7734,7735c7734,7735
+< 					linux,phandle = <0x140>;
+< 					phandle = <0x140>;
+---
+> 					linux,phandle = <0x13f>;
+> 					phandle = <0x13f>;
+7747,7748c7747,7748
+< 					linux,phandle = <0x135>;
+< 					phandle = <0x135>;
+---
+> 					linux,phandle = <0x134>;
+> 					phandle = <0x134>;
+7759,7760c7759,7760
+< 					linux,phandle = <0x137>;
+< 					phandle = <0x137>;
+---
+> 					linux,phandle = <0x136>;
+> 					phandle = <0x136>;
+7769c7769
+< 					drive-strength = <0x06>;
+---
+> 					drive-strength = <0x02>;
+7772,7773c7772,7773
+< 					linux,phandle = <0x139>;
+< 					phandle = <0x139>;
+---
+> 					linux,phandle = <0x138>;
+> 					phandle = <0x138>;
+7781c7781
+< 					drive-strength = <0x06>;
+---
+> 					drive-strength = <0x02>;
+7784,7785c7784,7785
+< 					linux,phandle = <0x13d>;
+< 					phandle = <0x13d>;
+---
+> 					linux,phandle = <0x13c>;
+> 					phandle = <0x13c>;
+7795,7796c7795,7796
+< 					linux,phandle = <0x136>;
+< 					phandle = <0x136>;
+---
+> 					linux,phandle = <0x135>;
+> 					phandle = <0x135>;
+7801,7802c7801,7802
+< 					linux,phandle = <0x138>;
+< 					phandle = <0x138>;
+---
+> 					linux,phandle = <0x137>;
+> 					phandle = <0x137>;
+7978,7979c7978,7979
+< 					linux,phandle = <0x12d>;
+< 					phandle = <0x12d>;
+---
+> 					linux,phandle = <0x12c>;
+> 					phandle = <0x12c>;
+7990,7991c7990,7991
+< 					linux,phandle = <0x12f>;
+< 					phandle = <0x12f>;
+---
+> 					linux,phandle = <0x12e>;
+> 					phandle = <0x12e>;
+8002,8003c8002,8003
+< 					linux,phandle = <0x12e>;
+< 					phandle = <0x12e>;
+---
+> 					linux,phandle = <0x12d>;
+> 					phandle = <0x12d>;
+8014,8015c8014,8015
+< 					linux,phandle = <0x130>;
+< 					phandle = <0x130>;
+---
+> 					linux,phandle = <0x12f>;
+> 					phandle = <0x12f>;
+8053,8054d8052
+< 					linux,phandle = <0x11a>;
+< 					phandle = <0x11a>;
+8060,8061d8057
+< 					linux,phandle = <0x119>;
+< 					phandle = <0x119>;
+8072,8073c8068,8069
+< 					linux,phandle = <0x14d>;
+< 					phandle = <0x14d>;
+---
+> 					linux,phandle = <0x14c>;
+> 					phandle = <0x14c>;
+8099,8100c8095,8096
+< 					linux,phandle = <0xb6>;
+< 					phandle = <0xb6>;
+---
+> 					linux,phandle = <0xb8>;
+> 					phandle = <0xb8>;
+8111,8112c8107,8108
+< 					linux,phandle = <0x170>;
+< 					phandle = <0x170>;
+---
+> 					linux,phandle = <0x16f>;
+> 					phandle = <0x16f>;
+8117,8118c8113,8114
+< 					linux,phandle = <0x172>;
+< 					phandle = <0x172>;
+---
+> 					linux,phandle = <0x171>;
+> 					phandle = <0x171>;
+8129,8130c8125,8126
+< 					linux,phandle = <0x171>;
+< 					phandle = <0x171>;
+---
+> 					linux,phandle = <0x170>;
+> 					phandle = <0x170>;
+8135,8136c8131,8132
+< 					linux,phandle = <0x173>;
+< 					phandle = <0x173>;
+---
+> 					linux,phandle = <0x172>;
+> 					phandle = <0x172>;
+8161,8162c8157,8158
+< 					linux,phandle = <0x17b>;
+< 					phandle = <0x17b>;
+---
+> 					linux,phandle = <0x17a>;
+> 					phandle = <0x17a>;
+8167,8168c8163,8164
+< 					linux,phandle = <0x176>;
+< 					phandle = <0x176>;
+---
+> 					linux,phandle = <0x175>;
+> 					phandle = <0x175>;
+8179,8180c8175,8176
+< 					linux,phandle = <0x14f>;
+< 					phandle = <0x14f>;
+---
+> 					linux,phandle = <0x14e>;
+> 					phandle = <0x14e>;
+8196,8197c8192,8193
+< 					linux,phandle = <0x150>;
+< 					phandle = <0x150>;
+---
+> 					linux,phandle = <0x14f>;
+> 					phandle = <0x14f>;
+8215a8212,8241
+> 			grip_sensor_i2c {
+> 				qcom,pins = <0x27 0x10 0x27 0x11>;
+> 				qcom,pin-func = <0x00>;
+> 				qcom,num-grp-pins = <0x02>;
+> 				label = "grip_sensor_i2c";
+> 				grip_i2c_active {
+> 					drive-strength = <0x02>;
+> 					bias-disable;
+> 				};
+> 				grip_i2c_suspend {
+> 					drive-strength = <0x02>;
+> 					bias-disable;
+> 				};
+> 			};
+> 			grip_sensor_int {
+> 				qcom,pins = <0x27 0x09>;
+> 				qcom,pin-func = <0x00>;
+> 				qcom,num-grp-pins = <0x01>;
+> 				label = "grip_sensor_int";
+> 				grip_det_active {
+> 					drive-strength = <0x02>;
+> 					input-enable;
+> 					bias-disable;
+> 				};
+> 				grip_det_suspend {
+> 					drive-strength = <0x02>;
+> 					input-enable;
+> 					bias-disable;
+> 				};
+> 			};
+8223,8225c8249,8251
+< 					bias-pull-up;
+< 					linux,phandle = <0x158>;
+< 					phandle = <0x158>;
+---
+> 					bias-disable;
+> 					linux,phandle = <0x157>;
+> 					phandle = <0x157>;
+8229c8255
+< 					bias-pull-up;
+---
+> 					bias-disable;
+8240,8241c8266,8267
+< 					linux,phandle = <0x159>;
+< 					phandle = <0x159>;
+---
+> 					linux,phandle = <0x158>;
+> 					phandle = <0x158>;
+8270,8271c8296,8297
+< 					linux,phandle = <0x14a>;
+< 					phandle = <0x14a>;
+---
+> 					linux,phandle = <0x149>;
+> 					phandle = <0x149>;
+8274,8276c8300,8301
+< 			light_sensor_i2c {
+< 				qcom,pins = <0x27 0x30 0x27 0x40>;
+< 				qcom,pin-func = <0x00>;
+---
+> 			light_i2c {
+> 				qcom,pins = <0x27 0x8b 0x27 0x8d>;
+8278c8303,8304
+< 				label = "light_sensor_i2c";
+---
+> 				qcom,pin-func = <0x00>;
+> 				label = "light_i2c";
+8282,8283c8308,8309
+< 					linux,phandle = <0x157>;
+< 					phandle = <0x157>;
+---
+> 					linux,phandle = <0x156>;
+> 					phandle = <0x156>;
+8285c8311
+< 				light_i2c_suspend {
+---
+> 				light_i2c_sleep {
+8299,8300c8325,8326
+< 					linux,phandle = <0x14e>;
+< 					phandle = <0x14e>;
+---
+> 					linux,phandle = <0x14d>;
+> 					phandle = <0x14d>;
+8311,8312c8337,8338
+< 					linux,phandle = <0xf2>;
+< 					phandle = <0xf2>;
+---
+> 					linux,phandle = <0xf3>;
+> 					phandle = <0xf3>;
+8345,8346c8371,8372
+< 					linux,phandle = <0xf6>;
+< 					phandle = <0xf6>;
+---
+> 					linux,phandle = <0xf7>;
+> 					phandle = <0xf7>;
+8351,8352c8377,8378
+< 					linux,phandle = <0xf7>;
+< 					phandle = <0xf7>;
+---
+> 					linux,phandle = <0xf8>;
+> 					phandle = <0xf8>;
+8363,8364c8389,8390
+< 					linux,phandle = <0x15a>;
+< 					phandle = <0x15a>;
+---
+> 					linux,phandle = <0x159>;
+> 					phandle = <0x159>;
+8369,8370c8395,8396
+< 					linux,phandle = <0x15b>;
+< 					phandle = <0x15b>;
+---
+> 					linux,phandle = <0x15a>;
+> 					phandle = <0x15a>;
+8395,8396c8421,8422
+< 					linux,phandle = <0x162>;
+< 					phandle = <0x162>;
+---
+> 					linux,phandle = <0x161>;
+> 					phandle = <0x161>;
+8401,8402c8427,8428
+< 					linux,phandle = <0x163>;
+< 					phandle = <0x163>;
+---
+> 					linux,phandle = <0x162>;
+> 					phandle = <0x162>;
+8413,8414c8439,8440
+< 					linux,phandle = <0xf9>;
+< 					phandle = <0xf9>;
+---
+> 					linux,phandle = <0xfa>;
+> 					phandle = <0xfa>;
+8419,8420c8445,8446
+< 					linux,phandle = <0xfa>;
+< 					phandle = <0xfa>;
+---
+> 					linux,phandle = <0xfb>;
+> 					phandle = <0xfb>;
+8431,8432c8457,8458
+< 					linux,phandle = <0x164>;
+< 					phandle = <0x164>;
+---
+> 					linux,phandle = <0x163>;
+> 					phandle = <0x163>;
+8437,8438c8463,8464
+< 					linux,phandle = <0x165>;
+< 					phandle = <0x165>;
+---
+> 					linux,phandle = <0x164>;
+> 					phandle = <0x164>;
+8449,8450c8475,8476
+< 					linux,phandle = <0xfc>;
+< 					phandle = <0xfc>;
+---
+> 					linux,phandle = <0xfd>;
+> 					phandle = <0xfd>;
+8455,8456c8481,8482
+< 					linux,phandle = <0xfd>;
+< 					phandle = <0xfd>;
+---
+> 					linux,phandle = <0xfe>;
+> 					phandle = <0xfe>;
+8467,8468c8493,8494
+< 					linux,phandle = <0x3c>;
+< 					phandle = <0x3c>;
+---
+> 					linux,phandle = <0x3d>;
+> 					phandle = <0x3d>;
+8472a8499,8511
+> 					linux,phandle = <0x40>;
+> 					phandle = <0x40>;
+> 				};
+> 			};
+> 			pmx_mdss_tcon_rdy {
+> 				label = "mdss_tcon_rdy_pins";
+> 				qcom,pin-func = <0x00>;
+> 				qcom,num-grp-pins = <0x01>;
+> 				qcom,pins = <0x27 0x85>;
+> 				active {
+> 					drive-strength = <0x08>;
+> 					input-enable;
+> 					bias-pull-down;
+8475a8515,8520
+> 				suspend {
+> 					drive-strength = <0x02>;
+> 					bias-pull-down;
+> 					linux,phandle = <0x41>;
+> 					phandle = <0x41>;
+> 				};
+8486,8487c8531,8532
+< 					linux,phandle = <0x3d>;
+< 					phandle = <0x3d>;
+---
+> 					linux,phandle = <0x3c>;
+> 					phandle = <0x3c>;
+8505,8506c8550,8551
+< 					linux,phandle = <0x15e>;
+< 					phandle = <0x15e>;
+---
+> 					linux,phandle = <0x15d>;
+> 					phandle = <0x15d>;
+8511,8512c8556,8557
+< 					linux,phandle = <0x161>;
+< 					phandle = <0x161>;
+---
+> 					linux,phandle = <0x160>;
+> 					phandle = <0x160>;
+8536,8537c8581,8582
+< 					linux,phandle = <0x8d>;
+< 					phandle = <0x8d>;
+---
+> 					linux,phandle = <0x8f>;
+> 					phandle = <0x8f>;
+8542,8543c8587,8588
+< 					linux,phandle = <0xa9>;
+< 					phandle = <0xa9>;
+---
+> 					linux,phandle = <0xab>;
+> 					phandle = <0xab>;
+8548,8549c8593,8594
+< 					linux,phandle = <0x9e>;
+< 					phandle = <0x9e>;
+---
+> 					linux,phandle = <0xa0>;
+> 					phandle = <0xa0>;
+8554,8555c8599,8600
+< 					linux,phandle = <0x93>;
+< 					phandle = <0x93>;
+---
+> 					linux,phandle = <0x95>;
+> 					phandle = <0x95>;
+8565,8566c8610,8611
+< 					linux,phandle = <0xa4>;
+< 					phandle = <0xa4>;
+---
+> 					linux,phandle = <0xa6>;
+> 					phandle = <0xa6>;
+8571,8572c8616,8617
+< 					linux,phandle = <0x8e>;
+< 					phandle = <0x8e>;
+---
+> 					linux,phandle = <0x90>;
+> 					phandle = <0x90>;
+8577,8578c8622,8623
+< 					linux,phandle = <0xaa>;
+< 					phandle = <0xaa>;
+---
+> 					linux,phandle = <0xac>;
+> 					phandle = <0xac>;
+8583,8584c8628,8629
+< 					linux,phandle = <0x9f>;
+< 					phandle = <0x9f>;
+---
+> 					linux,phandle = <0xa1>;
+> 					phandle = <0xa1>;
+8589,8590c8634,8635
+< 					linux,phandle = <0x94>;
+< 					phandle = <0x94>;
+---
+> 					linux,phandle = <0x96>;
+> 					phandle = <0x96>;
+8595,8596c8640,8641
+< 					linux,phandle = <0x99>;
+< 					phandle = <0x99>;
+---
+> 					linux,phandle = <0x9b>;
+> 					phandle = <0x9b>;
+8606,8607c8651,8652
+< 					linux,phandle = <0xa5>;
+< 					phandle = <0xa5>;
+---
+> 					linux,phandle = <0xa7>;
+> 					phandle = <0xa7>;
+8612,8613c8657,8658
+< 					linux,phandle = <0x8f>;
+< 					phandle = <0x8f>;
+---
+> 					linux,phandle = <0x91>;
+> 					phandle = <0x91>;
+8618,8619c8663,8664
+< 					linux,phandle = <0xab>;
+< 					phandle = <0xab>;
+---
+> 					linux,phandle = <0xad>;
+> 					phandle = <0xad>;
+8624,8625c8669,8670
+< 					linux,phandle = <0xa0>;
+< 					phandle = <0xa0>;
+---
+> 					linux,phandle = <0xa2>;
+> 					phandle = <0xa2>;
+8630,8631c8675,8676
+< 					linux,phandle = <0x95>;
+< 					phandle = <0x95>;
+---
+> 					linux,phandle = <0x97>;
+> 					phandle = <0x97>;
+8636,8637c8681,8682
+< 					linux,phandle = <0x9a>;
+< 					phandle = <0x9a>;
+---
+> 					linux,phandle = <0x9c>;
+> 					phandle = <0x9c>;
+8647,8648c8692,8693
+< 					linux,phandle = <0xa6>;
+< 					phandle = <0xa6>;
+---
+> 					linux,phandle = <0xa8>;
+> 					phandle = <0xa8>;
+8653,8654c8698,8699
+< 					linux,phandle = <0x90>;
+< 					phandle = <0x90>;
+---
+> 					linux,phandle = <0x92>;
+> 					phandle = <0x92>;
+8659,8660c8704,8705
+< 					linux,phandle = <0xa1>;
+< 					phandle = <0xa1>;
+---
+> 					linux,phandle = <0xa3>;
+> 					phandle = <0xa3>;
+8665,8666c8710,8711
+< 					linux,phandle = <0x96>;
+< 					phandle = <0x96>;
+---
+> 					linux,phandle = <0x98>;
+> 					phandle = <0x98>;
+8671,8672c8716,8717
+< 					linux,phandle = <0x9b>;
+< 					phandle = <0x9b>;
+---
+> 					linux,phandle = <0x9d>;
+> 					phandle = <0x9d>;
+8682,8683c8727,8728
+< 					linux,phandle = <0xa7>;
+< 					phandle = <0xa7>;
+---
+> 					linux,phandle = <0xa9>;
+> 					phandle = <0xa9>;
+8688,8689c8733,8734
+< 					linux,phandle = <0x91>;
+< 					phandle = <0x91>;
+---
+> 					linux,phandle = <0x93>;
+> 					phandle = <0x93>;
+8694,8695c8739,8740
+< 					linux,phandle = <0xa2>;
+< 					phandle = <0xa2>;
+---
+> 					linux,phandle = <0xa4>;
+> 					phandle = <0xa4>;
+8700,8701c8745,8746
+< 					linux,phandle = <0x97>;
+< 					phandle = <0x97>;
+---
+> 					linux,phandle = <0x99>;
+> 					phandle = <0x99>;
+8706,8707c8751,8752
+< 					linux,phandle = <0x9c>;
+< 					phandle = <0x9c>;
+---
+> 					linux,phandle = <0x9e>;
+> 					phandle = <0x9e>;
+8717,8718c8762,8763
+< 					linux,phandle = <0xa8>;
+< 					phandle = <0xa8>;
+---
+> 					linux,phandle = <0xaa>;
+> 					phandle = <0xaa>;
+8723,8724c8768,8769
+< 					linux,phandle = <0x92>;
+< 					phandle = <0x92>;
+---
+> 					linux,phandle = <0x94>;
+> 					phandle = <0x94>;
+8729,8730c8774,8775
+< 					linux,phandle = <0xac>;
+< 					phandle = <0xac>;
+---
+> 					linux,phandle = <0xae>;
+> 					phandle = <0xae>;
+8735,8736c8780,8781
+< 					linux,phandle = <0xa3>;
+< 					phandle = <0xa3>;
+---
+> 					linux,phandle = <0xa5>;
+> 					phandle = <0xa5>;
+8741,8742c8786,8787
+< 					linux,phandle = <0x98>;
+< 					phandle = <0x98>;
+---
+> 					linux,phandle = <0x9a>;
+> 					phandle = <0x9a>;
+8747,8748c8792,8793
+< 					linux,phandle = <0x9d>;
+< 					phandle = <0x9d>;
+---
+> 					linux,phandle = <0x9f>;
+> 					phandle = <0x9f>;
+8759,8760c8804,8805
+< 					linux,phandle = <0x15c>;
+< 					phandle = <0x15c>;
+---
+> 					linux,phandle = <0x15b>;
+> 					phandle = <0x15b>;
+8765,8766c8810,8811
+< 					linux,phandle = <0x15f>;
+< 					phandle = <0x15f>;
+---
+> 					linux,phandle = <0x15e>;
+> 					phandle = <0x15e>;
+8776,8777c8821,8822
+< 					linux,phandle = <0xdc>;
+< 					phandle = <0xdc>;
+---
+> 					linux,phandle = <0xde>;
+> 					phandle = <0xde>;
+8782,8783c8827,8828
+< 					linux,phandle = <0xd8>;
+< 					phandle = <0xd8>;
+---
+> 					linux,phandle = <0xda>;
+> 					phandle = <0xda>;
+8793,8794c8838,8839
+< 					linux,phandle = <0xdd>;
+< 					phandle = <0xdd>;
+---
+> 					linux,phandle = <0xdf>;
+> 					phandle = <0xdf>;
+8799,8800c8844,8845
+< 					linux,phandle = <0xd9>;
+< 					phandle = <0xd9>;
+---
+> 					linux,phandle = <0xdb>;
+> 					phandle = <0xdb>;
+8810,8811c8855,8856
+< 					linux,phandle = <0xde>;
+< 					phandle = <0xde>;
+---
+> 					linux,phandle = <0xe0>;
+> 					phandle = <0xe0>;
+8816,8817c8861,8862
+< 					linux,phandle = <0xda>;
+< 					phandle = <0xda>;
+---
+> 					linux,phandle = <0xdc>;
+> 					phandle = <0xdc>;
+8826,8827c8871,8872
+< 					linux,phandle = <0xdf>;
+< 					phandle = <0xdf>;
+---
+> 					linux,phandle = <0xe1>;
+> 					phandle = <0xe1>;
+8831,8832c8876,8877
+< 					linux,phandle = <0xdb>;
+< 					phandle = <0xdb>;
+---
+> 					linux,phandle = <0xdd>;
+> 					phandle = <0xdd>;
+8842,8843c8887,8888
+< 					linux,phandle = <0xe4>;
+< 					phandle = <0xe4>;
+---
+> 					linux,phandle = <0xe6>;
+> 					phandle = <0xe6>;
+8847,8849c8892,8894
+< 					drive-strength = <0x0a>;
+< 					linux,phandle = <0xe0>;
+< 					phandle = <0xe0>;
+---
+> 					drive-strength = <0x10>;
+> 					linux,phandle = <0xe2>;
+> 					phandle = <0xe2>;
+8859,8860c8904,8905
+< 					linux,phandle = <0xe5>;
+< 					phandle = <0xe5>;
+---
+> 					linux,phandle = <0xe7>;
+> 					phandle = <0xe7>;
+8864,8866c8909,8911
+< 					drive-strength = <0x06>;
+< 					linux,phandle = <0xe1>;
+< 					phandle = <0xe1>;
+---
+> 					drive-strength = <0x0a>;
+> 					linux,phandle = <0xe3>;
+> 					phandle = <0xe3>;
+8876,8877c8921,8922
+< 					linux,phandle = <0xe6>;
+< 					phandle = <0xe6>;
+---
+> 					linux,phandle = <0xe8>;
+> 					phandle = <0xe8>;
+8881,8883c8926,8928
+< 					drive-strength = <0x06>;
+< 					linux,phandle = <0xe2>;
+< 					phandle = <0xe2>;
+---
+> 					drive-strength = <0x0a>;
+> 					linux,phandle = <0xe4>;
+> 					phandle = <0xe4>;
+8894,8895c8939,8940
+< 					linux,phandle = <0xee>;
+< 					phandle = <0xee>;
+---
+> 					linux,phandle = <0xf0>;
+> 					phandle = <0xf0>;
+8899,8901c8944,8946
+< 					drive-strength = <0x08>;
+< 					linux,phandle = <0xea>;
+< 					phandle = <0xea>;
+---
+> 					drive-strength = <0x06>;
+> 					linux,phandle = <0xec>;
+> 					phandle = <0xec>;
+8912,8913c8957,8958
+< 					linux,phandle = <0xef>;
+< 					phandle = <0xef>;
+---
+> 					linux,phandle = <0xf1>;
+> 					phandle = <0xf1>;
+8917,8919c8962,8964
+< 					drive-strength = <0x06>;
+< 					linux,phandle = <0xeb>;
+< 					phandle = <0xeb>;
+---
+> 					drive-strength = <0x04>;
+> 					linux,phandle = <0xed>;
+> 					phandle = <0xed>;
+8930,8931c8975,8976
+< 					linux,phandle = <0xf0>;
+< 					phandle = <0xf0>;
+---
+> 					linux,phandle = <0xf2>;
+> 					phandle = <0xf2>;
+8935,8937c8980,8982
+< 					drive-strength = <0x06>;
+< 					linux,phandle = <0xec>;
+< 					phandle = <0xec>;
+---
+> 					drive-strength = <0x04>;
+> 					linux,phandle = <0xee>;
+> 					phandle = <0xee>;
+9001a9047,9074
+> 			prox_sensor_enable_active {
+> 				qcom,pins = <0x27 0x8b>;
+> 				qcom,pin-func = <0x00>;
+> 				qcom,num-grp-pins = <0x01>;
+> 				label = "prox_sensor_enable_active";
+> 				prox_enable_active {
+> 					drive-strength = <0x02>;
+> 					bias-disable;
+> 				};
+> 				prox_enable_suspend {
+> 					drive-strength = <0x02>;
+> 					bias-disable;
+> 				};
+> 			};
+> 			prox_sensor_int {
+> 				qcom,pins = <0x27 0x8d>;
+> 				qcom,pin-func = <0x03>;
+> 				qcom,num-grp-pins = <0x01>;
+> 				label = "prox_sensor_int";
+> 				prox_int_active {
+> 					drive-strength = <0x02>;
+> 					bias-disable;
+> 				};
+> 				prox_int_suspend {
+> 					drive-strength = <0x02>;
+> 					bias-disable;
+> 				};
+> 			};
+9016,9017c9089,9090
+< 					linux,phandle = <0x174>;
+< 					phandle = <0x174>;
+---
+> 					linux,phandle = <0x173>;
+> 					phandle = <0x173>;
+9022,9023c9095,9096
+< 					linux,phandle = <0x179>;
+< 					phandle = <0x179>;
+---
+> 					linux,phandle = <0x178>;
+> 					phandle = <0x178>;
+9034,9035c9107,9108
+< 					linux,phandle = <0x175>;
+< 					phandle = <0x175>;
+---
+> 					linux,phandle = <0x174>;
+> 					phandle = <0x174>;
+9040,9041c9113,9114
+< 					linux,phandle = <0x17a>;
+< 					phandle = <0x17a>;
+---
+> 					linux,phandle = <0x179>;
+> 					phandle = <0x179>;
+9052,9053c9125,9126
+< 					linux,phandle = <0x178>;
+< 					phandle = <0x178>;
+---
+> 					linux,phandle = <0x177>;
+> 					phandle = <0x177>;
+9058,9059c9131,9132
+< 					linux,phandle = <0x177>;
+< 					phandle = <0x177>;
+---
+> 					linux,phandle = <0x176>;
+> 					phandle = <0x176>;
+9070,9071c9143,9144
+< 					linux,phandle = <0x152>;
+< 					phandle = <0x152>;
+---
+> 					linux,phandle = <0x151>;
+> 					phandle = <0x151>;
+9076,9077c9149,9150
+< 					linux,phandle = <0x155>;
+< 					phandle = <0x155>;
+---
+> 					linux,phandle = <0x154>;
+> 					phandle = <0x154>;
+9088,9089c9161,9162
+< 					linux,phandle = <0x151>;
+< 					phandle = <0x151>;
+---
+> 					linux,phandle = <0x150>;
+> 					phandle = <0x150>;
+9094,9095c9167,9168
+< 					linux,phandle = <0x154>;
+< 					phandle = <0x154>;
+---
+> 					linux,phandle = <0x153>;
+> 					phandle = <0x153>;
+9106,9107c9179,9180
+< 					linux,phandle = <0x153>;
+< 					phandle = <0x153>;
+---
+> 					linux,phandle = <0x152>;
+> 					phandle = <0x152>;
+9112,9113c9185,9186
+< 					linux,phandle = <0x156>;
+< 					phandle = <0x156>;
+---
+> 					linux,phandle = <0x155>;
+> 					phandle = <0x155>;
+9131,9132c9204,9205
+< 					linux,phandle = <0xed>;
+< 					phandle = <0xed>;
+---
+> 					linux,phandle = <0xef>;
+> 					phandle = <0xef>;
+9138,9139d9210
+< 					linux,phandle = <0xf1>;
+< 					phandle = <0xf1>;
+9150,9151c9221,9222
+< 					linux,phandle = <0xe7>;
+< 					phandle = <0xe7>;
+---
+> 					linux,phandle = <0xe9>;
+> 					phandle = <0xe9>;
+9156,9157c9227,9228
+< 					linux,phandle = <0xe3>;
+< 					phandle = <0xe3>;
+---
+> 					linux,phandle = <0xe5>;
+> 					phandle = <0xe5>;
+9168,9169c9239,9240
+< 					linux,phandle = <0x14b>;
+< 					phandle = <0x14b>;
+---
+> 					linux,phandle = <0x14a>;
+> 					phandle = <0x14a>;
+9174,9175c9245,9246
+< 					linux,phandle = <0x148>;
+< 					phandle = <0x148>;
+---
+> 					linux,phandle = <0x147>;
+> 					phandle = <0x147>;
+9180,9181c9251,9252
+< 					linux,phandle = <0x14c>;
+< 					phandle = <0x14c>;
+---
+> 					linux,phandle = <0x14b>;
+> 					phandle = <0x14b>;
+9196,9197c9267,9268
+< 					linux,phandle = <0x149>;
+< 					phandle = <0x149>;
+---
+> 					linux,phandle = <0x148>;
+> 					phandle = <0x148>;
+9212,9213c9283,9284
+< 					linux,phandle = <0x1b0>;
+< 					phandle = <0x1b0>;
+---
+> 					linux,phandle = <0x1af>;
+> 					phandle = <0x1af>;
+9224,9225c9295,9296
+< 					linux,phandle = <0x1b1>;
+< 					phandle = <0x1b1>;
+---
+> 					linux,phandle = <0x1b0>;
+> 					phandle = <0x1b0>;
+9236,9237c9307,9308
+< 					linux,phandle = <0x1b3>;
+< 					phandle = <0x1b3>;
+---
+> 					linux,phandle = <0x1b2>;
+> 					phandle = <0x1b2>;
+9248,9249c9319,9320
+< 					linux,phandle = <0x1b2>;
+< 					phandle = <0x1b2>;
+---
+> 					linux,phandle = <0x1b1>;
+> 					phandle = <0x1b1>;
+9258c9329
+< 					drive-strength = <0x08>;
+---
+> 					drive-strength = <0x02>;
+9260,9261c9331,9332
+< 					linux,phandle = <0x141>;
+< 					phandle = <0x141>;
+---
+> 					linux,phandle = <0x140>;
+> 					phandle = <0x140>;
+9272,9273c9343,9344
+< 					linux,phandle = <0x142>;
+< 					phandle = <0x142>;
+---
+> 					linux,phandle = <0x141>;
+> 					phandle = <0x141>;
+9284,9285c9355,9356
+< 					linux,phandle = <0x16c>;
+< 					phandle = <0x16c>;
+---
+> 					linux,phandle = <0x16b>;
+> 					phandle = <0x16b>;
+9290,9291c9361,9362
+< 					linux,phandle = <0x16d>;
+< 					phandle = <0x16d>;
+---
+> 					linux,phandle = <0x16c>;
+> 					phandle = <0x16c>;
+9303,9304c9374,9375
+< 					linux,phandle = <0x1ad>;
+< 					phandle = <0x1ad>;
+---
+> 					linux,phandle = <0x1ac>;
+> 					phandle = <0x1ac>;
+9310,9311c9381,9382
+< 					linux,phandle = <0x1af>;
+< 					phandle = <0x1af>;
+---
+> 					linux,phandle = <0x1ae>;
+> 					phandle = <0x1ae>;
+9323,9324c9394,9395
+< 					linux,phandle = <0x1ac>;
+< 					phandle = <0x1ac>;
+---
+> 					linux,phandle = <0x1ab>;
+> 					phandle = <0x1ab>;
+9336,9337c9407,9408
+< 					linux,phandle = <0x1ae>;
+< 					phandle = <0x1ae>;
+---
+> 					linux,phandle = <0x1ad>;
+> 					phandle = <0x1ad>;
+9348,9349c9419,9420
+< 					linux,phandle = <0x15d>;
+< 					phandle = <0x15d>;
+---
+> 					linux,phandle = <0x15c>;
+> 					phandle = <0x15c>;
+9354,9355c9425,9426
+< 					linux,phandle = <0x160>;
+< 					phandle = <0x160>;
+---
+> 					linux,phandle = <0x15f>;
+> 					phandle = <0x15f>;
+9378,9379c9449,9450
+< 					linux,phandle = <0x1a8>;
+< 					phandle = <0x1a8>;
+---
+> 					linux,phandle = <0x1a7>;
+> 					phandle = <0x1a7>;
+9384,9385c9455,9456
+< 					linux,phandle = <0x1aa>;
+< 					phandle = <0x1aa>;
+---
+> 					linux,phandle = <0x1a9>;
+> 					phandle = <0x1a9>;
+9397,9398c9468,9469
+< 					linux,phandle = <0x1a9>;
+< 					phandle = <0x1a9>;
+---
+> 					linux,phandle = <0x1a8>;
+> 					phandle = <0x1a8>;
+9403,9404c9474,9475
+< 					linux,phandle = <0x1ab>;
+< 					phandle = <0x1ab>;
+---
+> 					linux,phandle = <0x1aa>;
+> 					phandle = <0x1aa>;
+9766,9767c9837,9838
+< 					linux,phandle = <0x166>;
+< 					phandle = <0x166>;
+---
+> 					linux,phandle = <0x165>;
+> 					phandle = <0x165>;
+9772,9773c9843,9844
+< 					linux,phandle = <0x169>;
+< 					phandle = <0x169>;
+---
+> 					linux,phandle = <0x168>;
+> 					phandle = <0x168>;
+9785,9786c9856,9857
+< 					linux,phandle = <0x168>;
+< 					phandle = <0x168>;
+---
+> 					linux,phandle = <0x167>;
+> 					phandle = <0x167>;
+9792,9793c9863,9864
+< 					linux,phandle = <0x16b>;
+< 					phandle = <0x16b>;
+---
+> 					linux,phandle = <0x16a>;
+> 					phandle = <0x16a>;
+9805,9806c9876,9877
+< 					linux,phandle = <0x167>;
+< 					phandle = <0x167>;
+---
+> 					linux,phandle = <0x166>;
+> 					phandle = <0x166>;
+9812,9813c9883,9884
+< 					linux,phandle = <0x16a>;
+< 					phandle = <0x16a>;
+---
+> 					linux,phandle = <0x169>;
+> 					phandle = <0x169>;
+9854,9855c9925,9926
+< 					linux,phandle = <0x143>;
+< 					phandle = <0x143>;
+---
+> 					linux,phandle = <0x142>;
+> 					phandle = <0x142>;
+9860,9861c9931,9932
+< 					linux,phandle = <0x147>;
+< 					phandle = <0x147>;
+---
+> 					linux,phandle = <0x146>;
+> 					phandle = <0x146>;
+9872,9873c9943,9944
+< 					linux,phandle = <0x144>;
+< 					phandle = <0x144>;
+---
+> 					linux,phandle = <0x143>;
+> 					phandle = <0x143>;
+9884,9885c9955,9956
+< 					linux,phandle = <0x145>;
+< 					phandle = <0x145>;
+---
+> 					linux,phandle = <0x144>;
+> 					phandle = <0x144>;
+9896,9897c9967,9968
+< 					linux,phandle = <0x146>;
+< 					phandle = <0x146>;
+---
+> 					linux,phandle = <0x145>;
+> 					phandle = <0x145>;
+9908,9909c9979,9980
+< 					linux,phandle = <0x103>;
+< 					phandle = <0x103>;
+---
+> 					linux,phandle = <0x104>;
+> 					phandle = <0x104>;
+9914,9915c9985,9986
+< 					linux,phandle = <0x104>;
+< 					phandle = <0x104>;
+---
+> 					linux,phandle = <0x105>;
+> 					phandle = <0x105>;
+9926,9927c9997,9998
+< 					linux,phandle = <0x105>;
+< 					phandle = <0x105>;
+---
+> 					linux,phandle = <0x106>;
+> 					phandle = <0x106>;
+9980c10051
+< 				qcom,iommu-contexts = <0x41>;
+---
+> 				qcom,iommu-contexts = <0x43>;
+9982,9983c10053,10054
+< 				linux,phandle = <0x10b>;
+< 				phandle = <0x10b>;
+---
+> 				linux,phandle = <0x10c>;
+> 				phandle = <0x10c>;
+9987c10058
+< 				qcom,iommu-contexts = <0x42>;
+---
+> 				qcom,iommu-contexts = <0x44>;
+9990,9991c10061,10062
+< 				linux,phandle = <0x10c>;
+< 				phandle = <0x10c>;
+---
+> 				linux,phandle = <0x10d>;
+> 				phandle = <0x10d>;
+9995c10066
+< 				qcom,iommu-contexts = <0x43>;
+---
+> 				qcom,iommu-contexts = <0x45>;
+9998,9999c10069,10070
+< 				linux,phandle = <0x10d>;
+< 				phandle = <0x10d>;
+---
+> 				linux,phandle = <0x10e>;
+> 				phandle = <0x10e>;
+10003c10074
+< 				qcom,iommu-contexts = <0x44>;
+---
+> 				qcom,iommu-contexts = <0x46>;
+10006,10007c10077,10078
+< 				linux,phandle = <0x10e>;
+< 				phandle = <0x10e>;
+---
+> 				linux,phandle = <0x10f>;
+> 				phandle = <0x10f>;
+10011c10082
+< 				qcom,iommu-contexts = <0x45>;
+---
+> 				qcom,iommu-contexts = <0x47>;
+10030,10031c10101,10102
+< 			linux,phandle = <0x12a>;
+< 			phandle = <0x12a>;
+---
+> 			linux,phandle = <0x129>;
+> 			phandle = <0x129>;
+10075,10076c10146,10147
+< 				linux,phandle = <0x44>;
+< 				phandle = <0x44>;
+---
+> 				linux,phandle = <0x46>;
+> 				phandle = <0x46>;
+10087,10088c10158,10159
+< 				linux,phandle = <0x42>;
+< 				phandle = <0x42>;
+---
+> 				linux,phandle = <0x44>;
+> 				phandle = <0x44>;
+10099,10100c10170,10171
+< 				linux,phandle = <0x43>;
+< 				phandle = <0x43>;
+---
+> 				linux,phandle = <0x45>;
+> 				phandle = <0x45>;
+10158,10159c10229,10230
+< 				linux,phandle = <0x45>;
+< 				phandle = <0x45>;
+---
+> 				linux,phandle = <0x47>;
+> 				phandle = <0x47>;
+10213,10214c10284,10285
+< 				linux,phandle = <0x41>;
+< 				phandle = <0x41>;
+---
+> 				linux,phandle = <0x43>;
+> 				phandle = <0x43>;
+10274,10275c10345,10346
+< 			linux,phandle = <0xbc>;
+< 			phandle = <0xbc>;
+---
+> 			linux,phandle = <0xbe>;
+> 			phandle = <0xbe>;
+10412,10413c10483,10484
+< 				pinctrl-0 = <0x3c 0x3d>;
+< 				pinctrl-1 = <0x3e 0x3f>;
+---
+> 				pinctrl-0 = <0x3c 0x3d 0x3e>;
+> 				pinctrl-1 = <0x3f 0x40 0x41>;
+11154,11155c11225,11226
+< 				linux,phandle = <0x40>;
+< 				phandle = <0x40>;
+---
+> 				linux,phandle = <0x42>;
+> 				phandle = <0x42>;
+11157,11161c11228,11232
+< 			ss_dsi_panel_S6E3HA2_AMS801HK01_QXGA {
+< 				qcom,mdss-dsi-panel-name = "ss_dsi_panel_S6E3HA2_AMS801HK01_QXGA";
+< 				label = "ss_dsi_panel_S6E3HA2_AMS801HK01_QXGA";
+< 				qcom,mdss-dsi-panel-width = <0x300>;
+< 				qcom,mdss-dsi-panel-height = <0x800>;
+---
+> 			ss_dsi_panel_ANA38401_AMS968HH01_QXGA {
+> 				qcom,mdss-dsi-panel-name = "ss_dsi_panel_ANA38401_AMS968HH01_QXGA";
+> 				label = "ss_dsi_panel_ANA38401_AMS968HH01_QXGA";
+> 				qcom,mdss-dsi-panel-width = <0x400>;
+> 				qcom,mdss-dsi-panel-height = <0x600>;
+11164,11165c11235,11236
+< 				qcom,mdss-dsi-on-command = [05 01 00 00 05 00 02 11 00 29 00 00 00 00 00 03 f0 5a 5a 29 01 00 00 78 00 02 f2 63 29 01 00 00 00 00 03 f0 a5 a5 29 01 00 00 32 00 03 f0 5a 5a 29 01 00 00 28 00 03 b8 30 b9 29 00 00 00 00 00 03 b8 30 00 29 01 00 00 00 00 03 f0 a5 a5 29 00 00 00 00 00 03 f0 5a 5a 29 00 00 00 00 00 06 b9 10 07 ff 00 09 29 01 00 00 00 00 03 f0 a5 a5 29 00 00 00 00 00 02 35 00 29 00 00 00 00 00 03 f0 5a 5a 29 00 00 00 00 00 07 bd 11 01 02 16 02 16 29 00 00 00 00 00 05 c0 00 0f d8 d8 29 00 00 00 00 00 03 fc 5a 5a 29 00 00 00 00 00 02 b0 20 29 00 00 00 00 00 02 fe 08 29 00 00 00 00 00 03 fc a5 a5 29 00 00 00 00 00 02 ed 44 29 00 00 00 00 00 05 2a 00 00 05 ff 29 00 00 00 00 00 05 2b 00 00 07 ff 29 00 00 00 00 00 24 ca 01 00 01 00 01 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 00 00 00 00 00 29 00 00 00 00 00 03 b2 0a 00 29 00 00 00 00 00 03 b6 9c 0d 29 00 00 00 00 00 03 f4 ab 21 29 00 00 00 00 00 02 b5 40 29 00 00 00 00 00 02 55 00 29 01 00 00 01 00 02 f7 03 29 00 00 00 00 00 02 f7 00 29 01 00 00 00 00 03 f0 a5 a5];
+< 				qcom,mdss-dsi-off-command = [05 01 00 00 00 00 02 28 00 05 01 00 00 78 00 02 10 00];
+---
+> 				qcom,mdss-dsi-on-command = [15 01 00 00 00 00 02 b0 34 39 01 00 00 00 00 03 b2 64 00 15 01 00 00 00 00 02 b0 75 39 01 00 00 00 00 02 b2 28 15 01 00 00 00 00 02 b0 d9 39 01 00 00 00 00 02 b1 08 15 01 00 00 00 00 02 b0 51 39 01 00 00 00 00 02 b1 06 15 01 00 00 00 00 02 b0 7f 39 01 00 00 00 00 02 b2 15 39 01 00 00 00 00 03 44 05 f6 15 01 00 00 00 00 02 b0 bc 39 01 00 00 00 00 02 b2 04 39 01 00 00 00 00 22 83 80 80 80 80 80 80 80 00 80 80 00 80 80 80 80 80 80 80 00 80 80 00 80 80 80 80 80 80 80 00 80 80 00 39 01 00 00 00 00 04 90 00 00 0e 15 01 00 00 00 00 02 b0 67 39 01 00 00 00 00 02 b2 19 15 01 00 00 00 00 02 b0 4d 39 01 00 00 00 00 02 b2 04 15 01 00 00 00 00 02 b0 36 39 01 00 00 00 00 02 b2 10 15 01 00 00 00 00 02 b0 6d 39 01 00 00 00 00 02 b2 85 15 01 00 00 00 00 02 b0 35 39 01 00 00 00 00 02 b2 01 15 01 00 00 00 00 02 b0 d0 39 01 00 00 b5 00 02 b1 1d 05 01 00 00 32 00 02 29 00 39 01 00 00 00 00 02 35 00];
+> 				qcom,mdss-dsi-off-command = [39 01 00 00 00 00 02 34 00 05 01 00 00 64 00 02 28 00];
+11168,11169c11239,11240
+< 				qcom,mdss-dsi-h-front-porch = <0xd4>;
+< 				qcom,mdss-dsi-h-pulse-width = <0x10>;
+---
+> 				qcom,mdss-dsi-h-front-porch = <0x10>;
+> 				qcom,mdss-dsi-h-pulse-width = <0xd4>;
+11171,11172c11242,11243
+< 				qcom,mdss-dsi-v-back-porch = <0x05>;
+< 				qcom,mdss-dsi-v-front-porch = <0x0b>;
+---
+> 				qcom,mdss-dsi-v-back-porch = <0x06>;
+> 				qcom,mdss-dsi-v-front-porch = <0x0a>;
+11185a11257,11258
+> 				qcom,mdss-dsi-force-clock-lane-hs;
+> 				qcom,mdss-dsi-te-check-enable;
+11204a11278
+> 				qcom,mdss-dsi-panel-clockrate = <0x3567e000>;
+11207,11208c11281,11282
+< 				qcom,mdss-pan-physical-width-dimension = <0x7a>;
+< 				qcom,mdss-pan-physical-height-dimension = <0xa3>;
+---
+> 				qcom,mdss-pan-physical-width-dimension = <0xc4>;
+> 				qcom,mdss-pan-physical-height-dimension = <0x93>;
+11210c11284
+< 				qcom,mdss-dsi-reset-sequence = <0x01 0x05 0x00 0x05 0x01 0x05>;
+---
+> 				qcom,mdss-dsi-reset-sequence = <0x00 0x05 0x01 0x1e>;
+11212c11286
+< 				qcom,mdss-dsi-init-delay-us = <0x3e8>;
+---
+> 				qcom,mdss-dsi-init-delay-us = <0xdea8>;
+11215c11289,11293
+< 				samsung,mdss-power-on-reset-delay-us = <0x2710>;
+---
+> 				qcom,esd_irq_gpio = <0x33 0x38 0x00>;
+> 				qcom,esd-check-enabled;
+> 				qcom,mdss-dsi-panel-status-check-mode = "reg_read_irq";
+> 				qcom,mdss-dsi-panel-status-value = <0x01>;
+> 				qcom,mdss-dsi-panel-status-irq-trigger = "falling";
+11217a11296
+> 				samsung,tcon-clk-on-support;
+11218a11298,11299
+> 				samsung,mdss-power-on-reset-delay-us = <0x11170>;
+> 				samsung,mdss-power-off-delay-us = <0x2710>;
+11220,11226c11301
+< 				samsung,alpm_on_tx_cmds_revA = <0x29010000 0x3f0 0x5a5a0501 0x1400 0x2280029 0x1000014 0x25323 0x29010000 0x10002f7 0x3290100 0x02 0xf7002901 0x00 0x3f0a5a5>;
+< 				samsung,alpm_off_tx_cmds_revA = <0x29010000 0x3f0 0x5a5a0501 0x1400 0x2280029 0x1000014 0x25300 0x29010000 0x10002f7 0x3290100 0x02 0xf7002901 0x00 0x3f0a5a5>;
+< 				samsung,level1_key_enable_tx_cmds_revA = [29 01 00 00 00 00 03 f0 5a 5a];
+< 				samsung,level1_key_disable_tx_cmds_revA = [29 01 00 00 00 00 03 f0 a5 a5];
+< 				samsung,level2_key_enable_tx_cmds_revA = [29 01 00 00 00 00 03 f2 5a 5a];
+< 				samsung,level2_key_disable_tx_cmds_revA = [29 01 00 00 00 00 03 f2 a5 a5];
+< 				samsung,packet_size_tx_cmds_revA = [37 01 00 00 00 00 02 07 00];
+---
+> 				samsung,packet_size_tx_cmds_revA = [37 01 00 00 00 00 02 21 00];
+11228,11233c11303,11309
+< 				samsung,smart_dimming_mtp_rx_cmds_revA = [06 01 00 00 00 00 01 c8 23 00];
+< 				samsung,hbm_rx_cmds_revA = [06 01 00 00 00 00 01 c8 07 21];
+< 				samsung,hbm2_rx_cmds_revA = [06 01 00 00 00 00 01 c8 0f 48];
+< 				samsung,mdnie_read_rx_cmds_revA = [06 01 00 00 00 00 01 a1 04 00];
+< 				samsung,elvss_rx_cmds_revA = [06 01 00 00 00 00 01 b6 01 15];
+< 				samsung,manufacture_read_pre_tx_cmds_revA = [05 01 00 00 05 00 01 11 29 01 00 00 00 00 03 f0 5a 5a 29 01 00 00 78 00 02 f2 63];
+---
+> 				samsung,smart_dimming_mtp_rx_cmds_revA = [24 01 00 00 00 00 02 d8 08 08 5a];
+> 				samsung,hbm_rx_cmds_revA = [24 01 00 00 00 00 02 d4 08 08 5b];
+> 				samsung,hbm2_rx_cmds_revA = [24 01 00 00 00 00 02 d8 01 01 81];
+> 				samsung,mdnie_read_rx_cmds_revA = [24 01 00 00 00 00 02 d8 04 04 7b];
+> 				samsung,elvss_rx_cmds_revA = [24 01 00 00 00 00 02 d2 01 01 70];
+> 				samsung,mtp_read_sysfs_rx_cmds_revA = [24 01 00 00 00 00 02 00 00 00 00];
+> 				samsung,manufacture_read_pre_tx_cmds_revA = [15 01 00 00 00 00 02 b0 34 39 01 00 00 00 00 03 b2 64 00 15 01 00 00 00 00 02 b0 d9 39 01 00 00 00 00 02 b1 08 15 01 00 00 00 00 02 b0 51 39 01 00 00 00 00 02 b1 06 15 01 00 00 00 00 02 b0 75 39 01 00 00 00 00 02 b2 28];
+11237,11242c11313
+< 				samsung,manufacture_date_rx_cmds_revA = [06 01 00 00 00 00 01 c8 04 28];
+< 				samsung,ddi_id_rx_cmds_revA = [06 01 00 00 00 00 01 d6 05 00];
+< 				samsung,ldi_fps_change_tx_cmds_revA = [29 00 00 00 00 00 03 f0 5a 5a 29 00 00 00 00 00 03 fc 5a 5a 29 00 00 00 00 00 04 f2 63 41 c5 29 00 00 00 00 00 03 f0 a5 a5 29 01 00 00 00 00 03 fc a5 a5];
+< 				samsung,ldi_fps_rx_cmds_revA = [06 01 00 00 00 00 01 d7 01 1a];
+< 				samsung,mtp_read_sysfs_rx_cmds_revA = [06 01 00 00 00 00 01 00 00 00];
+< 				samsung,display_on_tx_cmds_revA = [05 01 00 00 32 00 02 29 00];
+---
+> 				samsung,manufacture_date_rx_cmds_revA = [24 01 00 00 00 00 02 d8 02 02 7f];
+11244,11250c11315,11319
+< 				samsung,elvss_lowtemp_tx_cmds_revA = [29 01 00 00 00 00 02 b0 07 29 01 00 00 00 00 02 b8 00];
+< 				samsung,elvss_lowtemp2_tx_cmds_revA = [29 01 00 00 00 00 02 b0 15 29 01 00 00 00 00 02 b6 00];
+< 				samsung,gamma_tx_cmds_revA = <0x29010000 0x24ca 0x1000100 0x1008080 0x80808080 0x80808080 0x80808080 0x80808080 0x80808080 0x80800000 0x29 0x1000000 0x2f703 0x29010000 0x3c00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x29 0x1000000 0x2f700>;
+< 				samsung,hbm_gamma_tx_cmds_revA = [29 01 00 00 00 00 24 ca 01 00 01 00 01 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 00 00 00 00 00];
+< 				samsung,hbm_etc_tx_cmds_revA = [29 01 00 00 00 00 03 b6 9c 0d 15 01 00 00 00 00 02 b5 50 29 01 00 00 00 00 03 f4 ab 21 15 01 00 00 00 00 02 53 c0];
+< 				samsung,hbm_off_tx_cmds_revA = [15 01 00 00 00 00 02 53 00];
+< 				samsung,aid_tx_cmds_revA = [29 01 00 00 00 00 03 b2 f3 70 29 01 00 00 00 00 03 b2 e4 70 29 01 00 00 00 00 03 b2 d5 70 29 01 00 00 00 00 03 b2 c7 70 29 01 00 00 00 00 03 b2 b7 70 29 01 00 00 00 00 03 b2 a8 70 29 01 00 00 00 00 03 b2 98 70 29 01 00 00 00 00 03 b2 89 70 29 01 00 00 00 00 03 b2 7a 70 29 01 00 00 00 00 03 b2 6b 70 29 01 00 00 00 00 03 b2 5a 70 29 01 00 00 00 00 03 b2 4d 70 29 01 00 00 00 00 03 b2 3c 70 29 01 00 00 00 00 03 b2 2c 70 29 01 00 00 00 00 03 b2 1d 70 29 01 00 00 00 00 03 b2 0d 70 29 01 00 00 00 00 03 b2 ee 60 29 01 00 00 00 00 03 b2 dd 60 29 01 00 00 00 00 03 b2 cd 60 29 01 00 00 00 00 03 b2 bd 60 29 01 00 00 00 00 03 b2 9c 60 29 01 00 00 00 00 03 b2 8a 60 29 01 00 00 00 00 03 b2 6a 60 29 01 00 00 00 00 03 b2 48 60 29 01 00 00 00 00 03 b2 38 60 29 01 00 00 00 00 03 b2 16 60 29 01 00 00 00 00 03 b2 f5 50 29 01 00 00 00 00 03 b2 c0 50 29 01 00 00 00 00 03 b2 9e 50 29 01 00 00 00 00 03 b2 7a 50 29 01 00 00 00 00 03 b2 47 50 29 01 00 00 00 00 03 b2 0f 50 29 01 00 00 00 00 03 b2 d6 40 29 01 00 00 00 00 03 b2 a1 40 29 01 00 00 00 00 03 b2 66 40 29 01 00 00 00 00 03 b2 1a 40 29 01 00 00 00 00 03 b2 d0 30 29 01 00 00 00 00 03 b2 87 30 29 01 00 00 00 00 03 b2 3d 30 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 df 20 29 01 00 00 00 00 03 b2 6e 20 29 01 00 00 00 00 03 b2 fe 10 29 01 00 00 00 00 03 b2 81 10 29 01 00 00 00 00 03 b2 f6 00 29 01 00 00 00 00 03 b2 67 00 29 01 00 00 00 00 03 b2 67 00 29 01 00 00 00 00 03 b2 67 00 29 01 00 00 00 00 03 b2 67 00 29 01 00 00 00 00 03 b2 67 00 29 01 00 00 00 00 03 b2 67 00 29 01 00 00 00 00 03 b2 67 00];
+---
+> 				samsung,gamma_tx_cmds_revA = [39 01 00 00 00 00 22 83 80 80 80 80 80 80 80 00 80 80 00 80 80 80 80 80 80 80 00 80 80 00 80 80 80 80 80 80 80 00 80 80 00 15 01 00 00 00 00 02 b0 35 39 01 00 00 00 00 02 b2 01];
+> 				samsung,hbm_gamma_tx_cmds_revA = [39 01 00 00 00 00 22 83 80 80 80 80 80 80 80 00 80 80 00 80 80 80 80 80 80 80 00 80 80 00 80 80 80 80 80 80 80 00 80 80 00];
+> 				samsung,hbm_etc_tx_cmds_revA = [39 01 00 00 00 00 04 90 00 00 0e 15 01 00 00 00 00 02 b0 67 39 01 00 00 00 00 02 b2 19 15 01 00 00 00 00 02 b0 70 39 01 00 00 00 00 02 b2 00 15 01 00 00 00 00 02 b0 4d 39 01 00 00 00 00 02 b2 05 15 01 00 00 00 00 02 b0 36 39 01 00 00 00 00 02 b2 12 15 01 00 00 00 00 02 b0 6d 39 01 00 00 00 00 02 b2 85 15 01 00 00 00 00 02 b0 35 39 01 00 00 00 00 02 b2 01];
+> 				samsung,hbm_off_tx_cmds_revA = [15 00 00 00 00 00 02 b0 70 39 00 00 00 00 00 02 b2 00];
+> 				samsung,aid_tx_cmds_revA = [39 01 00 00 00 00 04 90 01 00 7f 39 01 00 00 00 00 04 90 01 00 7d 39 01 00 00 00 00 04 90 01 00 7a 39 01 00 00 00 00 04 90 01 00 78 39 01 00 00 00 00 04 90 01 00 75 39 01 00 00 00 00 04 90 01 00 72 39 01 00 00 00 00 04 90 01 00 6f 39 01 00 00 00 00 04 90 01 00 6c 39 01 00 00 00 00 04 90 01 00 69 39 01 00 00 00 00 04 90 01 00 67 39 01 00 00 00 00 04 90 01 00 64 39 01 00 00 00 00 04 90 01 00 61 39 01 00 00 00 00 04 90 01 00 5e 39 01 00 00 00 00 04 90 01 00 5a 39 01 00 00 00 00 04 90 01 00 58 39 01 00 00 00 00 04 90 01 00 56 39 01 00 00 00 00 04 90 01 00 50 39 01 00 00 00 00 04 90 01 00 4d 39 01 00 00 00 00 04 90 01 00 48 39 01 00 00 00 00 04 90 01 00 45 39 01 00 00 00 00 04 90 01 00 3f 39 01 00 00 00 00 04 90 01 00 3c 39 01 00 00 00 00 04 90 01 00 36 39 01 00 00 00 00 04 90 01 00 30 39 01 00 00 00 00 04 90 01 00 2c 39 01 00 00 00 00 04 90 01 00 26 39 01 00 00 00 00 04 90 01 00 1f 39 01 00 00 00 00 04 90 01 00 16 39 01 00 00 00 00 04 90 01 00 0f 39 01 00 00 00 00 04 90 01 00 09 39 01 00 00 00 00 04 90 00 00 ff 39 01 00 00 00 00 04 90 00 00 f5 39 01 00 00 00 00 04 90 00 00 eb 39 01 00 00 00 00 04 90 00 00 e1 39 01 00 00 00 00 04 90 00 00 d7 39 01 00 00 00 00 04 90 00 00 c9 39 01 00 00 00 00 04 90 00 00 bb 39 01 00 00 00 00 04 90 00 00 ad 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 99 39 01 00 00 00 00 04 90 00 00 86 39 01 00 00 00 00 04 90 00 00 71 39 01 00 00 00 00 04 90 00 00 5c 39 01 00 00 00 00 04 90 00 00 45 39 01 00 00 00 00 04 90 00 00 2b 39 01 00 00 00 00 04 90 00 00 0e 39 01 00 00 00 00 04 90 00 00 0e 39 01 00 00 00 00 04 90 00 00 0e 39 01 00 00 00 00 04 90 00 00 0e 39 01 00 00 00 00 04 90 00 00 0e 39 01 00 00 00 00 04 90 00 00 0e 39 01 00 00 00 00 04 90 00 00 0e];
+11252,11254c11321,11327
+< 				samsung,acl_on_tx_cmds_revA = [29 01 00 00 00 00 02 b5 50];
+< 				samsung,acl_percent_tx_cmds_revA = <0x29010000 0x255 0x290100 0x02 0x55012901 0x00 0x2550229 0x1000000 0x25503>;
+< 				samsung,acl_off_tx_cmds_revA = [29 01 00 00 00 00 02 b5 40 29 01 00 00 00 00 02 55 00];
+---
+> 				samsung,pre_caps_setting_tx_cmds_revA = [15 01 00 00 00 00 02 b0 6d];
+> 				samsung,caps_setting_tx_cmds_revA = [39 01 00 00 00 00 02 b2 81 39 01 00 00 00 00 02 b2 85];
+> 				samsung,caps_map_table_revA = <0x02 0x00 0x03 0x00 0x04 0x00 0x05 0x00 0x06 0x00 0x07 0x00 0x08 0x00 0x09 0x00 0x0a 0x00 0x0b 0x00 0x0c 0x00 0x0d 0x00 0x0e 0x00 0x0f 0x00 0x10 0x00 0x11 0x00 0x13 0x00 0x14 0x00 0x15 0x00 0x16 0x00 0x18 0x00 0x19 0x00 0x1b 0x00 0x1d 0x00 0x1e 0x00 0x20 0x00 0x22 0x00 0x25 0x00 0x27 0x00 0x29 0x01 0x2c 0x01 0x2f 0x01 0x32 0x01 0x35 0x01 0x38 0x01 0x3c 0x01 0x40 0x01 0x44 0x01 0x48 0x01 0x4d 0x01 0x52 0x01 0x57 0x01 0x5d 0x01 0x62 0x01 0x69 0x01 0x6f 0x01 0x77 0x01 0x7e 0x01 0x86 0x01 0x8f 0x01 0x98 0x01 0xa2 0x01 0xac 0x01 0xb7 0x01 0xc3 0x01 0xcf 0x01 0xdc 0x01 0xea 0x01 0xf9 0x01 0x109 0x01 0x11a 0x01 0x12c 0x01 0x13c 0x01 0x14d 0x01 0x168 0x01>;
+> 				samsung,acl_on_tx_cmds_revA = [15 01 00 00 00 00 02 b0 4d 39 01 00 00 00 00 02 b2 05];
+> 				samsung,acl_pre_percent_tx_cmds_revA = [15 01 00 00 00 00 02 b0 36];
+> 				samsung,acl_percent_tx_cmds_revA = <0x39010000 0x2b2 0x10390100 0x02 0xb2113901 0x00 0x2b21239 0x1000000 0x2b213>;
+> 				samsung,acl_off_tx_cmds_revA = <0x15010000 0x2b0 0x4d390100 0x02 0xb2041501 0x00 0x2b03639 0x1000000 0x2b210>;
+11256,11258c11329,11336
+< 				samsung,elvss_tx_cmds_revA = <0x29010000 0x3b6 0x9c0d2901 0x00 0x3b69c0e 0x29010000 0x3b6 0x9c0f2901 0x00 0x3b69c10 0x29010000 0x3b6 0x9c122901 0x00 0x3b69c13 0x29010000 0x3b6 0x9c142901 0x00 0x3b69c15 0x29010000 0x3b6 0x9c162901 0x00 0x3b69c17 0x29010000 0x3b6 0x9c182901 0x00 0x3b69c19 0x29010000 0x3b6 0x9c182901 0x00 0x3b69c17 0x29010000 0x3b6 0x9c162901 0x00 0x3b69c15 0x29010000 0x3b6 0x9c142901 0x00 0x3b69c13 0x29010000 0x3b6 0x9c122901 0x00 0x3b69c11 0x29010000 0x3b6 0x9c102901 0x00 0x3b69c0f 0x29010000 0x3b6 0x9c0e2901 0x00 0x3b69c0d>;
+< 				samsung,smart_acl_elvss_tx_cmds_revA = <0x29010000 0x3b6 0x9c0d2901 0x00 0x3b69c0e 0x29010000 0x3b6 0x9c0f2901 0x00 0x3b69c10 0x29010000 0x3b6 0x9c122901 0x00 0x3b69c13 0x29010000 0x3b6 0x9c142901 0x00 0x3b69c15 0x29010000 0x3b6 0x9c162901 0x00 0x3b69c17 0x29010000 0x3b6 0x9c182901 0x00 0x3b69c19 0x29010000 0x3b6 0x9c182901 0x00 0x3b69c17 0x29010000 0x3b6 0x9c162901 0x00 0x3b69c15 0x29010000 0x3b6 0x8c142901 0x00 0x3b68c13 0x29010000 0x3b6 0x8c122901 0x00 0x3b68c11 0x29010000 0x3b6 0x8c102901 0x00 0x3b68c0f 0x29010000 0x3b6 0x8c0e2901 0x00 0x3b68c0d>;
+< 				samsung,smart_acl_elvss_map_table_revA = <0x02 0x17 0x03 0x17 0x04 0x17 0x05 0x16 0x06 0x16 0x07 0x16 0x08 0x16 0x09 0x16 0x0a 0x15 0x0b 0x15 0x0c 0x15 0x0d 0x15 0x0e 0x15 0x0f 0x14 0x10 0x14 0x11 0x14 0x13 0x14 0x14 0x13 0x15 0x13 0x16 0x13 0x18 0x13 0x19 0x12 0x1b 0x12 0x1d 0x12 0x1e 0x11 0x20 0x11 0x22 0x11 0x25 0x10 0x27 0x10 0x29 0x0f 0x2c 0x0f 0x2f 0x0e 0x32 0x0d 0x35 0x0d 0x38 0x0c 0x3c 0x0b 0x40 0x0b 0x44 0x0b 0x48 0x0b 0x4d 0x0b 0x52 0x0b 0x57 0x0b 0x5d 0x0b 0x62 0x0b 0x69 0x0b 0x6f 0x0b 0x77 0x0b 0x7e 0x0a 0x86 0x0a 0x8f 0x09 0x98 0x09 0xa2 0x08 0xac 0x07 0xb7 0x06 0xc3 0x06 0xcf 0x06 0xdc 0x06 0xea 0x05 0xf9 0x05 0x109 0x04 0x11a 0x03 0x12c 0x03 0x13c 0x02 0x14d 0x01 0x168 0x00>;
+---
+> 				samsung,elvss_pre_tx_cmds_revA = [15 01 00 00 00 00 02 b0 67];
+> 				samsung,elvss_tx_cmds_revA = [39 01 00 00 00 00 02 b2 21 39 01 00 00 00 00 02 b2 20 39 01 00 00 00 00 02 b2 1f 39 01 00 00 00 00 02 b2 1e 39 01 00 00 00 00 02 b2 1d 39 01 00 00 00 00 02 b2 1c 39 01 00 00 00 00 02 b2 1b 39 01 00 00 00 00 02 b2 1a 39 01 00 00 00 00 02 b2 19];
+> 				samsung,elvss_lowtemp_tx_cmds_revA = [39 01 00 00 00 00 02 b2 17 39 01 00 00 00 00 02 b2 16 39 01 00 00 00 00 02 b2 15 39 01 00 00 00 00 02 b2 13 39 01 00 00 00 00 02 b2 11 39 01 00 00 00 00 02 b2 0f 39 01 00 00 00 00 02 b2 0d 39 01 00 00 00 00 02 b2 0b 39 01 00 00 00 00 02 b2 09];
+> 				samsung,elvss_lowtemp2_tx_cmds_revA = [39 01 00 00 00 00 02 b2 11 39 01 00 00 00 00 02 b2 0f 39 01 00 00 00 00 02 b2 0d 39 01 00 00 00 00 02 b2 0b 39 01 00 00 00 00 02 b2 09 39 01 00 00 00 00 02 b2 07 39 01 00 00 00 00 02 b2 05 39 01 00 00 00 00 02 b2 03 39 01 00 00 00 00 02 b2 01];
+> 				samsung,elvss_map_table_revA = <0x02 0x08 0x03 0x08 0x04 0x08 0x05 0x07 0x06 0x07 0x07 0x07 0x08 0x07 0x09 0x07 0x0a 0x07 0x0b 0x06 0x0c 0x06 0x0d 0x06 0x0e 0x06 0x0f 0x06 0x10 0x05 0x11 0x05 0x13 0x05 0x14 0x05 0x15 0x04 0x16 0x04 0x18 0x04 0x19 0x04 0x1b 0x03 0x1d 0x03 0x1e 0x03 0x20 0x02 0x22 0x02 0x25 0x01 0x27 0x01 0x29 0x01 0x2c 0x00 0x2f 0x00 0x32 0x00 0x35 0x00 0x38 0x00 0x3c 0x00 0x40 0x00 0x44 0x00 0x48 0x00 0x4d 0x00 0x52 0x00 0x57 0x00 0x5d 0x00 0x62 0x00 0x69 0x00 0x6f 0x00 0x77 0x00 0x7e 0x00 0x86 0x00 0x8f 0x00 0x98 0x01 0xa2 0x01 0xac 0x02 0xb7 0x02 0xc3 0x02 0xcf 0x02 0xdc 0x03 0xea 0x03 0xf9 0x03 0x109 0x04 0x11a 0x04 0x12c 0x05 0x13c 0x06 0x14d 0x07 0x168 0x08>;
+> 				samsung,smart_acl_elvss_tx_cmds_revA = [39 01 00 00 00 00 02 b2 21 39 01 00 00 00 00 02 b2 20 39 01 00 00 00 00 02 b2 1f 39 01 00 00 00 00 02 b2 1e 39 01 00 00 00 00 02 b2 1d 39 01 00 00 00 00 02 b2 1c 39 01 00 00 00 00 02 b2 1b 39 01 00 00 00 00 02 b2 1a 39 01 00 00 00 00 02 b2 19];
+> 				samsung,smart_acl_elvss_lowtemp_tx_cmds_revA = [39 01 00 00 00 00 02 b2 17 39 01 00 00 00 00 02 b2 16 39 01 00 00 00 00 02 b2 15 39 01 00 00 00 00 02 b2 13 39 01 00 00 00 00 02 b2 11 39 01 00 00 00 00 02 b2 0f 39 01 00 00 00 00 02 b2 0d 39 01 00 00 00 00 02 b2 0b 39 01 00 00 00 00 02 b2 09];
+> 				samsung,smart_acl_elvss_map_table_revA = <0x02 0x08 0x03 0x08 0x04 0x08 0x05 0x07 0x06 0x07 0x07 0x07 0x08 0x07 0x09 0x07 0x0a 0x07 0x0b 0x06 0x0c 0x06 0x0d 0x06 0x0e 0x06 0x0f 0x06 0x10 0x05 0x11 0x05 0x13 0x05 0x14 0x05 0x15 0x04 0x16 0x04 0x18 0x04 0x19 0x04 0x1b 0x03 0x1d 0x03 0x1e 0x03 0x20 0x02 0x22 0x02 0x25 0x01 0x27 0x01 0x29 0x01 0x2c 0x00 0x2f 0x00 0x32 0x00 0x35 0x00 0x38 0x00 0x3c 0x00 0x40 0x00 0x44 0x00 0x48 0x00 0x4d 0x00 0x52 0x00 0x57 0x00 0x5d 0x00 0x62 0x00 0x69 0x00 0x6f 0x00 0x77 0x00 0x7e 0x00 0x86 0x00 0x8f 0x00 0x98 0x01 0xa2 0x01 0xac 0x02 0xb7 0x02 0xc3 0x02 0xcf 0x02 0xdc 0x03 0xea 0x03 0xf9 0x03 0x109 0x03 0x11a 0x03 0x12c 0x04 0x13c 0x05 0x14d 0x05 0x168 0x06>;
+11260,11270d11337
+< 				samsung,hmt_aid_tx_cmds_revA = <0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3120300 0x2901 0x00 0x7b20312 0x3000000 0x29010000 0x7b2 0x3130400 0x2901 0x00 0x7b20313 0x4000000 0x29010000 0x7b2 0x3130400 0x2901 0x00 0x7b20313 0x4000000 0x29010000 0x7b2 0x3130400 0x2901 0x00 0x7b20313 0x4000000>;
+< 				samsung,hmt_reverse_aid_map_table_revA = <0x14 0x00 0x15 0x01 0x16 0x02 0x17 0x03 0x19 0x04 0x1b 0x05 0x1d 0x06 0x1f 0x07 0x21 0x08 0x23 0x09 0x25 0x0a 0x27 0x0b 0x29 0x0c 0x2c 0x0d 0x2f 0x0e 0x32 0x0f 0x35 0x10 0x38 0x11 0x3c 0x12 0x40 0x13 0x44 0x14 0x48 0x15 0x4d 0x16 0x52 0x17 0x57 0x18 0x5d 0x19 0x63 0x1a 0x69 0x1b>;
+< 				samsung,hmt_candela_map_table_revA = <0x00 0x00 0x09 0x14 0x01 0x0a 0x13 0x15 0x02 0x14 0x1d 0x16 0x03 0x1e 0x27 0x17 0x04 0x28 0x31 0x19 0x05 0x32 0x3b 0x1b 0x06 0x3c 0x44 0x1d 0x07 0x45 0x4d 0x1f 0x08 0x4e 0x56 0x21 0x09 0x57 0x5f 0x23 0x0a 0x60 0x68 0x25 0x0b 0x69 0x71 0x27 0x0c 0x72 0x7a 0x29 0x0d 0x7b 0x83 0x2c 0x0e 0x84 0x8c 0x2f 0x0f 0x8d 0x95 0x32 0x10 0x96 0x9e 0x35 0x11 0x9f 0xa7 0x38 0x12 0xa8 0xb0 0x3c 0x13 0xb1 0xb9 0x40 0x14 0xba 0xc2 0x44 0x15 0xc3 0xcb 0x48 0x16 0xcc 0xd4 0x4d 0x17 0xd5 0xdd 0x52 0x18 0xde 0xe6 0x57 0x19 0xe7 0xef 0x5d 0x1a 0xf0 0xf8 0x63 0x1b 0xf9 0xff 0x69>;
+< 				samsung,hmt_150cd_rx_cmds_revA = [06 01 00 00 00 00 01 b4 1e 01];
+< 				samsung,hmt_gamma_tx_cmds_revA = <0x29010000 0x24ca 0x1000100 0x1008080 0x80808080 0x80808080 0x80808080 0x80808080 0x80808080 0x80800000 0x29 0x1000000 0x2f703 0x29010000 0x3c00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x29 0x1000000 0x2f700>;
+< 				samsung,hmt_elvss_tx_cmds_revA = [29 01 00 00 00 00 03 b6 00 0a];
+< 				samsung,hmt_vint_tx_cmds_revA = [29 01 00 00 00 00 03 f4 8b 21];
+< 				samsung,hmt_enable_tx_cmds_revA = [29 01 00 00 00 00 03 f0 5a 5a 29 01 00 00 00 00 02 b0 03 29 01 00 00 00 00 03 f2 0a 06 29 01 00 00 00 00 02 b0 05 29 01 00 00 00 00 02 b2 00 29 01 00 00 00 00 02 b0 06 29 01 00 00 00 00 02 f3 10 29 01 00 00 00 00 05 2b 00 00 09 ff 29 01 00 00 00 00 03 f0 a5 a5];
+< 				samsung,hmt_disable_tx_cmds_revA = [29 01 00 00 00 00 03 f0 5a 5a 29 01 00 00 00 00 02 b0 03 29 01 00 00 00 00 03 f2 06 0a 29 01 00 00 00 00 02 b0 05 29 01 00 00 00 00 02 b2 40 29 01 00 00 00 00 02 f7 03 29 01 00 00 00 00 3c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 29 01 00 00 00 00 02 f7 00 29 01 00 00 00 00 03 f0 a5 a5];
+< 				samsung,hmt_reverse_enable_tx_cmds_revA = [29 01 00 00 00 00 03 f0 5a 5a 29 01 00 00 00 00 02 b0 09 29 01 00 00 00 00 02 cb 0b 29 01 00 00 00 00 02 b0 0f 29 01 00 00 00 00 02 cb 09 29 01 00 00 00 00 02 b0 1d 29 01 00 00 00 00 02 cb 10 29 01 00 00 00 00 02 b0 3d 29 01 00 00 00 00 02 cb 0c 29 01 00 00 00 00 02 f7 03 29 01 00 00 00 00 3c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 29 01 00 00 00 00 02 f7 00 29 01 00 00 00 00 03 f0 a5 a5];
+< 				samsung,hmt_reverse_disable_tx_cmds_revA = [29 01 00 00 00 00 03 f0 5a 5a 29 01 00 00 00 00 02 b0 09 29 01 00 00 00 00 02 cb 09 29 01 00 00 00 00 02 b0 0f 29 01 00 00 00 00 02 cb 05 29 01 00 00 00 00 02 b0 3d 29 01 00 00 00 00 02 cb 0b 29 01 00 00 00 00 02 f7 03 29 01 00 00 00 00 3c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 29 01 00 00 00 00 02 f7 00 29 01 00 00 00 00 03 f0 a5 a5];
+11281c11348
+< 			qcom,mdss-fb-map = <0x40>;
+---
+> 			qcom,mdss-fb-map = <0x42>;
